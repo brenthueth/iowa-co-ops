@@ -203,6 +203,9 @@
         .type-housing { background: rgba(0, 188, 212, 0.3); color: #80deea; }
         .type-energy { background: rgba(255, 152, 0, 0.3); color: #ffcc80; }
         .type-worker { background: rgba(233, 30, 99, 0.3); color: #f48fb1; }
+        .type-mutual { background: rgba(121, 85, 72, 0.3); color: #bcaaa4; }
+        .type-purchasing { background: rgba(96, 125, 139, 0.3); color: #b0bec5; }
+        .type-other { background: rgba(158, 158, 158, 0.3); color: #e0e0e0; }
         .click-hint {
             position: absolute;
             top: 12px; right: 12px;
@@ -256,26 +259,30 @@
         }
         @keyframes spin { to { transform: rotate(360deg); } }
         .loading-text { margin-top: 24px; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--text-secondary); }
-        .instructions {
-            position: fixed;
-            top: 100px; right: 24px;
-            width: 280px;
-            background: rgba(18, 18, 26, 0.95);
-            backdrop-filter: blur(20px);
-            border: 1px solid var(--card-border);
-            border-radius: 16px;
-            padding: 24px;
-            z-index: 999;
-            opacity: 0;
-            transform: translateX(20px);
-            animation: slideIn 0.6s ease 1s forwards;
+        /* Mobile responsive styles */
+        @media (max-width: 768px) {
+            .header { padding: 16px 20px; }
+            .logo { font-size: 1.2rem; }
+            .controls { gap: 8px; }
+            .zoom-display { display: none; }
+            .btn { padding: 8px 12px; font-size: 0.8rem; }
+            .btn-icon { width: 36px; height: 36px; padding: 8px; }
+            .filter-bar {
+                bottom: 12px;
+                padding: 6px;
+                gap: 4px;
+                max-width: 95vw;
+            }
+            .filter-btn { padding: 8px 12px; font-size: 0.75rem; }
+            .stats { display: none; }
         }
-        @keyframes slideIn { to { opacity: 1; transform: translateX(0); } }
-        .instructions h3 { font-family: 'Playfair Display', serif; font-size: 1.1rem; margin-bottom: 16px; color: var(--accent-gold); }
-        .instructions ul { list-style: none; font-size: 0.9rem; color: var(--text-secondary); }
-        .instructions li { margin-bottom: 12px; padding-left: 24px; position: relative; }
-        .instructions li::before { content: '->'; position: absolute; left: 0; color: var(--accent-teal); }
-        .instructions .dismiss { margin-top: 16px; width: 100%; background: transparent; border: 1px solid var(--card-border); }
+        @media (max-width: 480px) {
+            .header { padding: 12px 16px; }
+            .logo { font-size: 1rem; }
+            .btn { padding: 6px 10px; font-size: 0.75rem; }
+            .btn-icon { width: 32px; height: 32px; }
+            #resetView { display: none; }
+        }
     </style>
 </head>
 <body>
@@ -299,23 +306,13 @@
         <button class="filter-btn active" data-filter="all">All</button>
         <button class="filter-btn" data-filter="agricultural">Agricultural</button>
         <button class="filter-btn" data-filter="electric">Electric</button>
+        <button class="filter-btn" data-filter="mutual">Mutual</button>
         <button class="filter-btn" data-filter="credit">Credit Unions</button>
         <button class="filter-btn" data-filter="telecom">Telecom</button>
-        <button class="filter-btn" data-filter="food">Food</button>
-        <button class="filter-btn" data-filter="housing">Housing</button>
         <button class="filter-btn" data-filter="energy">Energy</button>
-        <button class="filter-btn" data-filter="worker">Worker-Owned</button>
-    </div>
-    <div class="instructions" id="instructions">
-        <h3>How to Navigate</h3>
-        <ul>
-            <li>Scroll to zoom in/out</li>
-            <li>Click and drag to pan</li>
-            <li>Pinch to zoom on touch</li>
-            <li>Hover for cooperative info</li>
-            <li>Click to visit website</li>
-        </ul>
-        <button class="btn dismiss" id="dismissInstructions">Got it!</button>
+        <button class="filter-btn" data-filter="food">Food</button>
+        <button class="filter-btn" data-filter="purchasing">Purchasing</button>
+        <button class="filter-btn" data-filter="other">Other</button>
     </div>
     <div class="stats">
         <div class="stat"><div class="stat-value" id="totalCount">0</div><div class="stat-label">Cooperatives</div></div>
@@ -529,13 +526,46 @@
         ];
 
         // Masonry layout config
-        const CARD_WIDTH = 260;
         const GAP = 16;
-        const NUM_COLUMNS = 8;
         const SCREENSHOT_PATH = 'screenshots/';
+        const MIN_CARD_WIDTH = 220;
+        const MAX_CARD_WIDTH = 300;
 
         // Card height variations for masonry effect
         const HEIGHT_VARIANTS = [180, 220, 260, 200, 240];
+
+        // Calculate responsive values
+        function getResponsiveConfig() {
+            const containerWidth = window.innerWidth;
+            let cardWidth, numColumns;
+
+            if (containerWidth <= 480) {
+                numColumns = 2;
+                cardWidth = (containerWidth - GAP * 3) / 2;
+            } else if (containerWidth <= 768) {
+                numColumns = 3;
+                cardWidth = (containerWidth - GAP * 4) / 3;
+            } else if (containerWidth <= 1024) {
+                numColumns = 4;
+                cardWidth = (containerWidth - GAP * 5) / 4;
+            } else if (containerWidth <= 1440) {
+                numColumns = 6;
+                cardWidth = (containerWidth - GAP * 7) / 6;
+            } else {
+                // For very wide screens, calculate columns to fill width
+                numColumns = Math.floor((containerWidth - GAP) / (MIN_CARD_WIDTH + GAP));
+                numColumns = Math.max(numColumns, 6);
+                cardWidth = (containerWidth - GAP * (numColumns + 1)) / numColumns;
+            }
+
+            // Clamp card width
+            cardWidth = Math.max(MIN_CARD_WIDTH, Math.min(MAX_CARD_WIDTH, cardWidth));
+
+            return { cardWidth, numColumns };
+        }
+
+        let CARD_WIDTH = getResponsiveConfig().cardWidth;
+        let NUM_COLUMNS = getResponsiveConfig().numColumns;
 
         let scale = 1, translateX = 0, translateY = 0;
         let isDragging = false, startX, startY, dragStartTime;
@@ -556,7 +586,10 @@
             'Housing': 'type-housing',
             'Energy': 'type-energy',
             'Renewable Energy': 'type-energy',
-            'Worker-Owned': 'type-worker'
+            'Worker-Owned': 'type-worker',
+            'Mutual': 'type-mutual',
+            'Purchasing': 'type-purchasing',
+            'Other': 'type-other'
         };
 
         const typeIcons = {
@@ -567,7 +600,10 @@
             'food': '🥗',
             'housing': '🏠',
             'energy': '🔋',
-            'worker': '🤝'
+            'worker': '🤝',
+            'mutual': '🛡️',
+            'purchasing': '🛒',
+            'other': '🏢'
         };
 
         function init() {
@@ -633,6 +669,11 @@
         }
 
         function layoutCards() {
+            // Update responsive config
+            const config = getResponsiveConfig();
+            CARD_WIDTH = config.cardWidth;
+            NUM_COLUMNS = config.numColumns;
+
             // Get visible cards based on current filter
             const visibleCards = cardElements.filter(card => {
                 const visible = currentFilter === 'all' || card.coop.category === currentFilter;
@@ -643,25 +684,32 @@
             // Initialize column heights
             const columnHeights = new Array(NUM_COLUMNS).fill(0);
 
-            visibleCards.forEach((card) => {
+            // Calculate height ratio for responsive sizing
+            const heightRatio = CARD_WIDTH / 260;
+
+            visibleCards.forEach((card, index) => {
                 // Find the shortest column
                 const minHeight = Math.min(...columnHeights);
                 const columnIndex = columnHeights.indexOf(minHeight);
 
                 // Position the card
-                const x = columnIndex * (CARD_WIDTH + GAP);
+                const x = GAP + columnIndex * (CARD_WIDTH + GAP);
                 const y = columnHeights[columnIndex];
 
+                // Update card size for responsiveness
+                const responsiveHeight = Math.round(card.height * heightRatio);
+                card.element.style.width = `${CARD_WIDTH}px`;
+                card.element.style.height = `${responsiveHeight}px`;
                 card.element.style.left = `${x}px`;
                 card.element.style.top = `${y}px`;
 
                 // Update column height
-                columnHeights[columnIndex] += card.height + GAP;
+                columnHeights[columnIndex] += responsiveHeight + GAP;
             });
 
-            // Update canvas size
-            canvasWidth = NUM_COLUMNS * (CARD_WIDTH + GAP) - GAP;
-            canvasHeight = Math.max(...columnHeights);
+            // Update canvas size to fill viewport width
+            canvasWidth = window.innerWidth;
+            canvasHeight = Math.max(...columnHeights) + GAP;
             canvas.style.width = `${canvasWidth}px`;
             canvas.style.height = `${canvasHeight}px`;
 
@@ -766,8 +814,14 @@
                 });
             });
 
-            document.getElementById('dismissInstructions').addEventListener('click', () => {
-                document.getElementById('instructions').style.display = 'none';
+            // Handle window resize
+            let resizeTimeout;
+            window.addEventListener('resize', () => {
+                clearTimeout(resizeTimeout);
+                resizeTimeout = setTimeout(() => {
+                    layoutCards();
+                    centerCanvas();
+                }, 150);
             });
         }
 
