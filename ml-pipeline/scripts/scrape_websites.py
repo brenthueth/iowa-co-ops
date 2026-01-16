@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
 """
-Scrape text content from verified cooperative websites.
+Scrape text content from cooperative websites.
 Uses trafilatura for clean text extraction.
+
+Can scrape either verified cooperatives or candidates.
+Usage:
+    python scrape_websites.py              # Scrape verified cooperatives
+    python scrape_websites.py --candidates # Scrape candidates with websites
 """
 
 import json
 import time
+import argparse
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -16,7 +22,9 @@ from tqdm import tqdm
 # Paths
 DATA_DIR = Path(__file__).parent.parent / "data"
 COOPS_FILE = DATA_DIR / "verified_cooperatives.json"
+CANDIDATES_FILE = DATA_DIR / "candidates.json"
 OUTPUT_FILE = DATA_DIR / "cooperative_content.json"
+CANDIDATES_OUTPUT_FILE = DATA_DIR / "candidate_content.json"
 
 # Request settings
 TIMEOUT = 30
@@ -52,19 +60,23 @@ def extract_text(html: str, url: str) -> str | None:
         return None
 
 
-def scrape_cooperative(coop: dict) -> dict:
+def scrape_cooperative(coop: dict, is_candidate: bool = False) -> dict:
     """Scrape a single cooperative website."""
     result = {
-        "id": coop["id"],
         "name": coop["name"],
         "website": coop["website"],
-        "category": coop["category"],
-        "type": coop["type"],
-        "location": coop["location"],
+        "location": coop.get("location", "Iowa"),
+        "source": coop.get("source", "unknown"),
         "content": None,
         "content_length": 0,
         "success": False
     }
+
+    # Add fields that exist in verified cooperatives
+    if not is_candidate:
+        result["id"] = coop.get("id")
+        result["category"] = coop.get("category")
+        result["type"] = coop.get("type")
 
     html = fetch_url(coop["website"])
     if html:
@@ -79,18 +91,33 @@ def scrape_cooperative(coop: dict) -> dict:
 
 def main():
     """Main scraping pipeline."""
-    print("Loading verified cooperatives...")
-    with open(COOPS_FILE) as f:
-        cooperatives = json.load(f)
+    parser = argparse.ArgumentParser(description="Scrape cooperative websites")
+    parser.add_argument("--candidates", action="store_true", help="Scrape candidates instead of verified")
+    args = parser.parse_args()
 
-    print(f"Found {len(cooperatives)} cooperatives to scrape\n")
+    if args.candidates:
+        print("Loading candidates...")
+        with open(CANDIDATES_FILE) as f:
+            all_candidates = json.load(f)
+        # Filter to only candidates with websites
+        cooperatives = [c for c in all_candidates if c.get("website") and not c.get("needs_website")]
+        output_file = CANDIDATES_OUTPUT_FILE
+        is_candidate = True
+        print(f"Found {len(cooperatives)} candidates with websites to scrape\n")
+    else:
+        print("Loading verified cooperatives...")
+        with open(COOPS_FILE) as f:
+            cooperatives = json.load(f)
+        output_file = OUTPUT_FILE
+        is_candidate = False
+        print(f"Found {len(cooperatives)} cooperatives to scrape\n")
 
     results = []
     successful = 0
 
     # Process sequentially to be respectful of servers
     for coop in tqdm(cooperatives, desc="Scraping websites"):
-        result = scrape_cooperative(coop)
+        result = scrape_cooperative(coop, is_candidate)
         results.append(result)
 
         if result["success"]:
@@ -100,15 +127,15 @@ def main():
         time.sleep(0.5)
 
     # Save results
-    print(f"\nSaving results to {OUTPUT_FILE}")
-    with open(OUTPUT_FILE, "w") as f:
+    print(f"\nSaving results to {output_file}")
+    with open(output_file, "w") as f:
         json.dump(results, f, indent=2)
 
     # Summary
     print(f"\n{'='*50}")
     print(f"SUMMARY")
     print(f"{'='*50}")
-    print(f"Total cooperatives: {len(cooperatives)}")
+    print(f"Total: {len(cooperatives)}")
     print(f"Successfully scraped: {successful}")
     print(f"Failed: {len(cooperatives) - successful}")
 
@@ -124,8 +151,8 @@ def main():
     failures = [r for r in results if not r["success"]]
     if failures:
         print(f"\nFailed sites:")
-        for f in failures:
-            print(f"  - {f['name']} ({f['website']})")
+        for fail in failures:
+            print(f"  - {fail['name']} ({fail['website']})")
 
 
 if __name__ == "__main__":

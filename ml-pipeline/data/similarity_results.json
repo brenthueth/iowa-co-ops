@@ -1,331 +1,2208 @@
 [
   {
-    "name": "Ag Partners Cooperative",
-    "website": "https://www.agpartnerscoop.com/",
-    "location": "Iowa",
-    "source": "web_search",
+    "name": "Eastern Iowa Light & Power Cooperative",
+    "website": "https://www.easterniowa.com/",
+    "location": "Wilton, IA",
+    "source": "iaec",
     "content_extracted": true,
     "similarity_scores": {
-      "mean_similarity": 0.41757550835609436,
-      "max_similarity": 0.7357279062271118,
-      "top_k_mean": 0.6644138097763062,
+      "mean_similarity": 0.41308048367500305,
+      "max_similarity": 0.7546439170837402,
+      "top_k_mean": 0.7003740668296814,
       "most_similar": [
         {
-          "name": "Farmers Union Cooperative",
-          "category": "agricultural",
-          "similarity": 0.7357279062271118
-        },
-        {
-          "name": "Five Star Cooperative",
-          "category": "agricultural",
-          "similarity": 0.7234914302825928
-        },
-        {
-          "name": "Mid-Iowa Cooperative",
-          "category": "agricultural",
-          "similarity": 0.6448666453361511
-        },
-        {
-          "name": "AgState",
-          "category": "agricultural",
-          "similarity": 0.6246368885040283
-        },
-        {
-          "name": "Farmers Co-op (Readlyn)",
-          "category": "agricultural",
-          "similarity": 0.5933462977409363
-        }
-      ]
-    },
-    "cooperative_score": 0.6644138097763062,
-    "content_preview": "Ag Partners Cooperative Inc.\nPropane Supply Update From Eric Osterhaus, VP of Energy\nEarlier this week, our governor shared some information stating that propane was in short supply. I wanted to share a little more info on that.\n| CROP | 2024 SP | Vol | 2023 | 2023 HP |\n| Corn | 4.66 | 0.19 | 5.91 | 4.88 |\n| Grain Sorghum | 4.67 | 0.19 | 5.84 | 4.83 |\n| Soybeans | 11.55 | 0.15 | 13.76 | 12.84 |\n| Wheat | 7.34 | 0.21 | 8.79 | 8.20 |\nSP= Spring Price or Projected Price Guaranteed\nHP=Harvest Price ..."
-  },
-  {
-    "name": "Prairie Energy Cooperative",
-    "website": "https://www.prairieenergy.coop/",
-    "location": "Clarion, IA",
-    "source": "web_search",
-    "content_extracted": true,
-    "similarity_scores": {
-      "mean_similarity": 0.3695273697376251,
-      "max_similarity": 0.6288520097732544,
-      "top_k_mean": 0.6127160787582397,
-      "most_similar": [
-        {
-          "name": "Access Energy Cooperative",
+          "name": "East Central Iowa REC",
           "category": "electric",
-          "similarity": 0.6288520097732544
+          "similarity": 0.7546439170837402
+        },
+        {
+          "name": "Northwest REC",
+          "category": "electric",
+          "similarity": 0.7025504112243652
         },
         {
           "name": "Central Iowa Power Coop",
           "category": "electric",
-          "similarity": 0.6243209838867188
+          "similarity": 0.6946665048599243
         },
         {
           "name": "Consumers Energy Coop",
           "category": "electric",
-          "similarity": 0.6126255989074707
+          "similarity": 0.6781346797943115
         },
         {
-          "name": "Midland Power Coop",
+          "name": "Northwest Iowa Power",
           "category": "electric",
-          "similarity": 0.6004810333251953
-        },
-        {
-          "name": "Corridor Energy Coop",
-          "category": "electric",
-          "similarity": 0.5973008871078491
+          "similarity": 0.6718749403953552
         }
       ]
     },
-    "cooperative_score": 0.6127160787582397,
-    "content_preview": "STRONG PRINCIPLES RUN THROUGH EVERY CO-OP LINE\n4322\nMembers\n11\nCounties Served\n2090\nMiles of Line\nRecent News\nFacebook Feed\nCatch up on the latest Smart Choices articles\nINTERESTED IN SOLAR POWER FOR YOUR HOME?\nYour Source of Power. And Information. We can answer your questions."
+    "cooperative_score": 0.7003740668296814,
+    "content_preview": "Phone: 855-938-3616\nMission Statement\nEastern Iowa REC is committed to providing safe, reliable and affordable offerings to our members to enhance their quality of life.\n4677\nMiles of Line\n25075 +\nMeters Served\n18700\nMembers Served\n576 .4\nMillion kWh Sold 2024\nWe are focused on serving you\nMore than 90 years of dedicated service\nEastern Iowa REC provides affordable, reliable, and safe electrical service to rural customers. The Cooperative serves a diverse membership that includes traditional far..."
   },
   {
-    "name": "T.I.P. Rural Electric Cooperative",
-    "website": "https://www.tiprec.com/",
-    "location": "Brooklyn, IA",
-    "source": "web_search",
+    "name": "Southwest Iowa Rural Electric Cooperative",
+    "website": "https://www.swiarec.coop/",
+    "location": "Corning, IA",
+    "source": "iaec",
     "content_extracted": true,
     "similarity_scores": {
-      "mean_similarity": 0.3347368836402893,
-      "max_similarity": 0.5760389566421509,
-      "top_k_mean": 0.5546269416809082,
+      "mean_similarity": 0.45105603337287903,
+      "max_similarity": 0.707175612449646,
+      "top_k_mean": 0.6905277371406555,
       "most_similar": [
         {
-          "name": "Access Energy Cooperative",
+          "name": "Northwest REC",
           "category": "electric",
-          "similarity": 0.5760389566421509
+          "similarity": 0.707175612449646
+        },
+        {
+          "name": "East Central Iowa REC",
+          "category": "electric",
+          "similarity": 0.6945687532424927
+        },
+        {
+          "name": "Northwest Iowa Power",
+          "category": "electric",
+          "similarity": 0.6892969608306885
+        },
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.6867978572845459
         },
         {
           "name": "Corridor Energy Coop",
           "category": "electric",
-          "similarity": 0.5698915719985962
+          "similarity": 0.6747994422912598
+        }
+      ]
+    },
+    "cooperative_score": 0.6905277371406555,
+    "content_preview": "Southwest Iowa Rural Electric Cooperative is a non-profit, member-owned electric utility located in Corning, Mt. Ayr, and Stanton.\nSouthwest Iowa REC is more than just an electric utility operating over 2,500 miles of power lines. Your cooperative is PEOPLE - you (the member-owner), the Board of Directors and a dedicated staff of employees. We pride ourselves in providing member-owners with safe, reliable electricity 24 hours a day year-round and excellent customer service.\nThe Power of Human Co..."
+  },
+  {
+    "name": "Western Iowa Power Cooperative (WIPCO)",
+    "website": "https://www.wipco.com/",
+    "location": "Denison, IA",
+    "source": "iaec",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.4103756546974182,
+      "max_similarity": 0.7800990343093872,
+      "top_k_mean": 0.6677846312522888,
+      "most_similar": [
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.7800990343093872
         },
         {
-          "name": "Farmers Electric Co-op",
+          "name": "Northwest Iowa Power",
           "category": "electric",
-          "similarity": 0.5560934543609619
+          "similarity": 0.7054949998855591
         },
+        {
+          "name": "Consumers Energy Coop",
+          "category": "electric",
+          "similarity": 0.6282212138175964
+        },
+        {
+          "name": "Northwest REC",
+          "category": "electric",
+          "similarity": 0.6215827465057373
+        },
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.6035252213478088
+        }
+      ]
+    },
+    "cooperative_score": 0.6677846312522888,
+    "content_preview": "POWERING & EMPOWERING\nWestern Iowa and the communities we serve.\nWHAT WE DO\nWestern Iowa Power Cooperative (WIPCO) strives to deliver our member-consumers safe, reliable, affordable, and environmentally responsible power. WIPCO is a member-owned electric cooperative with headquarters in Denison, Iowa serving power to 3,400 farms, homes, and businesses with approximately 2,000 miles of line in Northwest Iowa.\nOur Values\nIntegrity\nMembers first. Every day. That\u2019s the power of membership. Not for-p..."
+  },
+  {
+    "name": "Midland Power Cooperative",
+    "website": "https://www.midlandpower.coop/",
+    "location": "Jefferson, IA",
+    "source": "iaec",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.32450464367866516,
+      "max_similarity": 0.9527642130851746,
+      "top_k_mean": 0.6433296203613281,
+      "most_similar": [
         {
           "name": "Midland Power Coop",
           "category": "electric",
-          "similarity": 0.546779990196228
+          "similarity": 0.9527642130851746
+        },
+        {
+          "name": "Consumers Energy Coop",
+          "category": "electric",
+          "similarity": 0.5903473496437073
+        },
+        {
+          "name": "Access Energy Cooperative",
+          "category": "electric",
+          "similarity": 0.590242862701416
+        },
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.5549015998840332
         },
         {
           "name": "Raccoon Valley Electric",
           "category": "electric",
-          "similarity": 0.524330735206604
+          "similarity": 0.5283921360969543
         }
       ]
     },
-    "cooperative_score": 0.5546269416809082,
-    "content_preview": "OUR MISSION\nYou can be assured that we will always do our best in managing your cooperative and to provide you with electric service at the lowest possible cost.\nINTERESTED IN SOLAR POWER FOR YOUR HOME?\nYour Source of Power. And Information. We can answer your questions.\nOperation Round Up\nOperation Round Up is a volunteer program where members can choose to round up their electric bill to the next whole dollar each month, in order to help those in need.\nSTRONG NUMBERS RUN THROUGH EVERY CO-OP LI..."
+    "cooperative_score": 0.6433296203613281,
+    "content_preview": "Explore\nOur Services\nEFFECIENCY\nHeat Pumps\nLearn how a heat pump can provide you with superior comfort and savings.\nSee How Much You Could SaveSolar Program\nOur Community Solar Program\nMembers can now enjoy the environmental and financial benefits of a solar photovoltaic system without the headaches of owning their own.\nGet Details on Solar Programwho we are\nBy the Numbers\n9708\nMembers\n13194\nMeters\n4251\nMiles of Line\n17\nCounties Served\n50\nEmployees"
   },
   {
-    "name": "Maquoketa Valley Electric Cooperative",
-    "website": "https://www.mvec.coop/",
-    "location": "Anamosa, IA",
-    "source": "web_search",
+    "name": "FINANCIAL PLUS Credit Union",
+    "website": "https://www.financialpluscu.com/",
+    "location": "West Des Moines, IA",
+    "source": "ncua",
     "content_extracted": true,
     "similarity_scores": {
-      "mean_similarity": 0.3200094997882843,
-      "max_similarity": 0.5779980421066284,
-      "top_k_mean": 0.5267581939697266,
-      "most_similar": [
-        {
-          "name": "Corridor Energy Coop",
-          "category": "electric",
-          "similarity": 0.5779980421066284
-        },
-        {
-          "name": "Central Iowa Power Coop",
-          "category": "electric",
-          "similarity": 0.5190939903259277
-        },
-        {
-          "name": "South Slope Cooperative",
-          "category": "telecom",
-          "similarity": 0.5185404419898987
-        },
-        {
-          "name": "Farmers Electric Co-op",
-          "category": "electric",
-          "similarity": 0.5118774771690369
-        },
-        {
-          "name": "Access Energy Cooperative",
-          "category": "electric",
-          "similarity": 0.5062810182571411
-        }
-      ]
-    },
-    "cooperative_score": 0.5267581939697266,
-    "content_preview": "MVlink Fiber Internet Rebates\nWelcome to Maquoketa Valley Electric Cooperative, where you\u2019re more than a customer, you're a member with an ownership interest in the company.\nNews/Events/Resources\nLearn more about what programs and rebates are available to improve your energy efficiency.\nView our Watts Current Newsletters here.\nCheck and report power outages with our interactive map.\nReport Outages\nRecent Posts\nMonday | December 15, 2025\nWishing You a Bright Holiday Season and New Year\nAs we flip..."
-  },
-  {
-    "name": "Veridian Credit Union",
-    "website": "https://www.veridiancu.org/",
-    "location": "Waterloo, IA",
-    "source": "web_search",
-    "content_extracted": true,
-    "similarity_scores": {
-      "mean_similarity": 0.2545190751552582,
-      "max_similarity": 0.6038227677345276,
-      "top_k_mean": 0.4820309579372406,
+      "mean_similarity": 0.34453994035720825,
+      "max_similarity": 0.9544236063957214,
+      "top_k_mean": 0.6414369344711304,
       "most_similar": [
         {
           "name": "Financial Plus CU",
           "category": "credit",
-          "similarity": 0.6038227677345276
+          "similarity": 0.9544236063957214
         },
         {
           "name": "Community Choice CU",
           "category": "credit",
-          "similarity": 0.5741647481918335
+          "similarity": 0.6511086225509644
         },
         {
           "name": "Community 1st CU",
           "category": "credit",
-          "similarity": 0.4438115656375885
-        },
-        {
-          "name": "Greater Iowa CU",
-          "category": "credit",
-          "similarity": 0.4026491940021515
-        },
-        {
-          "name": "South Slope Cooperative",
-          "category": "telecom",
-          "similarity": 0.3857065439224243
-        }
-      ]
-    },
-    "cooperative_score": 0.4820309579372406,
-    "content_preview": "Earn [ Show Rate ] APY** for 12 Months\nOpen a Youth CD with $100.\nStart the new year with a gift that grows. When you open a Youth CD from Veridian, you'll lock in a guaranteed rate in an NCUA federally insured account that builds over time. No surprises\u2014just steady progress toward their future.\nStart Your Financial Refresh\nGet clarity on where your money's going with tools that help you stay on track.\n- Credit monitoring\n- Spending alerts\n- Budgeting tools\nNews, Articles & Advice\nWhat's New at ..."
-  },
-  {
-    "name": "Collins Community Credit Union",
-    "website": "https://www.collinscu.org/",
-    "location": "Cedar Rapids, IA",
-    "source": "web_search",
-    "content_extracted": true,
-    "similarity_scores": {
-      "mean_similarity": 0.26675763726234436,
-      "max_similarity": 0.5708532333374023,
-      "top_k_mean": 0.4757583737373352,
-      "most_similar": [
-        {
-          "name": "Financial Plus CU",
-          "category": "credit",
-          "similarity": 0.5708532333374023
-        },
-        {
-          "name": "Community Choice CU",
-          "category": "credit",
-          "similarity": 0.5631832480430603
-        },
-        {
-          "name": "Cedar County Cooperative",
-          "category": "agricultural",
-          "similarity": 0.4316898584365845
-        },
-        {
-          "name": "Central Iowa Power Coop",
-          "category": "electric",
-          "similarity": 0.40951988101005554
+          "similarity": 0.5460137724876404
         },
         {
           "name": "Cedar Falls Credit Union",
           "category": "credit",
-          "similarity": 0.40354543924331665
-        }
-      ]
-    },
-    "cooperative_score": 0.4757583737373352,
-    "content_preview": "\"20 Year Member\" I've been with Collins for over 20 years. They have been such a great bank for all of our financial needs. I love all the handy locations and everyone is always so happy to help us.\nLoretta W.\n\"Gave Us The Real Feeling Of The Word Community\" We lived and banked in a local town where everyone knows everyone but CCCU gave us the real feeling of the word community. Our switch to CCCU was easy, helpful and reliable. CCCU really wants to help and will go out of their way to make sure..."
-  },
-  {
-    "name": "Fareway Stores",
-    "website": "https://www.fareway.com/",
-    "location": "Boone, IA",
-    "source": "web_search_control",
-    "content_extracted": true,
-    "similarity_scores": {
-      "mean_similarity": 0.21196186542510986,
-      "max_similarity": 0.4873864948749542,
-      "top_k_mean": 0.40248268842697144,
-      "most_similar": [
-        {
-          "name": "New Pioneer Food Co-op",
-          "category": "food",
-          "similarity": 0.4873864948749542
+          "similarity": 0.5390141606330872
         },
         {
-          "name": "Iowa Food Cooperative",
-          "category": "food",
-          "similarity": 0.4256855845451355
-        },
-        {
-          "name": "Heartland Co-op",
-          "category": "agricultural",
-          "similarity": 0.4001353979110718
-        },
-        {
-          "name": "Nishnabotna Valley REC",
+          "name": "East Central Iowa REC",
           "category": "electric",
-          "similarity": 0.36680835485458374
-        },
-        {
-          "name": "Frontier Co-op",
-          "category": "food",
-          "similarity": 0.33239758014678955
+          "similarity": 0.5166245102882385
         }
       ]
     },
-    "cooperative_score": 0.40248268842697144,
-    "content_preview": "Order Fareway's famous fresh meats to anywhere in the country! Give the gift of meat to family members, ordered right to your vacation destination, or for your dinner table.\nThere's more in store for you here at Fareway. View our featured jobs near you, we look forward to welcoming you to the Fareway Family!\nGet inspired with Kitchen (formerly Cart-to-Kitchen). Explore videos to help bring your kitchen to life! Explore tips, recipes, crafts and more in weekly episodes right here and on our socia..."
+    "cooperative_score": 0.6414369344711304,
+    "content_preview": "In observance of Martin Luther King Jr. Day, all FPCU locations will be closed on Monday, January 19, 2026.\nLow rates, flexible terms, and amazing customer service.\nFast closings, affordable home loans, and great customer service.\nLow interest, no annual fees, and great rewards!\nLow rates and plenty of options for all of your personal loan needs.\nFree checks, unlimited bill pay, overdraft coverage and more!\nMultiple ways to save to fit your needs and achieve your goals.\nNo Annual Fee\n1.5 Points ..."
   },
   {
-    "name": "Decorah Bank and Trust Co",
-    "website": "https://www.decorahbank.com/",
-    "location": "Decorah, IA",
-    "source": "web_search_control",
+    "name": "COMMUNITY CHOICE Credit Union",
+    "website": "https://www.comchoicecu.org/",
+    "location": "JOHNSTON, IA",
+    "source": "ncua",
     "content_extracted": true,
     "similarity_scores": {
-      "mean_similarity": 0.22859033942222595,
-      "max_similarity": 0.39298051595687866,
-      "top_k_mean": 0.37527960538864136,
+      "mean_similarity": 0.32812389731407166,
+      "max_similarity": 0.9814229011535645,
+      "top_k_mean": 0.6400502324104309,
       "most_similar": [
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.9814229011535645
+        },
         {
           "name": "Financial Plus CU",
           "category": "credit",
-          "similarity": 0.39298051595687866
+          "similarity": 0.6657067537307739
         },
         {
-          "name": "Corridor Energy Coop",
-          "category": "electric",
-          "similarity": 0.39275553822517395
+          "name": "Cedar Falls Credit Union",
+          "category": "credit",
+          "similarity": 0.6109368205070496
         },
         {
           "name": "Heart of Iowa Comm.",
           "category": "telecom",
-          "similarity": 0.3719903826713562
+          "similarity": 0.4801740050315857
+        },
+        {
+          "name": "Greater Iowa CU",
+          "category": "credit",
+          "similarity": 0.4620107412338257
+        }
+      ]
+    },
+    "cooperative_score": 0.6400502324104309,
+    "content_preview": "ATTENTION: All Community Choice locations will be closed on Monday, January 19th for MLK Day. Regular business hours will resume on Tuesday, January 20th.\n\u26a0 We\u2019d never ask you to share sensitive information such as your full account number, online banking password, card expiration date or CVV code\u2014but a scammer would. If you receive any suspicious calls, texts, emails or voicemails, contact us immediately at (515) 334-8100.\nJoin Our Email Club\nExclusive offers, promotions, rates, and prize givea..."
+  },
+  {
+    "name": "Heartland Power Cooperative",
+    "website": "https://www.heartlandpower.com/",
+    "location": "Thompson, IA",
+    "source": "iaec",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.3612043559551239,
+      "max_similarity": 0.6558698415756226,
+      "top_k_mean": 0.6107368469238281,
+      "most_similar": [
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.6558698415756226
+        },
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.6145517826080322
+        },
+        {
+          "name": "Raccoon Valley Electric",
+          "category": "electric",
+          "similarity": 0.6080811023712158
+        },
+        {
+          "name": "Access Energy Cooperative",
+          "category": "electric",
+          "similarity": 0.5891810655593872
+        },
+        {
+          "name": "Farmers Electric Co-op",
+          "category": "electric",
+          "similarity": 0.5860004425048828
+        }
+      ]
+    },
+    "cooperative_score": 0.6107368469238281,
+    "content_preview": "Call Before You Dig\nIf you are planning on doing any digging around your home or business, state law requires that you contact the Call 811 at least two working days before you dig.\nStorm Center\nVisit our Statewide Outage map and Follow us on our Facebook page to check outages. If you are experiencing an outage please call 888.417.3007. Downed lines? Please call and let us know your situation.\nSolar Power For Your Home\nYour Source of Power. And Information. We can answer your questions.\nOperatio..."
+  },
+  {
+    "name": "RIVER VALLEY Credit Union",
+    "website": "https://www.rvcu.org/",
+    "location": "AMES, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.3386542797088623,
+      "max_similarity": 0.6472135782241821,
+      "top_k_mean": 0.6105263829231262,
+      "most_similar": [
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.6472135782241821
+        },
+        {
+          "name": "Cedar Falls Credit Union",
+          "category": "credit",
+          "similarity": 0.6093723773956299
+        },
+        {
+          "name": "River City Housing",
+          "category": "housing",
+          "similarity": 0.6008040904998779
+        },
+        {
+          "name": "River Valley Cooperative",
+          "category": "agricultural",
+          "similarity": 0.5993652939796448
+        },
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.5958764553070068
+        }
+      ]
+    },
+    "cooperative_score": 0.6105263829231262,
+    "content_preview": "All RVCU locations will be closed on Monday, January 19, in observance of MLK Jr Day. Get 24/7 access to your accounts with online banking.\nAll RVCU locations will be closed on Monday, January 19, in observance of MLK Jr Day. Get 24/7 access to your accounts with online banking.\nWelcome to River Valley Credit Union! We're a community credit union in Iowa serving people who live or work in Story, Boone, Butler, Dallas, Franklin, Hamilton, Hardin Jasper, Marion, Marshall, Polk, Warren, Webster and..."
+  },
+  {
+    "name": "SERVE Credit Union",
+    "website": "https://www.servecu.org/",
+    "location": "DES MOINES, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.32751405239105225,
+      "max_similarity": 0.745381236076355,
+      "top_k_mean": 0.60783851146698,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.745381236076355
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.6407123804092407
+        },
+        {
+          "name": "Greater Iowa CU",
+          "category": "credit",
+          "similarity": 0.613073468208313
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.5254894495010376
+        },
+        {
+          "name": "East Central Iowa REC",
+          "category": "electric",
+          "similarity": 0.5145362019538879
+        }
+      ]
+    },
+    "cooperative_score": 0.60783851146698,
+    "content_preview": "Serving those who serve our community and their families\nFeatured Rates\nRates accurate as of January 1, 2026 and subject to change. All Loans are subject to approval.\nAuto Loans\nas low as\n4.29%\nAPR*\nCredit Cards\nas low as\n8.90%\nAPR*\nRec. Vehicle Loans\nas low as\n6.44\nAPR*\n6 Month CD Rates\nas high as\n3.51%\nAPY**\n*Click here to view Credit Card Disclosures.\n**Click here to view CD Disclosures.\nDigital Services\nDownload our Serve Credit Union Mobile App and Serve CU Cards App and enjoy 24/7 account ..."
+  },
+  {
+    "name": "Woodbury County Rural Electric Cooperative",
+    "website": "https://www.woodburyrec.com/",
+    "location": "Moville, IA",
+    "source": "iaec",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.36115899682044983,
+      "max_similarity": 0.6392198801040649,
+      "top_k_mean": 0.5987504720687866,
+      "most_similar": [
+        {
+          "name": "Harrison County REC",
+          "category": "electric",
+          "similarity": 0.6392198801040649
+        },
+        {
+          "name": "Grundy County REC",
+          "category": "electric",
+          "similarity": 0.6109957695007324
         },
         {
           "name": "Consumers Energy Coop",
           "category": "electric",
-          "similarity": 0.35988035798072815
+          "similarity": 0.5907244682312012
+        },
+        {
+          "name": "Northwest Iowa Power",
+          "category": "electric",
+          "similarity": 0.5787513256072998
+        },
+        {
+          "name": "Northwest REC",
+          "category": "electric",
+          "similarity": 0.5740607976913452
+        }
+      ]
+    },
+    "cooperative_score": 0.5987504720687866,
+    "content_preview": "top of page\nWoodbury REC offers SmartHub for convenient and on-demand access to your account.\nPay Your Bill and Manage Your Account Online\nCooperative News\nABOUT US\nWoodbury County Rural Electric Cooperative (REC) strives to deliver safe, reliable, affordable, and environmentally responsible power to our member-consumers.\nThis map represents the service territory of Woodbury County Rural Electric Cooperative.\nWoodbury County Rural Electric Cooperative is a consumer-owned electric cooperative wit..."
+  },
+  {
+    "name": "Lyon Rural Electric Cooperative",
+    "website": "https://www.lyonrec.coop/",
+    "location": "Rock Rapids, IA",
+    "source": "iaec",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.3763202726840973,
+      "max_similarity": 0.6451797485351562,
+      "top_k_mean": 0.5888598561286926,
+      "most_similar": [
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.6451797485351562
+        },
+        {
+          "name": "Consumers Energy Coop",
+          "category": "electric",
+          "similarity": 0.604036271572113
+        },
+        {
+          "name": "Access Energy Cooperative",
+          "category": "electric",
+          "similarity": 0.5703510642051697
+        },
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.5636911392211914
+        },
+        {
+          "name": "Northwest Iowa Power",
+          "category": "electric",
+          "similarity": 0.5610409379005432
+        }
+      ]
+    },
+    "cooperative_score": 0.5888598561286926,
+    "content_preview": "One call can tell you all you need to know before you start your project. Contact Lyon REC, at 712-472-2506 for information to help you dig safely. And remember, in some areas, those who break service by digging without calling first are liable to some stiff financial fines.\nIowa One Call - 800.292.8989 or 811 - CALL BEFORE YOU DIG!\nThis Web resource, developed by the Iowa Association of Electric Cooperatives this fall, provides a statewide view of power outages at electric cooperatives that del..."
+  },
+  {
+    "name": "Iowa Lakes Electric Cooperative",
+    "website": "https://www.ilec.coop/",
+    "location": "Estherville, IA",
+    "source": "iaec",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.379066526889801,
+      "max_similarity": 0.6309442520141602,
+      "top_k_mean": 0.5851613283157349,
+      "most_similar": [
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.6309442520141602
+        },
+        {
+          "name": "Consumers Energy Coop",
+          "category": "electric",
+          "similarity": 0.6251238584518433
+        },
+        {
+          "name": "Northwest Iowa Power",
+          "category": "electric",
+          "similarity": 0.5605945587158203
+        },
+        {
+          "name": "Access Energy Cooperative",
+          "category": "electric",
+          "similarity": 0.5571823716163635
+        },
+        {
+          "name": "River City Housing",
+          "category": "housing",
+          "similarity": 0.5519613027572632
+        }
+      ]
+    },
+    "cooperative_score": 0.5851613283157349,
+    "content_preview": "As the old year comes to a close, consider your home's energy \"fitness\" with these simple DIY projects that can help you enjoy a more efficient and comfortable new year.\nThe Seven Cooperative Principles guide every decision we make in our mission to serve our members. In January, we look at the first principle: Voluntary and Open Membership."
+  },
+  {
+    "name": "UNITE Credit Union",
+    "website": "https://www.unite-cu.org/",
+    "location": "Cedar Falls, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.34299537539482117,
+      "max_similarity": 0.6806336641311646,
+      "top_k_mean": 0.5810512900352478,
+      "most_similar": [
+        {
+          "name": "Cedar Falls Credit Union",
+          "category": "credit",
+          "similarity": 0.6806336641311646
+        },
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.6142748594284058
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.5633584260940552
+        },
+        {
+          "name": "Heart of Iowa Comm.",
+          "category": "telecom",
+          "similarity": 0.5272833108901978
+        },
+        {
+          "name": "East Central Iowa REC",
+          "category": "electric",
+          "similarity": 0.5197061896324158
+        }
+      ]
+    },
+    "cooperative_score": 0.5810512900352478,
+    "content_preview": "Select to View Current Rates\n2022\nAuto Loan\n5.00%\nANNUAL PERCENTAGE RATE\nRelationship Rate\n2024 Or Newer\nAuto Loan\n4.80%\nANNUAL PERCENTAGE RATE\nRELATIONSHIP RATE\nMembers: Update Your Information\nAbout Us\nUNITE Credit Union was established in 1955 and provides financial services to those who live or work in the Iowa counties of Black Hawk, Butler, Bremer and Grundy, both online and at our Cedar Falls branch location.\nNews & Announcements\nQuick Tools\nMembers: Update Your Information\nCLICK HEREAbou..."
+  },
+  {
+    "name": "Clarke Electric Cooperative",
+    "website": "https://www.cecnet.net/",
+    "location": "Osceola, IA",
+    "source": "iaec",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.3480719029903412,
+      "max_similarity": 0.5929444432258606,
+      "top_k_mean": 0.5722360610961914,
+      "most_similar": [
+        {
+          "name": "Consumers Energy Coop",
+          "category": "electric",
+          "similarity": 0.5929444432258606
+        },
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.5808075666427612
+        },
+        {
+          "name": "Access Energy Cooperative",
+          "category": "electric",
+          "similarity": 0.5714420080184937
+        },
+        {
+          "name": "Raccoon Valley Electric",
+          "category": "electric",
+          "similarity": 0.562434196472168
+        },
+        {
+          "name": "Midland Power Coop",
+          "category": "electric",
+          "similarity": 0.5535520315170288
+        }
+      ]
+    },
+    "cooperative_score": 0.5722360610961914,
+    "content_preview": "Click here for additional energy savings information for commercial members of Clarke Electric Cooperative."
+  },
+  {
+    "name": "IOWA HEARTLAND Credit Union",
+    "website": "https://www.iowaheartland.org/",
+    "location": "MASON CITY, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.35712119936943054,
+      "max_similarity": 0.633521556854248,
+      "top_k_mean": 0.5714877843856812,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.633521556854248
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.6127095222473145
+        },
+        {
+          "name": "River City Housing",
+          "category": "housing",
+          "similarity": 0.5781646966934204
+        },
+        {
+          "name": "North Iowa Cooperative",
+          "category": "agricultural",
+          "similarity": 0.521011233329773
+        },
+        {
+          "name": "Heartland Co-op",
+          "category": "agricultural",
+          "similarity": 0.5120317935943604
+        }
+      ]
+    },
+    "cooperative_score": 0.5714877843856812,
+    "content_preview": "OUR SERVICES\nFind Loan Products We Offer\nPlay Video\n40 years, we passionate about achieving better results for our clients\nwhat we do\nclient results\nsocial impact\nWe constantly work on delivering the best loan services to our clients. Our officer will walk you through every step of the loan application and approval process \u2013 from answering questions, to closing your loan quickly.\nWe have satisfied clients all over USA and one of the fastest closing rates offered by any mortgage company. In most ..."
+  },
+  {
+    "name": "Southern Iowa Electric Cooperative",
+    "website": "https://www.sie.coop/",
+    "location": "Bloomfield, IA",
+    "source": "iaec",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.36412492394447327,
+      "max_similarity": 0.589258074760437,
+      "top_k_mean": 0.5710510015487671,
+      "most_similar": [
+        {
+          "name": "East Central Iowa REC",
+          "category": "electric",
+          "similarity": 0.589258074760437
+        },
+        {
+          "name": "Consumers Energy Coop",
+          "category": "electric",
+          "similarity": 0.5735788345336914
+        },
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.5695228576660156
+        },
+        {
+          "name": "Franklin Rural Electric",
+          "category": "electric",
+          "similarity": 0.5694251656532288
+        },
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.5534701347351074
+        }
+      ]
+    },
+    "cooperative_score": 0.5710510015487671,
+    "content_preview": "Please be sure that your contact information with our office is current. If you've updated or added phone numbers, mailing addresses, or email addresses, please contact our office at (800)607-2027/(641)664-2277.\n(800) 607-2027 for Reporting Outages After Hours or Payment By Phone"
+  },
+  {
+    "name": "TELCO TRIAD COMMUNITY Credit Union",
+    "website": "https://www.telcotriad.org/",
+    "location": "Sioux City, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.3114261031150818,
+      "max_similarity": 0.6403207778930664,
+      "top_k_mean": 0.5639382600784302,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.6403207778930664
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.6028878688812256
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.5812160968780518
+        },
+        {
+          "name": "South Slope Cooperative",
+          "category": "telecom",
+          "similarity": 0.5227068662643433
+        },
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.47255951166152954
+        }
+      ]
+    },
+    "cooperative_score": 0.5639382600784302,
+    "content_preview": "Drive off with a great rate!\nWhether you're buying new, used, or refinancing, our auto loans come with competitive rates and personalized support.\nHome loans with competitive rates and local service. Let us help you find the perfect fit for your future.\nAs a not-for-profit financial institution, our priority is getting you the best rate possible on all our loans and on your investments.\nWe\u2019re here to help\u2014reach out anytime and let us know how we can support you.\nBuild your future with Telco Tria..."
+  },
+  {
+    "name": "GREATER IOWA Credit Union",
+    "website": "https://www.gicu.org/",
+    "location": "Ames, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.2713877260684967,
+      "max_similarity": 0.9923669099807739,
+      "top_k_mean": 0.5572196245193481,
+      "most_similar": [
+        {
+          "name": "Greater Iowa CU",
+          "category": "credit",
+          "similarity": 0.9923669099807739
+        },
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.5029259920120239
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.4657214879989624
+        },
+        {
+          "name": "Heart of Iowa Comm.",
+          "category": "telecom",
+          "similarity": 0.42252594232559204
+        },
+        {
+          "name": "Two Rivers Cooperative",
+          "category": "agricultural",
+          "similarity": 0.4025576114654541
+        }
+      ]
+    },
+    "cooperative_score": 0.5572196245193481,
+    "content_preview": "Greater Checking\nWhen you open a new Greater Checking account you earn greater dividends, which are paid when eligibility requirements are met. Learn more\nGreater Savings\nEarn more with your money by opening a GICU Greater Savings account when you pair it with your GICU Greater Checking. Learn more here!\nRefinance your auto loan and earn cash back.\nAre you looking to accelerate your savings? Refinance your auto loan and earn up to $500 cashback! Apply Online\nDebit Card Reissue\nA fresh look is he..."
+  },
+  {
+    "name": "METCO Credit Union",
+    "website": "https://www.metcocu.org/",
+    "location": "Cedar Rapids, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.31394174695014954,
+      "max_similarity": 0.6798731684684753,
+      "top_k_mean": 0.5559180974960327,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.6798731684684753
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.6430021524429321
+        },
+        {
+          "name": "Cedar Falls Credit Union",
+          "category": "credit",
+          "similarity": 0.5545968413352966
+        },
+        {
+          "name": "Heart of Iowa Comm.",
+          "category": "telecom",
+          "similarity": 0.458651065826416
+        },
+        {
+          "name": "Heartland Co-op",
+          "category": "agricultural",
+          "similarity": 0.44346708059310913
+        }
+      ]
+    },
+    "cooperative_score": 0.5559180974960327,
+    "content_preview": "Metco is pleased to partner with local employers to offer Metco Credit Union membership as a benefit to their employees and their employees\u2019 families.\nWe believe building your financial future shouldn\u2019t be stressful. That\u2019s why we offer a range of savings and investment tools that give you the confidence to grow your money\u2014without the risks of the stock market.\nWith our variety of online and mobile services, Metco Credit Union is accessible to you anytime, anywhere, day or night. See just how ea..."
+  },
+  {
+    "name": "Osceola Electric Cooperative",
+    "website": "https://www.osceolaelectric.com/",
+    "location": "Sibley, IA",
+    "source": "iaec",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.35769781470298767,
+      "max_similarity": 0.6120533347129822,
+      "top_k_mean": 0.5555607676506042,
+      "most_similar": [
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.6120533347129822
+        },
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.5957238674163818
+        },
+        {
+          "name": "Farmers Electric Co-op",
+          "category": "electric",
+          "similarity": 0.526653528213501
+        },
+        {
+          "name": "Raccoon Valley Electric",
+          "category": "electric",
+          "similarity": 0.5218777060508728
+        },
+        {
+          "name": "Consumers Energy Coop",
+          "category": "electric",
+          "similarity": 0.5214952230453491
+        }
+      ]
+    },
+    "cooperative_score": 0.5555607676506042,
+    "content_preview": "- Home\n- About Us\n- Cooperative News\n- Energy Center\n- Member Services\n- Programs\n- Safety\n- Arc Fault Circuit Interrupters\n- Water Hazards\n- Electrical Injuries\n- Safety Checklist\n- Safety Quiz\n- Farm Safety\n- Generator Safety\n- Grain Bin Clearance\n- Nuisance Tripping\n- One-Call Locating Service\n- Power Line Safety\n- Protect Your Older Home from Electrical Hazards\n- Safe Electricity\n- Signs of Electrical System Overload\n- Special Needs\n- Spring Chore Safety\n- Summer Storm Safety\n- Winter Storm ..."
+  },
+  {
+    "name": "L&O Power Cooperative",
+    "website": "https://www.landopowercoop.com/",
+    "location": "Rock Rapids, IA",
+    "source": "iaec",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.33228805661201477,
+      "max_similarity": 0.5606114864349365,
+      "top_k_mean": 0.540638267993927,
+      "most_similar": [
+        {
+          "name": "Corn Belt Power Coop",
+          "category": "electric",
+          "similarity": 0.5606114864349365
+        },
+        {
+          "name": "Northwest Iowa Power",
+          "category": "electric",
+          "similarity": 0.5387362241744995
+        },
+        {
+          "name": "Access Energy Cooperative",
+          "category": "electric",
+          "similarity": 0.5382148027420044
+        },
+        {
+          "name": "Northwest REC",
+          "category": "electric",
+          "similarity": 0.5332172513008118
+        },
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.532411515712738
+        }
+      ]
+    },
+    "cooperative_score": 0.540638267993927,
+    "content_preview": "WELCOME TO L&O POWER COOPERATIVE\nL&O Power Cooperative is a G&T cooperative formed in 1952 to bring wholesale electric power to the rural electric cooperatives in Lyon and Osceola Counties in northwest Iowa, and Rock and Pipestone counties in southwest Minnesota.\nL&O owns and operates approximately 200 miles of transmission line and 20 substations. Power is supplied to L&O by Western Area Power Administration and Basin Electric Power Cooperative..\nL&O and its member cooperatives are non-profit a..."
+  },
+  {
+    "name": "Coon Valley Telecommunications Cooperative",
+    "website": "https://www.coonvalleytelco.com/",
+    "location": "Manning, IA",
+    "source": "web_search",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.3445633351802826,
+      "max_similarity": 0.6385534405708313,
+      "top_k_mean": 0.5313416719436646,
+      "most_similar": [
+        {
+          "name": "South Slope Cooperative",
+          "category": "telecom",
+          "similarity": 0.6385534405708313
+        },
+        {
+          "name": "River Valley Cooperative",
+          "category": "agricultural",
+          "similarity": 0.528579592704773
+        },
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.5057498216629028
+        },
+        {
+          "name": "Farmers Co-op Telephone",
+          "category": "telecom",
+          "similarity": 0.4975912272930145
+        },
+        {
+          "name": "Farmers Mutual Telephone",
+          "category": "telecom",
+          "similarity": 0.4862343966960907
+        }
+      ]
+    },
+    "cooperative_score": 0.5313416719436646,
+    "content_preview": "2026 Coon Valley Telephone College Scholarship Program\nHow it works Applicants Must\u2026 Award Procedure Deliver or mail your completed application to: Coon Valley Telephone516 Sherman St.Menlo, IA 50164 If you have any\nCoon Valley Cooperative Telephone Association Inc. provides telephone and fiber internet service to Menlo, Nevinville, Diamondhead Lake and portions of city and rural areas of Stuart, as well as wireless high-speed internet to the communities of Stuart, Dexter, Orient, Creston, and C..."
+  },
+  {
+    "name": "Northeast Iowa Telephone Company",
+    "website": "https://www.neitel.com/",
+    "location": "Monona, IA",
+    "source": "web_search",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.3389645218849182,
+      "max_similarity": 0.5612077713012695,
+      "top_k_mean": 0.5249463319778442,
+      "most_similar": [
+        {
+          "name": "South Slope Cooperative",
+          "category": "telecom",
+          "similarity": 0.5612077713012695
+        },
+        {
+          "name": "Farmers Mutual Telephone",
+          "category": "telecom",
+          "similarity": 0.5250981450080872
+        },
+        {
+          "name": "Farmers Co-op Telephone",
+          "category": "telecom",
+          "similarity": 0.5248878002166748
+        },
+        {
+          "name": "East Central Iowa REC",
+          "category": "electric",
+          "similarity": 0.5099095106124878
+        },
+        {
+          "name": "Northwest Iowa Power",
+          "category": "electric",
+          "similarity": 0.5036282539367676
+        }
+      ]
+    },
+    "cooperative_score": 0.5249463319778442,
+    "content_preview": "Welcome to NEIT\nNEIT delivers fast, fiber-powered internet to the Iowa communities of Monona, Farmersburg, Luana, Postville, and St. Olaf. Additionally, we offer voice and digital television service to ensure our communities have affordable and reliable communication options. NEIT has the services you need and delivers the customer support you deserve.\nFor business owners, we offer a complete suite of internet, voice, and telephone systems to help your company thrive.\nNEIT is proud to be a NTCA ..."
+  },
+  {
+    "name": "CORDA Credit Union",
+    "website": "https://www.cordacu.org/",
+    "location": "Cedar Rapids, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.22521699965000153,
+      "max_similarity": 0.6547715067863464,
+      "top_k_mean": 0.5236430168151855,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.6547715067863464
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.6369622945785522
+        },
+        {
+          "name": "Cedar Falls Credit Union",
+          "category": "credit",
+          "similarity": 0.5609780550003052
+        },
+        {
+          "name": "Greater Iowa CU",
+          "category": "credit",
+          "similarity": 0.38508790731430054
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.3804154396057129
+        }
+      ]
+    },
+    "cooperative_score": 0.5236430168151855,
+    "content_preview": "If you receive an unexpected text asking for personal or account information, it could be a scam! Do not click links or reply. If you believe your account may have been compromised, please contact us.\nHoliday Closure\nOur branches will be closed on Monday, January 19 in observance of Martin Luther King, Jr. Day.\nBanking shouldn\u2019t be complicated. We\u2019re here to add ease to your financial journey, making banking straightforward and stress-free to help you build a future you can feel proud of.\nIn 193..."
+  },
+  {
+    "name": "JOURNEY Credit Union",
+    "website": "https://www.journeycu.org/",
+    "location": "Des Moines, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.24289807677268982,
+      "max_similarity": 0.6569868326187134,
+      "top_k_mean": 0.5231670141220093,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.6569868326187134
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.6057827472686768
+        },
+        {
+          "name": "Greater Iowa CU",
+          "category": "credit",
+          "similarity": 0.48683375120162964
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.4507862329483032
+        },
+        {
+          "name": "Cedar Falls Credit Union",
+          "category": "credit",
+          "similarity": 0.41544586420059204
+        }
+      ]
+    },
+    "cooperative_score": 0.5231670141220093,
+    "content_preview": "Small Change, Big Growth: The Power of Centsible Savings\nNovember 11, 2025 Small Change,\u2026\nReady to build your career with a supportive, community-focused team?\nJourney Credit Union is hiring a Full-Time Teller! In this role, you\u2019ll assist members with cash handling, provide outstanding service, and help manage accounts to meet their financial needs.\nIf you\u2019re passionate about helping others and thrive in a team environment, we\u2019d love to have you on board. Apply today to join the Journey CU famil..."
+  },
+  {
+    "name": "RIVER COMMUNITY Credit Union",
+    "website": "https://www.rivercommunitycu.org/",
+    "location": "Ottumwa, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.23709909617900848,
+      "max_similarity": 0.5879653692245483,
+      "top_k_mean": 0.5216506123542786,
+      "most_similar": [
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.5879653692245483
+        },
+        {
+          "name": "River City Housing",
+          "category": "housing",
+          "similarity": 0.5609420537948608
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.534946084022522
+        },
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.4996110796928406
+        },
+        {
+          "name": "River Valley Cooperative",
+          "category": "agricultural",
+          "similarity": 0.4247884750366211
+        }
+      ]
+    },
+    "cooperative_score": 0.5216506123542786,
+    "content_preview": "When it comes to getting a loan through RCCU you will not find an easier, more confidential process anywhere.\nWe do our best to make our members feel welcome and we are very concerned about your financial success!\nCheck your credit card balance online and make payments without ever leaving the house with RCCU.\nContact us to receive online statements through Internet Banking."
+  },
+  {
+    "name": "MiEnergy Cooperative",
+    "website": "https://www.mienergy.coop/",
+    "location": "Cresco, IA",
+    "source": "iaec",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.3336786925792694,
+      "max_similarity": 0.5501834154129028,
+      "top_k_mean": 0.520733654499054,
+      "most_similar": [
+        {
+          "name": "Midland Power Coop",
+          "category": "electric",
+          "similarity": 0.5501834154129028
+        },
+        {
+          "name": "Consumers Energy Coop",
+          "category": "electric",
+          "similarity": 0.528060257434845
+        },
+        {
+          "name": "Farmers Electric Co-op",
+          "category": "electric",
+          "similarity": 0.5138076543807983
+        },
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.5110894441604614
+        },
+        {
+          "name": "Raccoon Valley Electric",
+          "category": "electric",
+          "similarity": 0.5005275011062622
+        }
+      ]
+    },
+    "cooperative_score": 0.520733654499054,
+    "content_preview": "- Your account\n- Your electric bill\n- Your co-op\n- Member services\n- Renewables\n- News & Education\nOut and About in Your Community\nStudents from NICC's Environmental Science course at Crestwood High School visited our Cresco office. Find more Out and About in this month's MiNews."
+  },
+  {
+    "name": "FAMILY COMMUNITY Credit Union",
+    "website": "https://www.familycommunitycu.com/",
+    "location": "Charles City, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.23378819227218628,
+      "max_similarity": 0.5891549587249756,
+      "top_k_mean": 0.5011758804321289,
+      "most_similar": [
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.5891549587249756
+        },
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.5460038781166077
+        },
+        {
+          "name": "Cedar Falls Credit Union",
+          "category": "credit",
+          "similarity": 0.5324580669403076
+        },
+        {
+          "name": "Greater Iowa CU",
+          "category": "credit",
+          "similarity": 0.424008846282959
+        },
+        {
+          "name": "Gold-Eagle Cooperative",
+          "category": "agricultural",
+          "similarity": 0.414253830909729
+        }
+      ]
+    },
+    "cooperative_score": 0.5011758804321289,
+    "content_preview": "Exclusive\nUMCU Offerings\nPromotions\nView All PromotionsEvents\nView All Events\nFinancial Education\nJanuary\n16th\nUMCU Carpenter Road - Resource Day - 10am-4pm\n2621 Carpenter Road Ann Arbor, MI 48108Get Directions\nDrop by the branch during business hours and visit with our Financial Education Team! Staff is available to answer questions and provide free credit reports from annualcreditreport.com.\nFinancial Education\nJanuary\n20th\nFinancial Education Office Hours\n530 South State Street Suite G309 Ann..."
+  },
+  {
+    "name": "ASCENTRA Credit Union",
+    "website": "https://www.ascentra.org/",
+    "location": "Bettendorf, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.25944262742996216,
+      "max_similarity": 0.6556945443153381,
+      "top_k_mean": 0.4997260570526123,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.6556945443153381
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.5398766994476318
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.5308734178543091
+        },
+        {
+          "name": "Cedar Falls Credit Union",
+          "category": "credit",
+          "similarity": 0.41065576672554016
+        },
+        {
+          "name": "21st Century Cooperative",
+          "category": "agricultural",
+          "similarity": 0.36152976751327515
+        }
+      ]
+    },
+    "cooperative_score": 0.4997260570526123,
+    "content_preview": "-\nYou Can Take Control of Your Debt\nConsolidate your debt with a home equity loan or home equity line of credit (HELOC).Learn More -\nMaking Cents Financial Coaching\nYour goals are possible with a personalized plan. Our coaching is free and available to anyone!Learn More -\nMaking Cents of Predatory Lending\nRecognize predatory financial services and choose better solutions.Learn More\n-\nFixed Rate Mortgage\n10 & Done (10 Year Fixed)5.375View Mortgage Loans% -\nVehicle Loans\nNew & Used Auto as Low as4..."
+  },
+  {
+    "name": "Premier Cooperative",
+    "website": "https://www.premiercooperative.com/",
+    "location": "Reinbeck, IA",
+    "source": "web_search",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.30610141158103943,
+      "max_similarity": 0.5634422302246094,
+      "top_k_mean": 0.4877762794494629,
+      "most_similar": [
+        {
+          "name": "Farmers Cooperative (Craig)",
+          "category": "agricultural",
+          "similarity": 0.5634422302246094
+        },
+        {
+          "name": "Farmers Cooperative (Remsen)",
+          "category": "agricultural",
+          "similarity": 0.4747028350830078
+        },
+        {
+          "name": "Farmers Cooperative (Radcliffe)",
+          "category": "agricultural",
+          "similarity": 0.4727993607521057
+        },
+        {
+          "name": "North Iowa Cooperative",
+          "category": "agricultural",
+          "similarity": 0.46570658683776855
+        },
+        {
+          "name": "21st Century Cooperative",
+          "category": "agricultural",
+          "similarity": 0.462230384349823
+        }
+      ]
+    },
+    "cooperative_score": 0.4877762794494629,
+    "content_preview": "Learn What a Co-op is & How Cash Refunds Work\nWe have:\nMore than 15,000 happy members.\nMore than $12m refunded in 3 years.\nMore than $100m of member ownership.\nCash Bids & Futures\n| Symbol | Contract | Last | Open | Close | High | Low | Change | |\n|---|---|---|---|---|---|---|---|---|\n| @C6H | Mar '26 | 4.2675 | 4.2025 | 4.2725 | 4.2000 | 0.0650 | ||\n| @C6K | May '26 | 4.3350 | 4.2775 | 4.3425 | 4.2725 | 0.0575 | ||\n| @C6N | Jul '26 | 4.3925 | 4.3400 | 4.3975 | 4.3350 | 0.0525 | ||\n| @W6H | Mar ..."
+  },
+  {
+    "name": "DU TRAC COMMUNITY Credit Union",
+    "website": "https://www.dutrac.org/",
+    "location": "DUBUQUE, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.2550562024116516,
+      "max_similarity": 0.530133068561554,
+      "top_k_mean": 0.481743186712265,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.530133068561554
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.495402991771698
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.483451247215271
+        },
+        {
+          "name": "Greater Iowa CU",
+          "category": "credit",
+          "similarity": 0.45213472843170166
+        },
+        {
+          "name": "Chariton Valley Electric",
+          "category": "electric",
+          "similarity": 0.4475938677787781
+        }
+      ]
+    },
+    "cooperative_score": 0.481743186712265,
+    "content_preview": "Alert! Do Not Click On Links! What happens if you click a fraudulent link: The link could trigger a \u201cdrive-by...\nHow can we help you today?\nBuy a home\nWhether it\u2019s your first house, a refinance of your empty nest, or something in between, we\u2019ll make the process easy.\nDrive your dream\nThe low rates you want, the payment terms you need. Take advantage of all that a DuTrac vehicle loan can offer.\nBuild a business\nBorrowing options, expert advice, and support that\u2019s second-to-none. Our team is your ..."
+  },
+  {
+    "name": "AFFINITY Credit Union",
+    "website": "https://www.affinitycuia.org/",
+    "location": "Des Moines, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.25271716713905334,
+      "max_similarity": 0.6367074251174927,
+      "top_k_mean": 0.4781624674797058,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.6367074251174927
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.5429117679595947
+        },
+        {
+          "name": "Greater Iowa CU",
+          "category": "credit",
+          "similarity": 0.42267554998397827
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.4164416193962097
+        },
+        {
+          "name": "Farmers Union Cooperative",
+          "category": "agricultural",
+          "similarity": 0.3720759153366089
+        }
+      ]
+    },
+    "cooperative_score": 0.4781624674797058,
+    "content_preview": "LOANS AND\nACCOUNTS THAT\nWORK FOR YOU\nAffinity is here to help our members build better lives.\nVALUE PROVIDED TO MEMBERS AND COMMUNITY SINCE 2022\nOverdraft Fee Savings\nLoans Protected\nCommunity Giveback\nNot for Profit.\nFOR YOU.\nBETTER RATES\nWe make less to save you more.\nFEWER FEES\nIt helps that so many fees are $0.\nMORE THAN A NUMBER\nMaybe it\u2019s because we know your name.\nBUILDING BETTER LIVES\nIf you\u2019re a member, it\u2019s your mission too.\nYou\u2019ve earned it. Keep more of it.\nAuto Loans\nas low as\n5.09%..."
+  },
+  {
+    "name": "Winnebago Cooperative Telecom Association",
+    "website": "https://www.wctatel.net/",
+    "location": "Lake Mills, IA",
+    "source": "web_search",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.2526048719882965,
+      "max_similarity": 0.6107373237609863,
+      "top_k_mean": 0.4776788353919983,
+      "most_similar": [
+        {
+          "name": "South Slope Cooperative",
+          "category": "telecom",
+          "similarity": 0.6107373237609863
+        },
+        {
+          "name": "Farmers Co-op Telephone",
+          "category": "telecom",
+          "similarity": 0.5189798474311829
+        },
+        {
+          "name": "Huxley Communications",
+          "category": "telecom",
+          "similarity": 0.4471697211265564
+        },
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.40991413593292236
+        },
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.40159308910369873
+        }
+      ]
+    },
+    "cooperative_score": 0.4776788353919983,
+    "content_preview": "CUSTOMER SERVICE YOU CAN COUNT ON\nWHY WCTA?\nAt WCTA, we\u2019re more than an internet provider. We\u2019re your local, member-owned cooperative. Our 100% buried fiber-optic network delivers reliable, high-speed internet you can count on through every season and every storm. Backed by a dedicated team that takes pride in exceptional service and long-term investment, we support the communities we serve today while building connectivity for the future. When you choose WCTA, you\u2019re choosing a company committe..."
+  },
+  {
+    "name": "CENT Credit Union",
+    "website": "https://www.centcu.org/",
+    "location": "Mason City, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.26233628392219543,
+      "max_similarity": 0.605239987373352,
+      "top_k_mean": 0.4715557098388672,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.605239987373352
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.5801420211791992
+        },
+        {
+          "name": "Gold-Eagle Cooperative",
+          "category": "agricultural",
+          "similarity": 0.42632508277893066
+        },
+        {
+          "name": "Franklin Rural Electric",
+          "category": "electric",
+          "similarity": 0.3849439024925232
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.36112749576568604
+        }
+      ]
+    },
+    "cooperative_score": 0.4715557098388672,
+    "content_preview": "Every\nCounts\nChanging the way you bank since 1965. As a financial cooperative our mission is to provide outstanding financial services, ONE CENT AT A TIME.\n0\n+\nCENT Members\n$\n0\nDividends paid to\nCENT Membership to date in 2025\n0\n+\nLoans Approved to Date in 2025\nYour Success\nis Our Success\nIt's not spam if you get something out of it!\nSign up for our Email Club and stay \"in the know\" with all things CENT!\nWe don\u2019t share your information and you can unsubscribe at any time.\nIt's not spam if you ge..."
+  },
+  {
+    "name": "MEMBERS1ST COMMUNITY Credit Union",
+    "website": "https://www.members1st.com/",
+    "location": "Marshalltown, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.22987239062786102,
+      "max_similarity": 0.6070188879966736,
+      "top_k_mean": 0.4712509512901306,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.6070188879966736
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.5490661859512329
+        },
+        {
+          "name": "Consumers Energy Coop",
+          "category": "electric",
+          "similarity": 0.4190167784690857
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.3957500457763672
+        },
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.3854028880596161
+        }
+      ]
+    },
+    "cooperative_score": 0.4712509512901306,
+    "content_preview": "Featured Promotions & Information\nFeatured Rates\n4.99% APR*\n11.40% VAPR*\n4.00% APY*\n5.49% APR*\nBecome a Member\nMembers1st News\n-\nProtect Your Loved Ones from Holiday Scams: Romance Scams and Online Threats to Watch For\nScammers know the holidays can leave people feeling rushed, distracted, or even lonely. These schemes can cost victims far more than money.\n-\nA Step-by-Step Guide to Reviewing Your Credit Report\nYour credit report tells the story of your financial health\u2014and checking it regularly ..."
+  },
+  {
+    "name": "FORT DODGE FAMILY Credit Union",
+    "website": "https://www.fdfcu.com/",
+    "location": "Fort Dodge, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.26388466358184814,
+      "max_similarity": 0.5768444538116455,
+      "top_k_mean": 0.46861180663108826,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.5768444538116455
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.45614755153656006
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.4526190161705017
+        },
+        {
+          "name": "Cooperative Energy Co.",
+          "category": "energy",
+          "similarity": 0.4313424229621887
+        },
+        {
+          "name": "Farmers Union Cooperative",
+          "category": "agricultural",
+          "similarity": 0.42610567808151245
+        }
+      ]
+    },
+    "cooperative_score": 0.46861180663108826,
+    "content_preview": "Why Choose Us\nFort Dodge Family Credit Union remains focused on making a positive impact within the lives of each member. It is our commitment to provide personal individualized service which enables our members to achieve their financial goals.\nMembers are empowered with education, inspired for success, and coached to bring it all together. Member experiences that create members for life are created each and every day within an environment where no one is judged, and no one is inferior. We are ..."
+  },
+  {
+    "name": "THE FAMILY Credit Union",
+    "website": "https://www.familycu.com/",
+    "location": "Davenport, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.2445293515920639,
+      "max_similarity": 0.5776441097259521,
+      "top_k_mean": 0.46846795082092285,
+      "most_similar": [
+        {
+          "name": "River Valley Cooperative",
+          "category": "agricultural",
+          "similarity": 0.5776441097259521
+        },
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.5114538669586182
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.477054238319397
+        },
+        {
+          "name": "East Central Iowa REC",
+          "category": "electric",
+          "similarity": 0.3940475583076477
+        },
+        {
+          "name": "Cedar Falls Credit Union",
+          "category": "credit",
+          "similarity": 0.38214001059532166
+        }
+      ]
+    },
+    "cooperative_score": 0.46846795082092285,
+    "content_preview": "Locations | Rates | Contact| Join|\nLOG ON\nONLINE BANKING\nEveryone is pleasant & efficient. Always a pleasure!\nI love Family Credit Union because it makes it so much easier to manage my money.\nI love the Family Credit, because everyone is so friendly and right there to help when walking through the door!\nEvery location\u2019s tellers, loan officers, receptionists, etc make me smile and are lovely!\nI love the fact the staff is so friendly and helpful.\nMember since 1976. Jersey is the best branch."
+  },
+  {
+    "name": "Pella Cooperative Electric Association",
+    "website": "https://www.pella-cea.org/",
+    "location": "Pella, IA",
+    "source": "iaec",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.25240427255630493,
+      "max_similarity": 0.5065287351608276,
+      "top_k_mean": 0.46447819471359253,
+      "most_similar": [
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.5065287351608276
+        },
+        {
+          "name": "Franklin Rural Electric",
+          "category": "electric",
+          "similarity": 0.4803888499736786
+        },
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.4509568214416504
+        },
+        {
+          "name": "Allamakee-Clayton REC",
+          "category": "electric",
+          "similarity": 0.44339579343795776
+        },
+        {
+          "name": "East Central Iowa REC",
+          "category": "electric",
+          "similarity": 0.4411208927631378
+        }
+      ]
+    },
+    "cooperative_score": 0.46447819471359253,
+    "content_preview": "Recent News\nRecent Facebook Posts\nOUTAGE CENTER\nVisit our Outage Center page to report and check outages. If you are experiencing an outage please call 1-800-628-1040. Downed lines? Please call and let us know your situation.\nOUTAGE CENTER\nVisit our Outage Center page to report and check outages. If you are experiencing an outage please call 1-800-628-1040. Downed lines? Please call and let us know your situation."
+  },
+  {
+    "name": "DUPACO COMMUNITY Credit Union",
+    "website": "https://www.dupaco.com/",
+    "location": "Dubuque, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.15685059130191803,
+      "max_similarity": 0.9863933324813843,
+      "top_k_mean": 0.46088892221450806,
+      "most_similar": [
+        {
+          "name": "Dupaco Community CU",
+          "category": "credit",
+          "similarity": 0.9863933324813843
+        },
+        {
+          "name": "Nexus Cooperative",
+          "category": "agricultural",
+          "similarity": 0.43463850021362305
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.3076963424682617
+        },
+        {
+          "name": "Farmers Co-op Telephone",
+          "category": "telecom",
+          "similarity": 0.2897849678993225
+        },
+        {
+          "name": "Brown Deer Cooperative",
+          "category": "housing",
+          "similarity": 0.28593140840530396
+        }
+      ]
+    },
+    "cooperative_score": 0.46088892221450806,
+    "content_preview": "Our cookies enhance your experience, improve the quality of our site, and help us show you things that are more likely to be relevant to you. By clicking \"Got it\", you're agreeing to the placement and use of cookies as described in our Privacy Policy.\nThe technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication o..."
+  },
+  {
+    "name": "NORTH STAR COMMUNITY Credit Union",
+    "website": "https://www.nsccu.org/",
+    "location": "Cherokee, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.26449987292289734,
+      "max_similarity": 0.5029064416885376,
+      "top_k_mean": 0.45342355966567993,
+      "most_similar": [
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.5029064416885376
+        },
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.4932701885700226
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.4385031759738922
+        },
+        {
+          "name": "Northwest REC",
+          "category": "electric",
+          "similarity": 0.43151187896728516
+        },
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.40092605352401733
+        }
+      ]
+    },
+    "cooperative_score": 0.45342355966567993,
+    "content_preview": "Download Mobile App\nManage your accounts, monitor spending, send money and much more, all in one app.\nStart building your future today with our Savings Account!\nTake control of your finances and watch your money grow with our competitive interest rates. Open your Savings Account with us now!"
+  },
+  {
+    "name": "ADVANTAGE Credit Union",
+    "website": "https://www.acuiowa.org/",
+    "location": "Newton, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.2092454731464386,
+      "max_similarity": 0.516649603843689,
+      "top_k_mean": 0.44012251496315,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.516649603843689
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.5059663653373718
+        },
+        {
+          "name": "Dupaco Community CU",
+          "category": "credit",
+          "similarity": 0.46070927381515503
+        },
+        {
+          "name": "Greater Iowa CU",
+          "category": "credit",
+          "similarity": 0.37313586473464966
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.3441516160964966
+        }
+      ]
+    },
+    "cooperative_score": 0.44012251496315,
+    "content_preview": "Download Mobile App\nCheck your account on the go!\nWith our mobile app, you can access your account from anywhere!\nYou are leaving Advantage CU\u2019s web site to go to a site not operated by the credit union. Advantage CU is not responsible for the content of that web site. Advantage CU does not represent either the third party or the member if the two enter into a transaction. Privacy and security policies may differ from those practiced by Advantage CU.\nWith our mobile app, you can access your acco..."
+  },
+  {
+    "name": "FIRST Credit Union",
+    "website": "https://www.firstfedcu.com/",
+    "location": "Hiawatha, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.20358926057815552,
+      "max_similarity": 0.48167356848716736,
+      "top_k_mean": 0.413717120885849,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.48167356848716736
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.43306344747543335
+        },
+        {
+          "name": "Cedar Falls Credit Union",
+          "category": "credit",
+          "similarity": 0.41038674116134644
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.38593611121177673
+        },
+        {
+          "name": "Guthrie County REC",
+          "category": "electric",
+          "similarity": 0.3575257658958435
+        }
+      ]
+    },
+    "cooperative_score": 0.413717120885849,
+    "content_preview": "First Federal Credit Union was chartered in 1926. Since then, we have been serving our members in Linn County by providing them with community financial services to help families and businesses while holding ourselves to the highest standards. We have recently expanded to serve Benton county. Each decision we make is about serving the best interest of our members."
+  },
+  {
+    "name": "Mahaska Communication Group",
+    "website": "https://www.mahaska.org/",
+    "location": "Oskaloosa, IA",
+    "source": "web_search",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.2529759705066681,
+      "max_similarity": 0.4269258379936218,
+      "top_k_mean": 0.3895958960056305,
+      "most_similar": [
+        {
+          "name": "South Slope Cooperative",
+          "category": "telecom",
+          "similarity": 0.4269258379936218
+        },
+        {
+          "name": "Farmers Co-op Telephone",
+          "category": "telecom",
+          "similarity": 0.39397144317626953
+        },
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.3831283450126648
+        },
+        {
+          "name": "Farmers Mutual Telephone",
+          "category": "telecom",
+          "similarity": 0.37941017746925354
+        },
+        {
+          "name": "AgState",
+          "category": "agricultural",
+          "similarity": 0.3645436763763428
+        }
+      ]
+    },
+    "cooperative_score": 0.3895958960056305,
+    "content_preview": "Cart\n0\nAbout\nConnected Communities\nPROTech\nOur Products\nResources\nWebmail\nSupport\nPayment Center\nReviews\nSign-Up for Service\nWebmail\nBack\nGrinnell\nLake Ponderosa & Montezuma\nNew Sharon\nNewton\nOskaloosa\nOttumwa\nRural Mahaska Fiber\nRural Wireless\nSigourney\nBack\nInternet\nLifeline\nMCG Insight\nPhone\nBusiness Products\nBusiness Phone Solutions\nBack\n2026 Annual Ecycle Events\nBattery Recycling\nBroadband Nutrition Labels\nCommunity Wi-Fi\nConstruction Process\nCustomer Education\nCustomer Reviews\nDonations\nIn..."
+  },
+  {
+    "name": "1ST GATEWAY Credit Union",
+    "website": "https://www.1stgateway.org/",
+    "location": "Camanche, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.15108667314052582,
+      "max_similarity": 0.43780988454818726,
+      "top_k_mean": 0.38645055890083313,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.43780988454818726
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.42087727785110474
+        },
+        {
+          "name": "Dupaco Community CU",
+          "category": "credit",
+          "similarity": 0.39614391326904297
+        },
+        {
+          "name": "Cedar Falls Credit Union",
+          "category": "credit",
+          "similarity": 0.35904330015182495
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.3183782994747162
+        }
+      ]
+    },
+    "cooperative_score": 0.38645055890083313,
+    "content_preview": "HOME PAGE LOGIN - SECURITY\nAt 1st Gateway Credit Union, the security of your online\ninformation is important to us. You can rest assured that nobody\noutside of 1st Gateway Credit Union has access to your account\ninformation.\nSigning on to view your account information from the 1st Gateway\nCredit Union Home Page is safe. The moment you click the \"Login\"\nbutton, your account number and password are encrypted using\nSecure Sockets Layer (SSL) technology, keeping your account\ninformation secure."
+  },
+  {
+    "name": "COMMUNITY 1ST Credit Union",
+    "website": "https://www.community1stcu.com/",
+    "location": "Ottumwa, IA",
+    "source": "ncua",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.13464291393756866,
+      "max_similarity": 0.30300983786582947,
+      "top_k_mean": 0.28774815797805786,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.30300983786582947
+        },
+        {
+          "name": "South Slope Cooperative",
+          "category": "telecom",
+          "similarity": 0.3016189634799957
         },
         {
           "name": "Oneota Food Cooperative",
           "category": "food",
-          "similarity": 0.3587911128997803
+          "similarity": 0.29867345094680786
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.26858049631118774
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.2668580412864685
         }
       ]
     },
-    "cooperative_score": 0.37527960538864136,
-    "content_preview": "WE'RE HERE FOR YOU\nTrust & Wealth Management\nOur Trust & Wealth Management team establishes long-term, enduring relationships, built on trust and community values, with individuals, families, and businesses. Our focus is helping clients create plans aiming to accumulate, preserve, and transfer wealth. Whether you're seeking a fresh financial perspective for yourself or your family, our team is here to help you achieve your dreams!\nLearn more"
+    "cooperative_score": 0.28774815797805786,
+    "content_preview": "If this is your domain, you can manage it in your Hostinger account.\nManage domainLaunch your business with WordPress or Website Builder using AI tools, templates, and reliable hosting.\nGet Web hostingChat with AI to build a complete website - with CRM, booking forms, and more. Horizons handles code, design, and copy so you can launch instantly.\nGet HorizonsGet full control with dedicated resources. Scale apps, websites, and workloads on secure VPS hosting.\nGet VPS hostingExplore available alter..."
+  },
+  {
+    "name": "R.I.A. Credit Union",
+    "website": "https://www.riacu.org/",
+    "location": "Rock Island, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "GREENSTATE Credit Union",
+    "website": "https://www.greenstate.org/",
+    "location": "North Liberty, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "LEE COUNTY Credit Union",
+    "website": "https://www.leecountycu.org/",
+    "location": "KEOKUK, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "MIDLAND Credit Union",
+    "website": "https://www.midlandcreditunion.com/",
+    "location": "URBANDALE, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "POWER CO-OP EMPLOYEES Credit Union",
+    "website": null,
+    "location": "Humboldt, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "DU PONT EMPLOYEES Credit Union",
+    "website": "https://www.dupontccu.org/",
+    "location": "Fort Madison, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "MEMBERS COMMUNITY Credit Union",
+    "website": "https://www.memberscommcu.org/",
+    "location": "Muscatine, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "CAPITOL VIEW Credit Union",
+    "website": "https://www.capitolviewcu.org/",
+    "location": "Des Moines, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "EMPLOYEES Credit Union",
+    "website": null,
+    "location": "ESTHERVILLE, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "PEOPLES Credit Union",
+    "website": "https://www.peopleswebster.com/",
+    "location": "Webster City, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "NORTH IOWA COMMUNITY Credit Union",
+    "website": "https://www.nicuonline.org/",
+    "location": "MASON CITY, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "MERIDIAN Credit Union",
+    "website": "https://www.meridiancu.org/",
+    "location": "Ottumwa, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "FIRST CLASS COMMUNITY Credit Union",
+    "website": "https://www.firstclassccu.com/",
+    "location": "WEST DES MOINES, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "LENNOX EMPLOYEES Credit Union",
+    "website": null,
+    "location": "Marshalltown, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "S E C U Credit Union",
+    "website": null,
+    "location": "KEOKUK, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "PREMIER Credit Union",
+    "website": "https://www.premiercu.org/",
+    "location": "Des Moines, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "NORTH WESTERN EMPLOYEES Credit Union",
+    "website": null,
+    "location": "COUNCIL BLUFFS, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "ACE Credit Union",
+    "website": "https://www.acecu.org/",
+    "location": "Mason City, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "DES MOINES METRO Credit Union",
+    "website": "https://www.dmmcu.com/",
+    "location": "Des Moines, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "PUBLIC EMPLOYEES Credit Union",
+    "website": "https://www.pecu.org/",
+    "location": "Waterloo, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "SIOUX VALLEY COMMUNITY Credit Union",
+    "website": "https://www.sioux-valley.org/",
+    "location": "SIOUX CITY, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "CASEBINE COMMUNITY Credit Union",
+    "website": "https://www.casebinecu.com/",
+    "location": "Burlington, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "5 STAR COMMUNITY Credit Union",
+    "website": "https://www.5starcu.com/",
+    "location": "MOUNT PLEASANT, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "AIM Credit Union",
+    "website": "https://www.aimcu.org/",
+    "location": "Dubuque, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "DUBUQUE POSTAL EMPLOYEES Credit Union",
+    "website": null,
+    "location": "DUBUQUE, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "DES MOINES FIRE DEPARTMENT Credit Union",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "QUAKER OATS Credit Union",
+    "website": "https://www.quakeroatscu.org/",
+    "location": "CEDAR RAPIDS, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "POLK COUNTY Credit Union",
+    "website": "https://www.polkcountycu.org/",
+    "location": "DES MOINES, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "GAS & ELECTRIC EMPLOYEES Credit Union",
+    "website": null,
+    "location": "mason city, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "ST. LUDMILA S Credit Union",
+    "website": null,
+    "location": "CEDAR RAPIDS, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "ST. ATHANASIUS Credit Union",
+    "website": null,
+    "location": "JESUP, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "WATERLOO FIREMEN'S Credit Union",
+    "website": null,
+    "location": "Waterloo, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "BURLINGTON MUNICIPAL EMPLOYEES Credit Union",
+    "website": null,
+    "location": "Burlington, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "INDUSTRIAL EMPLOYEES Credit Union",
+    "website": null,
+    "location": "Centerville, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "HOLY GHOST PARISH Credit Union",
+    "website": null,
+    "location": "DUBUQUE, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "AEGIS Credit Union",
+    "website": "https://www.aegiscu.org/",
+    "location": "Clinton, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "CEDAR FALLS COMMUNITY Credit Union",
+    "website": "https://www.cedarfallscu.org/",
+    "location": "Cedar Falls, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "TEAMSTERS LOCAL #238 Credit Union",
+    "website": null,
+    "location": "Cedar Rapids, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "CITIZENS COMMUNITY Credit Union",
+    "website": "https://www.citizenscommunitycu.org/",
+    "location": "Fort Dodge, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "ALLEN HOSPITAL PERSONNEL Credit Union",
+    "website": null,
+    "location": "Waterloo, IA",
+    "source": "ncua",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
   },
   {
     "name": "Hawkeye Cooperative",
@@ -346,9 +2223,81 @@
     "cooperative_score": 0.0
   },
   {
-    "name": "Pella Cooperative Electric Association",
-    "website": "https://www.pfrec.coop/",
-    "location": "Pella, IA",
+    "name": "Landus Cooperative",
+    "website": "https://www.landus.coop/",
+    "location": "Ames, IA",
+    "source": "web_search",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "United Farmers Cooperative",
+    "website": "https://www.ufcgrainco.com/",
+    "location": "Alden, IA",
+    "source": "web_search",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "Farmers Cooperative Company",
+    "website": "https://www.farmerscooperative.com/",
+    "location": "Farnhamville, IA",
+    "source": "web_search",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "West Central Cooperative",
+    "website": "https://www.westcentral.coop/",
+    "location": "Ralston, IA",
+    "source": "web_search",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "North Central Cooperative",
+    "website": "https://www.northcentralcoop.com/",
+    "location": "Manly, IA",
+    "source": "web_search",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "DuPont Community Credit Union",
+    "website": "https://www.dupontccu.org/",
+    "location": "Fort Madison, IA",
+    "source": "web_search",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "Farmers Mutual Telephone Company",
+    "website": "https://www.fmtc.coop/",
+    "location": "Bellingham, IA",
+    "source": "web_search",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "Wheatsfield Cooperative",
+    "website": "https://www.wheatsfield.coop/",
+    "location": "Ames, IA",
+    "source": "web_search",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "River Hills Cooperative",
+    "website": "https://www.riverhillscoop.org/",
+    "location": "Des Moines, IA",
     "source": "web_search",
     "content_extracted": false,
     "similarity_scores": null,

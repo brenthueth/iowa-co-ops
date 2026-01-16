@@ -8,3 +8,7 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# NCUA raw data files (large, can be re-downloaded)
+data/*.txt
+data/ncua_data.zip

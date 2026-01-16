@@ -1,75 +1,75 @@
 [
   {
     "name": "R.I.A. Credit Union",
-    "website": "https://www.riacu.org/",
+    "website": null,
     "location": "Rock Island, IA",
     "source": "ncua",
     "ncua_number": "17117",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "FIRST Credit Union",
-    "website": "https://www.firstfedcu.com/",
+    "website": null,
     "location": "Hiawatha, IA",
     "source": "ncua",
     "ncua_number": "24673",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "METCO Credit Union",
-    "website": "https://www.metcocu.org/",
+    "website": null,
     "location": "Cedar Rapids, IA",
     "source": "ncua",
     "ncua_number": "60013",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "GREENSTATE Credit Union",
-    "website": "https://www.greenstate.org/",
+    "website": null,
     "location": "North Liberty, IA",
     "source": "ncua",
     "ncua_number": "60269",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "IOWA HEARTLAND Credit Union",
-    "website": "https://www.iowaheartland.org/",
+    "website": null,
     "location": "MASON CITY, IA",
     "source": "ncua",
     "ncua_number": "60718",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "THE FAMILY Credit Union",
-    "website": "https://www.familycu.com/",
+    "website": null,
     "location": "Davenport, IA",
     "source": "ncua",
     "ncua_number": "60728",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "LEE COUNTY Credit Union",
-    "website": "https://www.leecountycu.org/",
+    "website": null,
     "location": "KEOKUK, IA",
     "source": "ncua",
     "ncua_number": "61393",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "RIVER VALLEY Credit Union",
-    "website": "https://www.rvcu.org/",
+    "website": null,
     "location": "AMES, IA",
     "source": "ncua",
     "ncua_number": "61664",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "MIDLAND Credit Union",
-    "website": "https://www.midlandcreditunion.com/",
+    "website": null,
     "location": "URBANDALE, IA",
     "source": "ncua",
     "ncua_number": "61918",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "POWER CO-OP EMPLOYEES Credit Union",
@@ -81,91 +81,91 @@
   },
   {
     "name": "DU PONT EMPLOYEES Credit Union",
-    "website": "https://www.dupontccu.org/",
+    "website": null,
     "location": "Fort Madison, IA",
     "source": "ncua",
     "ncua_number": "62429",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "NORTH STAR COMMUNITY Credit Union",
-    "website": "https://www.nsccu.org/",
+    "website": null,
     "location": "Cherokee, IA",
     "source": "ncua",
     "ncua_number": "62638",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "MEMBERS COMMUNITY Credit Union",
-    "website": "https://www.memberscommcu.org/",
+    "website": null,
     "location": "Muscatine, IA",
     "source": "ncua",
     "ncua_number": "62683",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "AFFINITY Credit Union",
-    "website": "https://www.affinitycuia.org/",
+    "website": null,
     "location": "Des Moines, IA",
     "source": "ncua",
     "ncua_number": "62829",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "CAPITOL VIEW Credit Union",
-    "website": "https://www.capitolviewcu.org/",
+    "website": null,
     "location": "Des Moines, IA",
     "source": "ncua",
     "ncua_number": "62878",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "MEMBERS1ST COMMUNITY Credit Union",
-    "website": "https://www.members1st.com/",
+    "website": null,
     "location": "Marshalltown, IA",
     "source": "ncua",
     "ncua_number": "62918",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "FINANCIAL PLUS Credit Union",
-    "website": "https://www.financialpluscu.com/",
+    "website": null,
     "location": "West Des Moines, IA",
     "source": "ncua",
     "ncua_number": "62965",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "1ST GATEWAY Credit Union",
-    "website": "https://www.1stgateway.org/",
+    "website": null,
     "location": "Camanche, IA",
     "source": "ncua",
     "ncua_number": "63124",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "FORT DODGE FAMILY Credit Union",
-    "website": "https://www.fdfcu.com/",
+    "website": null,
     "location": "Fort Dodge, IA",
     "source": "ncua",
     "ncua_number": "63159",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "TELCO TRIAD COMMUNITY Credit Union",
-    "website": "https://www.telcotriad.org/",
+    "website": null,
     "location": "Sioux City, IA",
     "source": "ncua",
     "ncua_number": "63218",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "ASCENTRA Credit Union",
-    "website": "https://www.ascentra.org/",
+    "website": null,
     "location": "Bettendorf, IA",
     "source": "ncua",
     "ncua_number": "63268",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "EMPLOYEES Credit Union",
@@ -177,75 +177,75 @@
   },
   {
     "name": "CORDA Credit Union",
-    "website": "https://www.cordacu.org/",
+    "website": null,
     "location": "Cedar Rapids, IA",
     "source": "ncua",
     "ncua_number": "63602",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "ADVANTAGE Credit Union",
-    "website": "https://www.acuiowa.org/",
+    "website": null,
     "location": "Newton, IA",
     "source": "ncua",
     "ncua_number": "64030",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "DUPACO COMMUNITY Credit Union",
-    "website": "https://www.dupaco.com/",
+    "website": null,
     "location": "Dubuque, IA",
     "source": "ncua",
     "ncua_number": "64049",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "FAMILY COMMUNITY Credit Union",
-    "website": "https://www.familycommunitycu.com/",
+    "website": null,
     "location": "Charles City, IA",
     "source": "ncua",
     "ncua_number": "64067",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "PEOPLES Credit Union",
-    "website": "https://www.peopleswebster.com/",
+    "website": null,
     "location": "Webster City, IA",
     "source": "ncua",
     "ncua_number": "64140",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "NORTH IOWA COMMUNITY Credit Union",
-    "website": "https://www.nicuonline.org/",
+    "website": null,
     "location": "MASON CITY, IA",
     "source": "ncua",
     "ncua_number": "64191",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "GREATER IOWA Credit Union",
-    "website": "https://www.gicu.org/",
+    "website": null,
     "location": "Ames, IA",
     "source": "ncua",
     "ncua_number": "64203",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "MERIDIAN Credit Union",
-    "website": "https://www.meridiancu.org/",
+    "website": null,
     "location": "Ottumwa, IA",
     "source": "ncua",
     "ncua_number": "64212",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "FIRST CLASS COMMUNITY Credit Union",
-    "website": "https://www.firstclassccu.com/",
+    "website": null,
     "location": "WEST DES MOINES, IA",
     "source": "ncua",
     "ncua_number": "64231",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "LENNOX EMPLOYEES Credit Union",
@@ -265,11 +265,11 @@
   },
   {
     "name": "PREMIER Credit Union",
-    "website": "https://www.premiercu.org/",
+    "website": null,
     "location": "Des Moines, IA",
     "source": "ncua",
     "ncua_number": "64271",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "NORTH WESTERN EMPLOYEES Credit Union",
@@ -281,75 +281,75 @@
   },
   {
     "name": "ACE Credit Union",
-    "website": "https://www.acecu.org/",
+    "website": null,
     "location": "Mason City, IA",
     "source": "ncua",
     "ncua_number": "64323",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "JOURNEY Credit Union",
-    "website": "https://www.journeycu.org/",
+    "website": null,
     "location": "Des Moines, IA",
     "source": "ncua",
     "ncua_number": "64361",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "DES MOINES METRO Credit Union",
-    "website": "https://www.dmmcu.com/",
+    "website": null,
     "location": "Des Moines, IA",
     "source": "ncua",
     "ncua_number": "64380",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "PUBLIC EMPLOYEES Credit Union",
-    "website": "https://www.pecu.org/",
+    "website": null,
     "location": "Waterloo, IA",
     "source": "ncua",
     "ncua_number": "64390",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "SIOUX VALLEY COMMUNITY Credit Union",
-    "website": "https://www.sioux-valley.org/",
+    "website": null,
     "location": "SIOUX CITY, IA",
     "source": "ncua",
     "ncua_number": "64417",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "DU TRAC COMMUNITY Credit Union",
-    "website": "https://www.dutrac.org/",
+    "website": null,
     "location": "DUBUQUE, IA",
     "source": "ncua",
     "ncua_number": "64471",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "CASEBINE COMMUNITY Credit Union",
-    "website": "https://www.casebinecu.com/",
+    "website": null,
     "location": "Burlington, IA",
     "source": "ncua",
     "ncua_number": "64868",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "5 STAR COMMUNITY Credit Union",
-    "website": "https://www.5starcu.com/",
+    "website": null,
     "location": "MOUNT PLEASANT, IA",
     "source": "ncua",
     "ncua_number": "64878",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "AIM Credit Union",
-    "website": "https://www.aimcu.org/",
+    "website": null,
     "location": "Dubuque, IA",
     "source": "ncua",
     "ncua_number": "64886",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "DUBUQUE POSTAL EMPLOYEES Credit Union",
@@ -369,27 +369,27 @@
   },
   {
     "name": "RIVER COMMUNITY Credit Union",
-    "website": "https://www.rivercommunitycu.org/",
+    "website": null,
     "location": "Ottumwa, IA",
     "source": "ncua",
     "ncua_number": "64986",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "QUAKER OATS Credit Union",
-    "website": "https://www.quakeroatscu.org/",
+    "website": null,
     "location": "CEDAR RAPIDS, IA",
     "source": "ncua",
     "ncua_number": "64991",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "POLK COUNTY Credit Union",
-    "website": "https://www.polkcountycu.org/",
+    "website": null,
     "location": "DES MOINES, IA",
     "source": "ncua",
     "ncua_number": "65039",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "GAS & ELECTRIC EMPLOYEES Credit Union",
@@ -409,19 +409,19 @@
   },
   {
     "name": "UNITE Credit Union",
-    "website": "https://www.unite-cu.org/",
+    "website": null,
     "location": "Cedar Falls, IA",
     "source": "ncua",
     "ncua_number": "65071",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "COMMUNITY CHOICE Credit Union",
-    "website": "https://www.comchoicecu.org/",
+    "website": null,
     "location": "JOHNSTON, IA",
     "source": "ncua",
     "ncua_number": "65078",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "ST. ATHANASIUS Credit Union",
@@ -433,11 +433,11 @@
   },
   {
     "name": "SERVE Credit Union",
-    "website": "https://www.servecu.org/",
+    "website": null,
     "location": "DES MOINES, IA",
     "source": "ncua",
     "ncua_number": "65150",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "WATERLOO FIREMEN'S Credit Union",
@@ -449,11 +449,11 @@
   },
   {
     "name": "CENT Credit Union",
-    "website": "https://www.centcu.org/",
+    "website": null,
     "location": "Mason City, IA",
     "source": "ncua",
     "ncua_number": "65238",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "BURLINGTON MUNICIPAL EMPLOYEES Credit Union",
@@ -481,19 +481,19 @@
   },
   {
     "name": "AEGIS Credit Union",
-    "website": "https://www.aegiscu.org/",
+    "website": null,
     "location": "Clinton, IA",
     "source": "ncua",
     "ncua_number": "65521",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "CEDAR FALLS COMMUNITY Credit Union",
-    "website": "https://www.cedarfallscu.org/",
+    "website": null,
     "location": "Cedar Falls, IA",
     "source": "ncua",
     "ncua_number": "65565",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "TEAMSTERS LOCAL #238 Credit Union",
@@ -505,11 +505,11 @@
   },
   {
     "name": "CITIZENS COMMUNITY Credit Union",
-    "website": "https://www.citizenscommunitycu.org/",
+    "website": null,
     "location": "Fort Dodge, IA",
     "source": "ncua",
     "ncua_number": "66592",
-    "needs_website": false
+    "needs_website": true
   },
   {
     "name": "ALLEN HOSPITAL PERSONNEL Credit Union",
@@ -521,190 +521,10 @@
   },
   {
     "name": "COMMUNITY 1ST Credit Union",
-    "website": "https://www.community1stcu.com/",
+    "website": null,
     "location": "Ottumwa, IA",
     "source": "ncua",
     "ncua_number": "68510",
-    "needs_website": false
-  },
-  {
-    "name": "Clarke Electric Cooperative",
-    "website": "https://www.cecnet.net/",
-    "location": "Osceola, IA",
-    "source": "iaec"
-  },
-  {
-    "name": "Eastern Iowa Light & Power Cooperative",
-    "website": "https://www.easterniowa.com/",
-    "location": "Wilton, IA",
-    "source": "iaec"
-  },
-  {
-    "name": "Heartland Power Cooperative",
-    "website": "https://www.heartlandpower.com/",
-    "location": "Thompson, IA",
-    "source": "iaec"
-  },
-  {
-    "name": "Iowa Lakes Electric Cooperative",
-    "website": "https://www.ilec.coop/",
-    "location": "Estherville, IA",
-    "source": "iaec"
-  },
-  {
-    "name": "L&O Power Cooperative",
-    "website": "https://www.landopowercoop.com/",
-    "location": "Rock Rapids, IA",
-    "source": "iaec"
-  },
-  {
-    "name": "Lyon Rural Electric Cooperative",
-    "website": "https://www.lyonrec.coop/",
-    "location": "Rock Rapids, IA",
-    "source": "iaec"
-  },
-  {
-    "name": "Midland Power Cooperative",
-    "website": "https://www.midlandpower.coop/",
-    "location": "Jefferson, IA",
-    "source": "iaec"
-  },
-  {
-    "name": "MiEnergy Cooperative",
-    "website": "https://www.mienergy.coop/",
-    "location": "Cresco, IA",
-    "source": "iaec"
-  },
-  {
-    "name": "Osceola Electric Cooperative",
-    "website": "https://www.osceolaelectric.com/",
-    "location": "Sibley, IA",
-    "source": "iaec"
-  },
-  {
-    "name": "Pella Cooperative Electric Association",
-    "website": "https://www.pella-cea.org/",
-    "location": "Pella, IA",
-    "source": "iaec"
-  },
-  {
-    "name": "Southern Iowa Electric Cooperative",
-    "website": "https://www.sie.coop/",
-    "location": "Bloomfield, IA",
-    "source": "iaec"
-  },
-  {
-    "name": "Southwest Iowa Rural Electric Cooperative",
-    "website": "https://www.swiarec.coop/",
-    "location": "Corning, IA",
-    "source": "iaec"
-  },
-  {
-    "name": "Western Iowa Power Cooperative (WIPCO)",
-    "website": "https://www.wipco.com/",
-    "location": "Denison, IA",
-    "source": "iaec"
-  },
-  {
-    "name": "Woodbury County Rural Electric Cooperative",
-    "website": "https://www.woodburyrec.com/",
-    "location": "Moville, IA",
-    "source": "iaec"
-  },
-  {
-    "name": "Hawkeye Cooperative",
-    "website": "https://www.hawkeyecooperative.com/",
-    "location": "Iowa",
-    "source": "web_search"
-  },
-  {
-    "name": "Farmers Cooperative Association Stratford",
-    "website": "https://www.stratfordcoop.com/",
-    "location": "Stratford, IA",
-    "source": "web_search"
-  },
-  {
-    "name": "Landus Cooperative",
-    "website": "https://www.landus.coop/",
-    "location": "Ames, IA",
-    "source": "web_search"
-  },
-  {
-    "name": "United Farmers Cooperative",
-    "website": "https://www.ufcgrainco.com/",
-    "location": "Alden, IA",
-    "source": "web_search"
-  },
-  {
-    "name": "Farmers Cooperative Company",
-    "website": "https://www.farmerscooperative.com/",
-    "location": "Farnhamville, IA",
-    "source": "web_search"
-  },
-  {
-    "name": "West Central Cooperative",
-    "website": "https://www.westcentral.coop/",
-    "location": "Ralston, IA",
-    "source": "web_search"
-  },
-  {
-    "name": "North Central Cooperative",
-    "website": "https://www.northcentralcoop.com/",
-    "location": "Manly, IA",
-    "source": "web_search"
-  },
-  {
-    "name": "Premier Cooperative",
-    "website": "https://www.premiercooperative.com/",
-    "location": "Reinbeck, IA",
-    "source": "web_search"
-  },
-  {
-    "name": "DuPont Community Credit Union",
-    "website": "https://www.dupontccu.org/",
-    "location": "Fort Madison, IA",
-    "source": "web_search"
-  },
-  {
-    "name": "Farmers Mutual Telephone Company",
-    "website": "https://www.fmtc.coop/",
-    "location": "Bellingham, IA",
-    "source": "web_search"
-  },
-  {
-    "name": "Winnebago Cooperative Telecom Association",
-    "website": "https://www.wctatel.net/",
-    "location": "Lake Mills, IA",
-    "source": "web_search"
-  },
-  {
-    "name": "Coon Valley Telecommunications Cooperative",
-    "website": "https://www.coonvalleytelco.com/",
-    "location": "Manning, IA",
-    "source": "web_search"
-  },
-  {
-    "name": "Northeast Iowa Telephone Company",
-    "website": "https://www.neitel.com/",
-    "location": "Monona, IA",
-    "source": "web_search"
-  },
-  {
-    "name": "Mahaska Communication Group",
-    "website": "https://www.mahaska.org/",
-    "location": "Oskaloosa, IA",
-    "source": "web_search"
-  },
-  {
-    "name": "Wheatsfield Cooperative",
-    "website": "https://www.wheatsfield.coop/",
-    "location": "Ames, IA",
-    "source": "web_search"
-  },
-  {
-    "name": "River Hills Cooperative",
-    "website": "https://www.riverhillscoop.org/",
-    "location": "Des Moines, IA",
-    "source": "web_search"
+    "needs_website": true
   }
 ]
