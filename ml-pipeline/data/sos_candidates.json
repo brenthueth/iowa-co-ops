@@ -1,0 +1,4172 @@
+[
+  {
+    "name": "STAGE DOOR CINEMA, CP",
+    "website": null,
+    "location": "FAIRFIELD, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "414634",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "LINK PURCHASING COOPERATIVE",
+    "website": null,
+    "location": "Iowa",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "443975",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "IOWA CREDIT UNION LEAGUE",
+    "website": null,
+    "location": "WEST DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED DOMESTIC NON-PROFIT",
+    "corp_number": "059137",
+    "category_hint": "credit",
+    "needs_website": true
+  },
+  {
+    "name": "NUWAY-K&H COOPERATIVE",
+    "website": null,
+    "location": "TRIMONT, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "053605",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERATIVE TELEPHONE EXCHANGE",
+    "website": null,
+    "location": "STANHOPE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053958",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "WESTERN IOWA MUNICIPAL ELECTRIC COOPERATIVE ASSOCIATION",
+    "website": null,
+    "location": "KINGSLEY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054154",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "NORTHWEST IOWA POWER COOPERATIVE",
+    "website": null,
+    "location": "LE MARS, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054090",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "FARMERS COOPERATIVE ELEVATOR COMPANY",
+    "website": null,
+    "location": "RADCLIFFE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053757",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "FREMONT FUNERAL CHAPEL COOPERATIVE",
+    "website": null,
+    "location": "FREMONT, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054018",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ASSOCIATED MILK PRODUCERS, INC.",
+    "website": null,
+    "location": "NEW ULM, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053920",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "VAN HORNE COOPERATIVE TELEPHONE COMPANY",
+    "website": null,
+    "location": "VAN HORNE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054147",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "COMMUNITY OIL COMPANY, A COOPERATIVE",
+    "website": null,
+    "location": "ROCK VALLEY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053654",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ATCHISON-HOLT ELECTRIC COOPERATIVE",
+    "website": null,
+    "location": "ROCK PORT, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053921",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "GRUNDY COUNTY RURAL ELECTRIC COOPERATIVE",
+    "website": null,
+    "location": "GRUNDY CENTER, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054025",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "FARMERS ELECTRIC COOPERATIVE",
+    "website": null,
+    "location": "KALONA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054005",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "SPRINGVILLE COOPERATIVE TELEPHONE ASSOCIATION",
+    "website": null,
+    "location": "SPRINGVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053885",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "MISSOURI BASIN MUNICIPAL ELECTRIC COOPERATIVE ASSOCIATION",
+    "website": null,
+    "location": "SIOUX FALLS, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054074",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "BUTLER COUNTY RURAL ELECTRIC COOPERATIVE",
+    "website": null,
+    "location": "ALLISON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053933",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "FARMERS COOPERATIVE ASSOCIATION",
+    "website": null,
+    "location": "KEOTA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053692",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "LITTLE CEDAR COOPERATIVE ELEVATOR",
+    "website": null,
+    "location": "LITTLE CEDAR, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053830",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "MARTELLE COOPERATIVE TELEPHONE ASSOCIATION",
+    "website": null,
+    "location": "MARTELLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053837",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "BIG FOUR DAIRY HERD IMPROVEMENT COOPERATIVE, INC.",
+    "website": null,
+    "location": "CASTALIA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053927",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "GUTHRIE COUNTY RURAL ELECTRIC COOPERATIVE ASSOCIATION",
+    "website": null,
+    "location": "GUTHRIE CENTER, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054026",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "OSAGE COOPERATIVE ELEVATOR",
+    "website": null,
+    "location": "OSAGE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053861",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "SIOUX HONEY ASSOCIATION, COOPERATIVE",
+    "website": null,
+    "location": "SIOUX CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054124",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "RIVER VALLEY TELECOMMUNICATIONS COOP",
+    "website": null,
+    "location": "GRAETTINGER, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "065244",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "MABEL COOPERATIVE TELEPHONE COMPANY",
+    "website": null,
+    "location": "MABEL, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053835",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "HANCOCK COUNTY COOPERATIVE OIL ASSOCIATION",
+    "website": null,
+    "location": "GARNER, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053810",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER MOTORS, INC.",
+    "website": null,
+    "location": "ALLISON, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "009373",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "FRANKLIN RURAL ELECTRIC COOPERATIVE",
+    "website": null,
+    "location": "HAMPTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054017",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "CASS ELECTRIC COOPERATIVE",
+    "website": null,
+    "location": "WEBSTER CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053936",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "DELAWARE COUNTY DAIRY HERD IMPROVEMENT COOPERATIVE, INCORPORATED",
+    "website": null,
+    "location": "DYERSVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053969",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "HEALTH ENTERPRISES COOPERATIVE",
+    "website": null,
+    "location": "CEDAR RAPIDS, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "089568",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "PRAIRIE AG COOPERATIVE",
+    "website": null,
+    "location": "MT UNION, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053848",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ONEOTA COMMUNITY COOPERATIVE",
+    "website": null,
+    "location": "DECORAH, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "054095",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "NEW PIONEER'S COOPERATIVE SOCIETY",
+    "website": null,
+    "location": "IOWA CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054083",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "WOODBURY COUNTY RURAL ELECTRIC COOPERATIVE ASSOCIATION",
+    "website": null,
+    "location": "MOVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054161",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "WEBSTER-CALHOUN COOPERATIVE TELEPHONE ASSOCIATION",
+    "website": null,
+    "location": "GOWRIE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "070858",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "BARNES CITY COOPERATIVE TELEPHONE COMPANY",
+    "website": null,
+    "location": "BARNES CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053922",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "MAQUOKETA VALLEY RURAL ELECTRIC COOPERATIVE",
+    "website": null,
+    "location": "ANAMOSA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054069",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "PRODUCERS COOPERATIVE COMPANY",
+    "website": null,
+    "location": "GAZA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054116",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "PARTNER COMMUNICATIONS COOPERATIVE",
+    "website": null,
+    "location": "GILMAN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053841",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "BOONE VALLEY ELECTRIC COOPERATIVE",
+    "website": null,
+    "location": "RENWICK, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053929",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "IOWA ASSOCIATION OF ELECTRIC COOPERATIVES",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054045",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "FRONTIER COOPERATIVE",
+    "website": null,
+    "location": "NORWAY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "054019",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CHARITON VALLEY ELECTRIC COOPERATIVE, INC.",
+    "website": null,
+    "location": "ALBIA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053942",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERATIVE TELEPHONE COMPANY",
+    "website": null,
+    "location": "VICTOR, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053957",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "WESTERN IOWA TELEPHONE ASSOCIATION (A COOPERATIVE)",
+    "website": null,
+    "location": "LAWTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054155",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "PALO COOPERATIVE TELEPHONE ASSOCIATION",
+    "website": null,
+    "location": "PALO, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054102",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERATIVE ENERGY COMPANY",
+    "website": null,
+    "location": "SIBLEY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "053607",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "NISHNABOTNA VALLEY RURAL ELECTRIC COOPERATIVE",
+    "website": null,
+    "location": "HARLAN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054084",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "NEW LONDON FARMERS COOPERATIVE",
+    "website": null,
+    "location": "NEW LONDON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053855",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "MITCHELL COUNTY COOPERATIVE DAIRY HERD IMPROVEMENT ASSOCIATION, INC.",
+    "website": null,
+    "location": "STACYVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054076",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "NORTH IOWA COOPERATIVE ELEVATOR",
+    "website": null,
+    "location": "THORNTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "054088",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "CONSUMERS ENERGY COOPERATIVE",
+    "website": null,
+    "location": "MARSHALLTOWN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054071",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "THE CONSUMERS COOPERATIVE SOCIETY",
+    "website": null,
+    "location": "CORALVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053953",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "HUXLEY COMMUNICATIONS COOPERATIVE",
+    "website": null,
+    "location": "HUXLEY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054041",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ONSLOW COOPERATIVE TELEPHONE ASSOCIATION",
+    "website": null,
+    "location": "ONSLOW, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054097",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "CO-OP OIL COMPANY",
+    "website": null,
+    "location": "NEW VIENNA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053959",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "DUNKERTON TELEPHONE COOPERATIVE",
+    "website": null,
+    "location": "DUNKERTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053975",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "SOUTHERN IOWA ELECTRIC COOPERATIVE, INC.",
+    "website": null,
+    "location": "BLOOMFIELD, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054127",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "EDDYVILLE CO-OPERATIVE BURIAL ASSOCIATION",
+    "website": null,
+    "location": "EDDYVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053978",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "BROOKLYN MUTUAL TELECOMMUNICATIONS COOPERATIVE",
+    "website": null,
+    "location": "BROOKLYN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "000084",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "FARMERS ELECTRIC COOPERATIVE, INC.",
+    "website": null,
+    "location": "GREENFIELD, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054006",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "CLARKE ELECTRIC COOPERATIVE, INC.",
+    "website": null,
+    "location": "OSCEOLA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053947",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "PRODUCERS LIVE STOCK MARKETING ASSOCIATION",
+    "website": null,
+    "location": "OMAHA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054117",
+    "category_hint": "food",
+    "needs_website": true
+  },
+  {
+    "name": "NORTHEAST MISSOURI ELECTRIC POWER COOPERATIVE",
+    "website": null,
+    "location": "PALMYRA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054086",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "DAIRY FARMERS OF AMERICA, INC.",
+    "website": null,
+    "location": "KANSAS CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054072",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "GRAND MOUND COOPERATIVE TELEPHONE ASSOCIATION",
+    "website": null,
+    "location": "GRAND MOUND, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054022",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "O'BRIEN COOPERATIVE FUNERAL ASSOCIATION",
+    "website": null,
+    "location": "SANBORN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054093",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CORN BELT POWER COOPERATIVE",
+    "website": null,
+    "location": "HUMBOLDT, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053961",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "FARMERS COOPERATIVE ELEVATOR CO.",
+    "website": null,
+    "location": "ARCADIA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053993",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "FIRST COOPERATIVE ASSOCIATION",
+    "website": null,
+    "location": "CHEROKEE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053731",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "AG PROCESSING INC A COOPERATIVE",
+    "website": null,
+    "location": "OMAHA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053637",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "FRYTOWN WATER CO-OPERATIVE",
+    "website": null,
+    "location": "KALONA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054020",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "THE CALHOUN COUNTY ELECTRIC COOPERATIVE ASSOCIATION",
+    "website": null,
+    "location": "ROCKWELL CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053935",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "IOWA CATTLE MARKETING COOPERATIVE",
+    "website": null,
+    "location": "RICEVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "101911",
+    "category_hint": "food",
+    "needs_website": true
+  },
+  {
+    "name": "FEDERATED RURAL ELECTRIC ASSOCIATION",
+    "website": null,
+    "location": "JACKSON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053800",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "MFA INCORPORATED",
+    "website": null,
+    "location": "COLUMBIA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054075",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "LAND O'LAKES, INC.",
+    "website": null,
+    "location": "ARDEN HILLS, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053823",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "IOWA INSTITUTE FOR COOPERATIVES",
+    "website": null,
+    "location": "AMES, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED DOMESTIC NON-PROFIT",
+    "corp_number": "059247",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "GRISWOLD COOPERATIVE TELEPHONE COMPANY",
+    "website": null,
+    "location": "GRISWOLD, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053807",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "FARMERS CO-OPERATIVE SOCIETY, SIOUX CENTER, IOWA",
+    "website": null,
+    "location": "SIOUX CENTER, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053593",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "ASPINWALL COOPERATIVE CO.",
+    "website": null,
+    "location": "ASPINWALL, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053628",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "TAMA-BENTON COOPERATIVE COMPANY",
+    "website": null,
+    "location": "DYSART, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053893",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "GROWMARK, INC.",
+    "website": null,
+    "location": "BLOOMINGTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053808",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "FARMERS MUTUAL COOPERATIVE TELEPHONE COMPANY OF MOULTON, IOWA",
+    "website": null,
+    "location": "MOULTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053794",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "SUPERIOR TELEPHONE COOPERATIVE",
+    "website": null,
+    "location": "SUPERIOR, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054137",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "FARMERS COOPERATIVE ELEVATOR OF OTTOSEN",
+    "website": null,
+    "location": "OTTOSEN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053733",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "SPRING GROVE COMMUNICATIONS",
+    "website": null,
+    "location": "SPRING GROVE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053883",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ROCKWELL COOPERATIVE TELEPHONE ASSOCIATION",
+    "website": null,
+    "location": "ROCKWELL, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053870",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "LINN COUNTY RURAL ELECTRIC COOPERATIVE ASSOCIATION",
+    "website": null,
+    "location": "MARION, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054062",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "WELLMAN CO-OPERATIVE TELEPHONE ASSOCIATION",
+    "website": null,
+    "location": "WELLMAN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053908",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "NORTH ENGLISH COOPERATIVE TELEPHONE COMPANY",
+    "website": null,
+    "location": "NORTH ENGLISH, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054087",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "EASTERN IOWA LIGHT AND POWER COOPERATIVE",
+    "website": null,
+    "location": "WILTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053977",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "FARMERS MUTUAL TELEPHONE COOPERATIVE OF SHELLSBURG, IOWA",
+    "website": null,
+    "location": "SHELLSBURG, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053599",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERATIVE GAS AND OIL COMPANY",
+    "website": null,
+    "location": "SIOUX CENTER, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053659",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "D. A. S. COOPER FARMS CO.",
+    "website": null,
+    "location": "BEDFORD, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "009361",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "ALLAMAKEE-CLAYTON ELECTRIC COOPERATIVE, INC.",
+    "website": null,
+    "location": "POSTVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053915",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "FARMERS COOPERATIVE TELEPHONE COMPANY",
+    "website": null,
+    "location": "DYSART, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053780",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "EAST BUCHANAN TELEPHONE COOPERATIVE",
+    "website": null,
+    "location": "WINTHROP, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053976",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "LINN COOPERATIVE OIL COMPANY",
+    "website": null,
+    "location": "MARION, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053829",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER HOMES, INC.",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "009363",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "DUNKERTON COOPERATIVE ELEVATOR",
+    "website": null,
+    "location": "DUNKERTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053669",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "KEITH COOPER AND SONS, INC.",
+    "website": null,
+    "location": "AMES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "009368",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "PANORA COMMUNICATIONS COOPERATIVE",
+    "website": null,
+    "location": "PANORA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053863",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "HEART OF IOWA COMMUNICATIONS COOPERATIVE",
+    "website": null,
+    "location": "UNION, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054034",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "OSCEOLA ELECTRIC COOPERATIVE, INC.",
+    "website": null,
+    "location": "SIBLEY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054099",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "NORTH IOWA MUNICIPAL ELECTRIC COOPERATIVE ASSOCIATION",
+    "website": null,
+    "location": "HUMBOLDT, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054089",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER FARMS, INC.",
+    "website": null,
+    "location": "TRAER, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "009359",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "C-M-L-TELEPHONE COOPERATIVE ASSOCIATION OF MERIDEN, IOWA",
+    "website": null,
+    "location": "MERIDEN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053934",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "RUTHVEN COOPERATIVE OIL COMPANY",
+    "website": null,
+    "location": "RUTHVEN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053873",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "W & H COOPERATIVE OIL COMPANY",
+    "website": null,
+    "location": "HUMBOLDT, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053905",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "MILES COOPERATIVE TELEPHONE ASSOCIATION, INC.",
+    "website": null,
+    "location": "MILES, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053843",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "L. C. CO-OPERATIVE, INC.",
+    "website": null,
+    "location": "FORT MADISON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053820",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "HARRISON COUNTY RURAL ELECTRIC COOPERATIVE",
+    "website": null,
+    "location": "WOODBINE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054030",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "BUCKINGHAM CO-OPERATIVE CO.",
+    "website": null,
+    "location": "BUCKINGHAM, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "124323",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COON VALLEY COOPERATIVE TELEPHONE ASSOCIATION, INC",
+    "website": null,
+    "location": "MENLO, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "070850",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "HUBBARD COOPERATIVE TELEPHONE ASSOCIATION",
+    "website": null,
+    "location": "HUBBARD, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053814",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "SOUTH SLOPE COOPERATIVE TELEPHONE COMPANY",
+    "website": null,
+    "location": "NORTH LIBERTY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054130",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "KEYSTONE-FARMERS COOPERATIVE TELEPHONE COMPANY OF KEYSTONE, IOWA",
+    "website": null,
+    "location": "KEYSTONE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054056",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "SOUTH IOWA MUNICIPAL ELECTRIC COOPERATIVE ASSOCIATION",
+    "website": null,
+    "location": "VILLISCA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054128",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "MODERN COOPERATIVE TELEPHONE COMPANY",
+    "website": null,
+    "location": "SOUTH ENGLISH, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054078",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "ELLSWORTH COOPERATIVE TELEPHONE ASSOCIATION",
+    "website": null,
+    "location": "ELLSWORTH, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053980",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "FARMERS MUTUAL COOPERATIVE TELEPHONE COMPANY",
+    "website": null,
+    "location": "HARLAN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054007",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "MUSCATINE ISLAND COOPERATIVE ASSOCIATION",
+    "website": null,
+    "location": "MUSCATINE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054080",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CLAYTON COUNTY COOPERATIVE DAIRY HERD IMPROVEMENT ASSOCIATION, INC.",
+    "website": null,
+    "location": "MCGREGOR, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053948",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "NORTHWEST COMMUNICATIONS COOPERATIVE ASSOCIATION",
+    "website": null,
+    "location": "HAVELOCK, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054091",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "FENTON COOPERATIVE TELEPHONE COMPANY",
+    "website": null,
+    "location": "FENTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054013",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "LEHIGH VALLEY CO-OPERATIVE TELEPHONE ASSOCIATION",
+    "website": null,
+    "location": "LEHIGH, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053827",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "MFA OIL COMPANY",
+    "website": null,
+    "location": "COLUMBIA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054067",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "LONE ROCK CO-OPERATIVE TELEPHONE COMPANY",
+    "website": null,
+    "location": "LONE ROCK, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054064",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER CATTLE COMPANY",
+    "website": null,
+    "location": "JEFFERSON, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "009353",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CITIZENS MUTUAL TELEPHONE COOPERATIVE",
+    "website": null,
+    "location": "BLOOMFIELD, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "008300",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER CORPORATION",
+    "website": null,
+    "location": "EMMETSBURG, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "009355",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CENTRAL IOWA POWER COOPERATIVE",
+    "website": null,
+    "location": "CEDAR RAPIDS, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053941",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "L AND O POWER COOPERATIVE",
+    "website": null,
+    "location": "ROCK RAPIDS, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054058",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "KALONA CO-OPERATIVE TELEPHONE CO.",
+    "website": null,
+    "location": "KALONA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "054055",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "DAIRYLAND POWER COOPERATIVE",
+    "website": null,
+    "location": "LA CROSSE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "053966",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "HULL COOPERATIVE ASSOCIATION",
+    "website": null,
+    "location": "HULL, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053985",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "PRAIRIE FARMS DAIRY, INC.",
+    "website": null,
+    "location": "EDWARDSVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053868",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "ASIAN IOWAN COOPERATIVE",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053627",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ARCHER COOPERATIVE GRAIN COMPANY",
+    "website": null,
+    "location": "ARCHER, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "053625",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER'S OSAGE AUTO, INC.",
+    "website": null,
+    "location": "OSAGE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "180866",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "UNITED ELECTRIC COOPERATIVE, INC.",
+    "website": null,
+    "location": "SAVANNAH, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "223941",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERATIVE CREDIT COMPANY",
+    "website": null,
+    "location": "SIOUX CENTER, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED DOMESTIC NON-PROFIT",
+    "corp_number": "183953",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "IOWA TURKEY GROWERS COOPERATIVE",
+    "website": null,
+    "location": "WEST LIBERTY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK VALUE ADDED",
+    "corp_number": "195876",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "BRUNER, COOPER & ZUCK, INC.",
+    "website": null,
+    "location": "GALESBURG, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN PROFIT",
+    "corp_number": "218059",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "NOBLES COOPERATIVE ELECTRIC",
+    "website": null,
+    "location": "WORTHINGTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "122059",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "NEW HORIZON COOPERATIVE",
+    "website": null,
+    "location": "BRITT, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK VALUE ADDED",
+    "corp_number": "221596",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "WARREN COUNTY OIL COOPERATIVE ASSOCIATION",
+    "website": null,
+    "location": "INDIANOLA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "128102",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "BORDER COUNTY CO-OPERATIVE",
+    "website": null,
+    "location": "INWOOD, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "190699",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "IOWA CREDIT UNION FOUNDATION, INC",
+    "website": null,
+    "location": "WEST DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED DOMESTIC NON-PROFIT",
+    "corp_number": "183487",
+    "category_hint": "credit",
+    "needs_website": true
+  },
+  {
+    "name": "SOUTHWEST IOWA EGG COOPERATIVE.",
+    "website": null,
+    "location": "MASSENA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK VALUE ADDED",
+    "corp_number": "211544",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "DIANNE P. COOPER, P.C.",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFESSIONAL",
+    "corp_number": "170524",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "REALIFE COOPERATIVE OF DENISON",
+    "website": null,
+    "location": "DENISON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "146841",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "IOWA COOPERATIVE FOUNDATION",
+    "website": null,
+    "location": "AMES, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED DOMESTIC NON-PROFIT",
+    "corp_number": "116678",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "FREEBORN MOWER ELECTRIC COOPERATIVE",
+    "website": null,
+    "location": "ALBERT LEA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "118810",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "UPPER IOWA COOPERATIVE",
+    "website": null,
+    "location": "POSTVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "130103",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "NORTH WEST RURAL ELECTRIC COOPERATIVE",
+    "website": null,
+    "location": "ORANGE CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "211291",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER CONSULTING, INC.",
+    "website": null,
+    "location": "UNDERWOOD, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "148109",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "FARMERS COOPERATIVE LUMBER COMPANY",
+    "website": null,
+    "location": "ROCK VALLEY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "106784",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "SIOUX VALLEY SOUTHWESTERN ELECTRIC COOPERATIVE INC.",
+    "website": null,
+    "location": "COLMAN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "211111",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER JANITORIAL SERVICE INC.",
+    "website": null,
+    "location": "ELDRIDGE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "153948",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "EQUITY COOPERATIVE LIVESTOCK SALES ASSOCIATION",
+    "website": null,
+    "location": "BARABOO, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "141280",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "DAN COOPER BUILDERS, INC.",
+    "website": null,
+    "location": "EMMETSBBURG, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "157337",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "EAST-CENTRAL IOWA RURAL ELECTRIC COOPERATIVE",
+    "website": null,
+    "location": "URBANA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "186571",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERATIVE RESPONSE CENTER, INC.",
+    "website": null,
+    "location": "AUSTIN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "162133",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "BALSAM COOP.",
+    "website": null,
+    "location": "FAIRMONT, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK VALUE ADDED",
+    "corp_number": "216084",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "WESTERN IOWA POWER COOPERATIVE",
+    "website": null,
+    "location": "DENISON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "204945",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "AG VENTURES ALLIANCE COOPERATIVE",
+    "website": null,
+    "location": "MASON CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK VALUE ADDED",
+    "corp_number": "220346",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER SMITH & CO.",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "181986",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER CRAWFORD & ASSOCIATES, LLC",
+    "website": null,
+    "location": "WEST DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "275969",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "THE COOPERATIVE FINANCE ASSOCIATION, INC.",
+    "website": null,
+    "location": "KANSAS CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "278901",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "RV COOP",
+    "website": null,
+    "location": "ELDRIDGE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "276373",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CRAWFORD COOPER, INC.",
+    "website": null,
+    "location": "WEST DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "276206",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "TRI COUNTY STEER CARCASS FUTURITY COOPERATIVE",
+    "website": null,
+    "location": "LEWIS, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "246372",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "PRICEWATERHOUSECOOPERS LLP",
+    "website": null,
+    "location": "NEW YORK, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY PARTNERSHIP",
+    "corp_number": "277126",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "HEARTLAND PROPERTY COOP",
+    "website": null,
+    "location": "CLIVE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "255069",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "NATIONAL RURAL TELECOMMUNICATIONS COOPERATIVE",
+    "website": null,
+    "location": "HERNDON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "278381",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER PROPERTIES, L.C.",
+    "website": null,
+    "location": "CEDAR RAPIDS, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "248181",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SIOUXLAND ENERGY COOPERATIVE",
+    "website": null,
+    "location": "SIOUX CENTER, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK VALUE ADDED",
+    "corp_number": "243282",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "QUAD COUNTY CORN PROCESSORS COOPERATIVE",
+    "website": null,
+    "location": "GALVA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK VALUE ADDED",
+    "corp_number": "244440",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER REAL ESTATE, L.L.C.",
+    "website": null,
+    "location": "GRINNELL, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "231716",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "STARBURST FARMS COOPERATIVE",
+    "website": null,
+    "location": "FAIRMONT, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK VALUE ADDED",
+    "corp_number": "242828",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "BIG RIVER RESOURCES COOPERATIVE",
+    "website": null,
+    "location": "WEST BURLINGTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK VALUE ADDED",
+    "corp_number": "252265",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "FEDERATED RURAL ELECTRIC MANAGEMENT CORP.",
+    "website": null,
+    "location": "SHAWNEE, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED FOREIGN NON-PROFIT",
+    "corp_number": "232329",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "ALLIANCE COMMUNICATIONS COOPERATIVE, INC.",
+    "website": null,
+    "location": "GARRETSON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "270351",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "TERRIL TELEPHONE COOPERATIVE",
+    "website": null,
+    "location": "TERRIL, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "230410",
+    "category_hint": "telecom",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER FINANCIAL SERVICES, INC.",
+    "website": null,
+    "location": "CASCADE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "255052",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CEDAR RAPIDS/IOWA CITY LOCAL LABOR MANAGEMENT COOPERATION COMMITTEE, INC.",
+    "website": null,
+    "location": "CEDAR RAPIDS, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED DOMESTIC NON-PROFIT",
+    "corp_number": "268283",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "NE COOPERATIVE COMPANY",
+    "website": null,
+    "location": "CHARLES CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "286552",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "JOHNSON COOPERING, INC.",
+    "website": null,
+    "location": "CRESCENT, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "253577",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "FCS COOPERATIVE",
+    "website": null,
+    "location": "SIOUX CENTER, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "258902",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "UNITED PRODUCERS COOPERATIVE OF NORTH AMERICA, INC.",
+    "website": null,
+    "location": "COLUMBUS, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "248489",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "FARMFIRST DAIRY COOPERATIVE",
+    "website": null,
+    "location": "MADISON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "224741",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "FC COOP II",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "257182",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER'S CEDAR CREST, INC.",
+    "website": null,
+    "location": "CLEAR LAKE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "284986",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "IASE COOPERATIVE",
+    "website": null,
+    "location": "MONTICELLO, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "358670",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER ENTERPRISES, L.L.C.",
+    "website": null,
+    "location": "GRINNELL, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "342056",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "S. COOPER INVESTMENTS, INC.",
+    "website": null,
+    "location": "PLEASANT HILL, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "331697",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "INNOVATIVE AG SERVICES CO.",
+    "website": null,
+    "location": "MONTICELLO, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "312613",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERA CONSULTING, L.L.C.",
+    "website": null,
+    "location": "WEST DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "344710",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "FRESH CONNECTIONS COOPERATIVE",
+    "website": null,
+    "location": "ALGONA, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "349271",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "GRUNDY ELECTRIC COOPERATIVE, INC.",
+    "website": null,
+    "location": "TRENTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "351346",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "OCI COOPERATIVE COMPANY",
+    "website": null,
+    "location": "SIBLEY, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "321425",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER ASSET MANAGEMENT, INC.",
+    "website": null,
+    "location": "CEDAR RAPIDS, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "347944",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER SMITH HOLDINGS, LLC",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "331569",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER CARRY, INC.",
+    "website": null,
+    "location": "ATLANTA, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN PROFIT",
+    "corp_number": "364578",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER POWER SYSTEMS, LLC",
+    "website": null,
+    "location": "WAUKESHA, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "360325",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "COMMITTEE FOR A SUPER COOPER",
+    "website": null,
+    "location": "JEFFERSON, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED DOMESTIC NON-PROFIT",
+    "corp_number": "360276",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "AMERICAN PHARMACY COOPERATIVE, INC.",
+    "website": null,
+    "location": "BESSEMER, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "307090",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "TRIANGLE COOPERATIVE SERVICE COMPANY",
+    "website": null,
+    "location": "ENID, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "306062",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "THE HEARTLAND VOLUNTARY ADVERTISING GROUP COOPERATIVE",
+    "website": null,
+    "location": "OSAWATOMIE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "345061",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER HOLDINGS, RLLP",
+    "website": null,
+    "location": "MARION, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY PARTNERSHIP",
+    "corp_number": "318128",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "N.W. ELECTRIC POWER COOPERATIVE, INC.",
+    "website": null,
+    "location": "CAMERON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "351810",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER WOODWORKING LLC",
+    "website": null,
+    "location": "WINDSOR HEIGHTS, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "409108",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "LAKE COOPER MOTORSPORTS, INC.",
+    "website": null,
+    "location": "MONTROSE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "394541",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER TRUCKING, L.L.C.",
+    "website": null,
+    "location": "CORNING, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "412530",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "IOWA VALLEY FOOD COOPERATIVE",
+    "website": null,
+    "location": "AMANA, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "412737",
+    "category_hint": "food",
+    "needs_website": true
+  },
+  {
+    "name": "JEFF COOP CONSTRUCTION, LLP",
+    "website": null,
+    "location": "URBANDALE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY PARTNERSHIP",
+    "corp_number": "370296",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "RUTHVEN/PRO MERGER COOPERATIVE",
+    "website": null,
+    "location": "POCAHONTAS, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "373203",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "RIVERLOOP PUBLIC MARKET COOPERATIVE",
+    "website": null,
+    "location": "WATERLOO, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "404875",
+    "category_hint": "food",
+    "needs_website": true
+  },
+  {
+    "name": "UFMC COOPERATIVE II",
+    "website": null,
+    "location": "FORT DODGE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "403205",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "RURAL ELECTRIC SUPPLY COOPERATIVE",
+    "website": null,
+    "location": "MIDDLETON, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "406038",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "RACCOON VALLEY ELECTRIC COOPERATIVE",
+    "website": null,
+    "location": "GLIDDEN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "387630",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "D&S COOPER FARMS, LLC",
+    "website": null,
+    "location": "MONDAMIN, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "405925",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "KEN COOPER FARM LLC",
+    "website": null,
+    "location": "TITONKA, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "384798",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERSTOWN PROPERTIES, L.L.C.",
+    "website": null,
+    "location": "DAVENPORT, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "397074",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "DB COOPER PROPERTIES, LLC",
+    "website": null,
+    "location": "SIOUX CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "433499",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERATIVE REGIONS OF ORGANIC PRODUCER POOLS",
+    "website": null,
+    "location": "LA FARGE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "450494",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "WEST CENTRAL FS, INC. COOPERATIVE",
+    "website": null,
+    "location": "GALESBURG, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "439404",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER BUSSMANN, LLC",
+    "website": null,
+    "location": "ELLISVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "453152",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "AMERIQOIN COOPERATIVE",
+    "website": null,
+    "location": "ITHACA, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "462992",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "LAKE COOPER PERFORMANCE & POWER, INC.",
+    "website": null,
+    "location": "KEOKUK, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "437319",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "GENESYS GRAIN GENETICS COOPERATIVE",
+    "website": null,
+    "location": "NORMAL, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "460432",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "EMPLOYER HEALTH CARE ALLIANCE COOPERATIVE",
+    "website": null,
+    "location": "FITCHBURG, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "443646",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "MATTHEW COOPER, PSY.D., PLLC",
+    "website": null,
+    "location": "WEST DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFESSIONAL LIMITED LIABILITY COMPANY",
+    "corp_number": "465706",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER'S AUTO, LLC",
+    "website": null,
+    "location": "OSAGE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "467573",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "AURORA COOPERATIVE ELEVATOR COMPANY",
+    "website": null,
+    "location": "AURORA, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "428999",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "CENTRAL VALLEY AG COOPERTIVE",
+    "website": null,
+    "location": "YORK, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "499458",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "PRAIRIELAND FS, INC. COOPERATIVE",
+    "website": null,
+    "location": "JACKSONVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "501601",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ROOTED CARROT COOPERATIVE MARKET",
+    "website": null,
+    "location": "CEDAR FALLS, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "482449",
+    "category_hint": "food",
+    "needs_website": true
+  },
+  {
+    "name": "B. COOPER ENTERPRISES, INC.",
+    "website": null,
+    "location": "LE MARS, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "484944",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "C. J. COOPER & ASSOCIATES, INC.",
+    "website": null,
+    "location": "HIAWATHA, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "477050",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPMAN FAMILY INVESTMENTS COMPANY, LLC",
+    "website": null,
+    "location": "TREMONT, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "481557",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERATIVE BUILDING SOLUTIONS, LLC",
+    "website": null,
+    "location": "ST. LOUIS, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "511433",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COMMUNITY CHOICE CREDIT UNION FOUNDATION",
+    "website": null,
+    "location": "JOHNSTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED DOMESTIC NON-PROFIT",
+    "corp_number": "502148",
+    "category_hint": "credit",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER & COMPANY, LLC",
+    "website": null,
+    "location": "WATERLOO, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "477352",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SECOND STREET SENIOR CENTER",
+    "website": null,
+    "location": "DEWITT, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "480321",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "PRICEWATERHOUSECOOPERS ADVISORY SERVICES LLC",
+    "website": null,
+    "location": "NEW YORK, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "502885",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "LAKE COOPER FOUNDATION",
+    "website": null,
+    "location": "KEOKUK, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED DOMESTIC NON-PROFIT",
+    "corp_number": "480558",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER'S COLLISION, INC.",
+    "website": null,
+    "location": "FORT MADISON, IOWA,52627, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "553857",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "FW MERGER COOPERATIVE",
+    "website": null,
+    "location": "FREDERICKSBURG, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "560169",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "D & M COOPER, LLC",
+    "website": null,
+    "location": "EMMETSBURG, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "546121",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "JOURNEYS LEARNING COOPERATIVE",
+    "website": null,
+    "location": "WILLIAMSBURG, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "545790",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "WODA COOPER DEVELOPMENT, INC.",
+    "website": null,
+    "location": "COLUMBUS, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN PROFIT",
+    "corp_number": "557940",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "TEAM VICTORY COOPERATIVE",
+    "website": null,
+    "location": "CEDAR RAPIDS, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "531068",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERATIVE NETWORK SERVICES, LLC",
+    "website": null,
+    "location": "MENAHGA, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "556212",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "LAW OFFICE OF GRETCHEN A. COOPER, PLLC",
+    "website": null,
+    "location": "SIOUX CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "521865",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "HERE'S THE SCOOP, L.L.C.",
+    "website": null,
+    "location": "BETTENDORF, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "544231",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "NATIONAL INFORMATION SOLUTIONS COOPERATIVE, INC",
+    "website": null,
+    "location": "MANDAN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "527417",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ORGANIC PRODUCERS IOWA NEBRASKA SOUTH DAKOTA COOPERATIVE",
+    "website": null,
+    "location": "NORTH BEND, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "549393",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CREDIT UNION NATIONAL ASSOCIATION, INC.",
+    "website": null,
+    "location": "MADISON, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED FOREIGN NON-PROFIT",
+    "corp_number": "524705",
+    "category_hint": "credit",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERSURGICAL, INC.",
+    "website": null,
+    "location": "TRUMBULL, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN PROFIT",
+    "corp_number": "558499",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CORRIDOR TEMPORARY WORKERS COOPERATIVE",
+    "website": null,
+    "location": "CEDAR RAPIDS, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "547330",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "FIRST FEDERAL CREDIT UNION FOUNDATION",
+    "website": null,
+    "location": "HIAWATHA, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED DOMESTIC NON-PROFIT",
+    "corp_number": "565185",
+    "category_hint": "credit",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER CREEK KENNELS, LLC",
+    "website": null,
+    "location": "CENTERVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "577056",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "WAYNE COOPER CONSULTING, LLC",
+    "website": null,
+    "location": "GRINNELL, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "577035",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "MEADOWLAND COOPERATIVE",
+    "website": null,
+    "location": "PARKERSBURG, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "564627",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "LIVESTOCK COOPERATIVE",
+    "website": null,
+    "location": "OMAHA, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "564144",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "THE SHELL ROCK SCOOP LLC",
+    "website": null,
+    "location": "SHELL ROCK, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "581652",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "BLUE EARTH-NICOLLET-FARIBAULT COOPERATIVE ELECTRIC ASSOCIATION",
+    "website": null,
+    "location": "MANKATO, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "563734",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "WODA COOPER COMPANIES, INC.",
+    "website": null,
+    "location": "COLUMBUS, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN PROFIT",
+    "corp_number": "574932",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "NATIONAL BLOOD TESTING COOPERATIVE",
+    "website": null,
+    "location": "STONE MOUNTAIN, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "581965",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "DALE COOPER LLC",
+    "website": null,
+    "location": "FARMINGTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "574051",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "NEW CROSSROADS COOPERATIVE",
+    "website": null,
+    "location": "FORT DODGE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "594318",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "AAA COOPER TRANSPORTATION, INC.",
+    "website": null,
+    "location": "DOTHAN, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN PROFIT",
+    "corp_number": "595656",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CARL COOPER REAL ESTATE, LLC",
+    "website": null,
+    "location": "URBANDALE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "584949",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER HERITAGE FARMS, LLC",
+    "website": null,
+    "location": "AMES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "562957",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "MIDWEST PORK COOPERATIVE",
+    "website": null,
+    "location": "CISSNA PARK, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "599006",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "J. COOPER FARMS, L.L.C.",
+    "website": null,
+    "location": "PRESCOTT, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "562226",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "DOGGY'S DOO POOPER SCOOPER SERVICE, LLC",
+    "website": null,
+    "location": "MARION, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "583560",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "HEVENTEGRA COOPERATIVE",
+    "website": null,
+    "location": "CEDAR RAPIDS, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "570973",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "MID-IOWA MERGER COOPERATIVE",
+    "website": null,
+    "location": "BEAMAN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "596069",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "THE SCOOP FEED & SUPPLY, LLC",
+    "website": null,
+    "location": "WATERLOO, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "565372",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ENOVUS MANAGEMENT COOPERATIVE",
+    "website": null,
+    "location": "BOONE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "585235",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "IOWA INDUSTRIAL HEMP COOPERATIVE",
+    "website": null,
+    "location": "JOHNSTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "625380",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "WODA COOPER COMMUNITIES, LLC",
+    "website": null,
+    "location": "COLUMBUS, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "603967",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER PROPERTY MANAGEMENT LLC",
+    "website": null,
+    "location": "WEST BURLINGTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "612070",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER BUILDINGS AND LAND, LLC",
+    "website": null,
+    "location": "GRINNELL, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "629063",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "FROMM'S COOP LLC",
+    "website": null,
+    "location": "DECORAH, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "627093",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ELEVATE APPRAISAL COOP, LLC",
+    "website": null,
+    "location": "ROCK VALLEY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "621582",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "QCS PURCHASING COOPERATIVE",
+    "website": null,
+    "location": "LISLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "642398",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "WODA COOPER GENERAL PARTNER, LLC",
+    "website": null,
+    "location": "COLUMBUS, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "603966",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ERIC COOPER FARMS LLC",
+    "website": null,
+    "location": "KENSETT, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "635393",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "CENTRAL FARM SERVICE COOPERATIVE",
+    "website": null,
+    "location": "TRUMAN, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "612191",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "CHS COOPERATIVES",
+    "website": null,
+    "location": "INVER GROVE HEIGHTS, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "633503",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SCOOP N' LOOP, LLC",
+    "website": null,
+    "location": "ANKENY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "643371",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "HERE'S THE SCOOP II, LLC",
+    "website": null,
+    "location": "BETTENDORF, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "628038",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "EMPIRE COOPERATIVES, LLC",
+    "website": null,
+    "location": "BETTENDORF, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "610707",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "DARBIE LITTLE-COOPER, PLLC",
+    "website": null,
+    "location": "IOWA CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFESSIONAL LIMITED LIABILITY COMPANY",
+    "corp_number": "642908",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SUSTAINABILITY SOLUTIONS GROUP WORKERS COOPERATIVE",
+    "website": null,
+    "location": "TATAMAGOUCHE, NS, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN COOPERATIVE",
+    "corp_number": "667817",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "AGSTATE COOPERATIVE",
+    "website": null,
+    "location": "CHEROKEE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "663679",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER FIELDS LLC",
+    "website": null,
+    "location": "CENTERVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "650385",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COUSIN EDDIE'S POOPER SCOOPER LLC",
+    "website": null,
+    "location": "BONDURANT, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "663294",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "THE CREDIT UNION LOAN SOURCE LLC",
+    "website": null,
+    "location": "ALPHARETTA, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "662427",
+    "category_hint": "credit",
+    "needs_website": true
+  },
+  {
+    "name": "SCOOPS LLC",
+    "website": null,
+    "location": "UNDERWOOD, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "666824",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "OKOBOJI PIGEON COOP, L.L.C.",
+    "website": null,
+    "location": "OMAHA, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "668736",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SUPER SCOOPER LLC",
+    "website": null,
+    "location": "OMAHA, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "665603",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ALL GENERATIONS COOP, LCA",
+    "website": null,
+    "location": "JOHNSTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "668713",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "NATIONAL SUGAR MARKETING COOPERATIVE, INC.",
+    "website": null,
+    "location": "ATLANTA, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED FOREIGN NON-PROFIT",
+    "corp_number": "666672",
+    "category_hint": "food",
+    "needs_website": true
+  },
+  {
+    "name": "NEW MERGER COOPERATIVE",
+    "website": null,
+    "location": "FORT DODGE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "675309",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "THE STUART SCOOP, LLC",
+    "website": null,
+    "location": "STUART, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "699444",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "WODA COOPER COMMUNITIES II, LLC",
+    "website": null,
+    "location": "COLUMBUS, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "690572",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CHICAGO SCOOPS, LLC",
+    "website": null,
+    "location": "CHICAGO, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "693114",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER'S HAWK CLIVE, LLC",
+    "website": null,
+    "location": "DOWNERS GROVE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "699508",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER TRUCK & TRAILER, LLC",
+    "website": null,
+    "location": "EMERSON, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "688286",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOP GRAPHIC DESIGN LLC",
+    "website": null,
+    "location": "CARTER LAKE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "705855",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER'S PLACE III, LLC",
+    "website": null,
+    "location": "CENTRAL CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "693381",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOP ALE WORKS LLC",
+    "website": null,
+    "location": "OKLAHOMA CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "689785",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "JOSEPH COOPER ONE LLC",
+    "website": null,
+    "location": "BETTENDORF, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "700004",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER LAND, LLC",
+    "website": null,
+    "location": "AMES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "690068",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CLAUDETTE COOPER FARM, LLC",
+    "website": null,
+    "location": "STREAMBOAT SPRINGS, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "701782",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "COLE COOPER CREATIVE CO., LLC",
+    "website": null,
+    "location": "CEDAR RAPIDS, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "725313",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SCOOP CAPITAL LLC",
+    "website": null,
+    "location": "PLEASANT HILL, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "730555",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "EAGLE GROVE COOPERATIVE",
+    "website": null,
+    "location": "AMES, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "747017",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "LEGACY BEEF COOP",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "744464",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOP TECHNOLOGIES, INC.",
+    "website": null,
+    "location": "CORAL GABLES, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN PROFIT",
+    "corp_number": "740771",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERATIVE INVESTMENTS, LLC",
+    "website": null,
+    "location": "ANKENY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "732810",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ESTHERVILLE CO-OP, LLC",
+    "website": null,
+    "location": "ESTHERVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "720523",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "TWO SCOOPS, LLC",
+    "website": null,
+    "location": "ANAMOSA, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "732191",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER HEALTH EDUCATION AND CORPORATE CONSULTING, LLC",
+    "website": null,
+    "location": "NORTH LIBERTY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "723285",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "UDDERLY GREAT DOWNTOWN SCOOPS LLC",
+    "website": null,
+    "location": "WAUKEE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "731358",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SUPERIOR SCOOPS LLC",
+    "website": null,
+    "location": "KALONA, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "724143",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "FOUR SCOOPS & MORE, LLC",
+    "website": null,
+    "location": "COLESBURG, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "736379",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERVISION, INC.",
+    "website": null,
+    "location": "SAN RAMON, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN PROFIT",
+    "corp_number": "742542",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "DE SCOOP, INC.",
+    "website": null,
+    "location": "PELLA, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "742598",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "MICRO FARMS COOPERATIVE LLC",
+    "website": null,
+    "location": "CEDAR RAPIDS, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "726451",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER & CO., LLC",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "728944",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SMALL FARMERS ORGANIC FOODS COOP",
+    "website": null,
+    "location": "KALONA, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "721055",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER BLAZER INC.",
+    "website": null,
+    "location": "FORT LEE, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN PROFIT",
+    "corp_number": "763267",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER SEED SOLUTIONS, LLC",
+    "website": null,
+    "location": "LANSING, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "772083",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "THE POOP SCOOP TROOP, LLC",
+    "website": null,
+    "location": "CEDAR FALLS, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "749966",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "MERCEDES COOPER PHOTOGRAPHY LLC",
+    "website": null,
+    "location": "WATERLOO, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "770293",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "FARMER'S LAND INVESTMENT COOPERATIVE",
+    "website": null,
+    "location": "DECORAH, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "767362",
+    "category_hint": "agricultural",
+    "needs_website": true
+  },
+  {
+    "name": "NATIONAL CREDIT UNION INSURANCE ALLIANCE, LLC",
+    "website": null,
+    "location": "AMANA, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "755162",
+    "category_hint": "credit",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER EXCAVATING & SEPTIC, LLC",
+    "website": null,
+    "location": "MASON CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "748960",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COURTNEY'S COOP, LLC",
+    "website": null,
+    "location": "BONDURANT, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "753919",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER GUTTER, LLC",
+    "website": null,
+    "location": "COLUMBUS JUNCTION, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "753743",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "THE MAIN SCOOP LLC",
+    "website": null,
+    "location": "EAGLE GROVE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "751491",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER FLOOR COVERING LLC",
+    "website": null,
+    "location": "POCAHONTAS, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "769366",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOP ENTERPRISES, INC.",
+    "website": null,
+    "location": "GRIMES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "747228",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "UNITED SUGAR PRODUCERS AND REFINERS COOPERATIVE",
+    "website": null,
+    "location": "EDINA, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN COOPERATIVE",
+    "corp_number": "752764",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "TCOOP CONSULTING, L.L.C.",
+    "website": null,
+    "location": "WEST DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "779994",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SCOOP ME JAY LLC",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "784220",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "THE COOP & BREW, LLC",
+    "website": null,
+    "location": "MILFORD, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "796310",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SCOOP-ABOWL, LLC",
+    "website": null,
+    "location": "ELKADER, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "778364",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERCUTZ LLC",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "781944",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CHICKEN COOP REAL ESTATE LLC",
+    "website": null,
+    "location": "JOHNSTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "789406",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "D. COOPER WORKS,  LLC",
+    "website": null,
+    "location": "HONEY BROOK, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "775436",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SCOOPPET INC.",
+    "website": null,
+    "location": "ANKENY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "778320",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "PRINCE'S ROYAL SCOOP ICE CREAM & MORE, LLC",
+    "website": null,
+    "location": "TIFFIN, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "778509",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "GOLDFIELD COOPERATIVE",
+    "website": null,
+    "location": "EAGLE GROVE, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "789232",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ANAHATA WELLNESS CO-OP, L.L.C.",
+    "website": null,
+    "location": "CORALVILLE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "775623",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "RED SCOOP MANUFACTURING LLC",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "785980",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "HEALTH ACCESS COOPERATIVE",
+    "website": null,
+    "location": "JOHNSTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "797347",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "PAWSITIVE POOP & SCOOP, LLC",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "813566",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "THE LAW CO-OP, PLLC",
+    "website": null,
+    "location": "WEST DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFESSIONAL LIMITED LIABILITY COMPANY",
+    "corp_number": "803380",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "JEEJ FAMILY CREDIT UNION LLC",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "818960",
+    "category_hint": "credit",
+    "needs_website": true
+  },
+  {
+    "name": "SWOOPS 'N SCOOPS LLC",
+    "website": null,
+    "location": "WOODWARD, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "800099",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "KYLIES COOP LLC",
+    "website": null,
+    "location": "DAVENPORT, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "819832",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SCOOPS & CO., LLC",
+    "website": null,
+    "location": "CARROLL, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "810101",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SCOOPIE'S LLC",
+    "website": null,
+    "location": "BONDURANT, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "819436",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "REICKSVIEW COOPERATIVE",
+    "website": null,
+    "location": "LAWLER, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK VALUE ADDED",
+    "corp_number": "811489",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER COMMERCE LLC",
+    "website": null,
+    "location": "WATERLOO, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "805857",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "F.D. SCOOPS LLC",
+    "website": null,
+    "location": "FORT DODGE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "819290",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "NCGA DEVELOPMENT COOPERATIVE",
+    "website": null,
+    "location": "ST. PAUL, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "821368",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "STEVENS SCOOPING LLC",
+    "website": null,
+    "location": "STORY CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "829573",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "NLC SCOOPS LLC",
+    "website": null,
+    "location": "JOHNSTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "835356",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SCOOP TROOP LLC",
+    "website": null,
+    "location": "NORTH LIBERTY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "837738",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SIX SCOOP LLC",
+    "website": null,
+    "location": "WATERLOO, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "824461",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SCOOP SOLDIERS SERVICE COMPANY, LLC",
+    "website": null,
+    "location": "MCKINNEY, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "833000",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SCOOP N CLEAN LLC",
+    "website": null,
+    "location": "DAVENPORT, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "820943",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "KIRKWOOD CARE CO-OP LLC",
+    "website": null,
+    "location": "IOWA CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "833786",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "NATIONAL COOPERATIVE GROCERS ASSOCIATION",
+    "website": null,
+    "location": "ST. PAUL, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP STOCK",
+    "corp_number": "821291",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "STONE COOPER LLC",
+    "website": null,
+    "location": "CEDAR RAPIDS, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "836758",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "MIDWEST SCOOP SQUAD LLC",
+    "website": null,
+    "location": "ANKENY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "821599",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "HARMONIOUSCOOPERATION INC",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "821045",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ZAK COOPER PHOTOGRAPHY LLC",
+    "website": null,
+    "location": "IOWA CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "835071",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPER LAND CO., LLC",
+    "website": null,
+    "location": "WEST DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "833938",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SCOOPER SQUAD, LLC",
+    "website": null,
+    "location": "GRIMES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "823908",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SIOUX CITY LOCAL LABOR MANAGEMENT COOPERATION COMMITTEE",
+    "website": null,
+    "location": "SIOUX CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED DOMESTIC NON-PROFIT",
+    "corp_number": "832168",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SCOOP UP LLC",
+    "website": null,
+    "location": "IOWA CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "821531",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "SCOOP AND GO USA LLC",
+    "website": null,
+    "location": "SIOUX CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "825615",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "RIVERSIDE SCOOPS & SWEETS, LLC",
+    "website": null,
+    "location": "RIVERSIDE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "829503",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CORNING'S MAIN SCOOP LLC",
+    "website": null,
+    "location": "CORNING, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "821921",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "HERES THE SCOOP ICE CREAM SHOP LP",
+    "website": null,
+    "location": "GREENE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED PARTNERSHIP",
+    "corp_number": "825604",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "RUSTYS POOP SCOOPING LLC",
+    "website": null,
+    "location": "BURLINGTON, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "830588",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CORNERSTONE HOMESCHOOL CO-OP, LLC",
+    "website": null,
+    "location": "HUMBOLDT, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "839690",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "THE LEARNING COOP ACADEMY",
+    "website": null,
+    "location": "BLOOMFIELD, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED DOMESTIC NON-PROFIT",
+    "corp_number": "849288",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "DEE-LIGHTFUL SCOOPS LLC",
+    "website": null,
+    "location": "CEDAR RAPIDS, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "844957",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "BASIN ELECTRIC POWER COOPERATIVE",
+    "website": null,
+    "location": "BISMARCK, IA",
+    "source": "iowa_sos",
+    "corp_type": "CO-OP NON STOCK",
+    "corp_number": "843245",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "ENT CREDIT UNION",
+    "website": null,
+    "location": "COLORADO SPRINGS, IA",
+    "source": "iowa_sos",
+    "corp_type": "REVISED FOREIGN NON-PROFIT",
+    "corp_number": "844666",
+    "category_hint": "credit",
+    "needs_website": true
+  },
+  {
+    "name": "SCOOPS UDDER PLACE, LLC",
+    "website": null,
+    "location": "FORT DODGE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "844921",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "COOPERS CHRISTIANS KID ACADEMY, LLC",
+    "website": null,
+    "location": "BONDURANT, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "848826",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "JETSET SCOOP, INC.",
+    "website": null,
+    "location": "GRINNELL, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFIT",
+    "corp_number": "839583",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "E COOPER HOME CARE LLC",
+    "website": null,
+    "location": "WAUKEE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "839079",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "THE CORNER COOP LLC",
+    "website": null,
+    "location": "BETTENDORF, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "841524",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "BUILDERS COOPERATIVE LLC",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "852455",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "LETS GET TO SCOOPIN, LLC",
+    "website": null,
+    "location": "MELCHER, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "844457",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CALIHAN PROCESSING COOPERATIVE",
+    "website": null,
+    "location": "DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC COOPERATIVE",
+    "corp_number": "839592",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CHARLIE COOPER PLLC",
+    "website": null,
+    "location": "SIOUX CITY, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC PROFESSIONAL LIMITED LIABILITY COMPANY",
+    "corp_number": "852852",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "CHRIS COOPER FAMILY HANDYMAN LLC",
+    "website": null,
+    "location": "WEST DES MOINES, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "840184",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "A POOCH SCOOPS LLC",
+    "website": null,
+    "location": "DEWITT, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "839815",
+    "category_hint": "other",
+    "needs_website": true
+  },
+  {
+    "name": "ALLIANCE FOR COOPERATIVE ENERGY SERVICES POWER MARKETING LLC",
+    "website": null,
+    "location": "CARMEL, IA",
+    "source": "iowa_sos",
+    "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+    "corp_number": "839428",
+    "category_hint": "electric",
+    "needs_website": true
+  },
+  {
+    "name": "AM COOPER, PHD & ASSOCIATES LLC",
+    "website": null,
+    "location": "WAUKEE, IA",
+    "source": "iowa_sos",
+    "corp_type": "DOMESTIC LIMITED LIABILITY COMPANY",
+    "corp_number": "840160",
+    "category_hint": "other",
+    "needs_website": true
+  }
+]

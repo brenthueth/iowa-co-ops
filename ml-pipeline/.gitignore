@@ -12,3 +12,6 @@ __pycache__/
 # NCUA raw data files (large, can be re-downloaded)
 data/*.txt
 data/ncua_data.zip
+
+# Iowa SoS data (large, can be re-downloaded from data.iowa.gov)
+data/iowa_business_entities.csv
