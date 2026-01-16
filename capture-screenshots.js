@@ -84,8 +84,6 @@ const cooperatives = [
     { id: 78, name: "Frontier Co-op", website: "https://www.frontiercoop.com/" },
     { id: 79, name: "Morning Bell Coffee", website: "https://morningbellcoffee.com/" },
     { id: 80, name: "River City Housing", website: "https://rchc.coop/" },
-    { id: 81, name: "Prairie Hill Co-Housing", website: "https://www.prairiehillcohousing.org/" },
-    { id: 82, name: "Vintage Cooperative", website: "https://www.ewingdevelopment.com/cooperatives" },
     { id: 83, name: "Brown Deer Cooperative", website: "https://www.browndeercooperative.com" },
     { id: 84, name: "Cooperative Energy Co.", website: "http://www.coopenergyco.com/" },
     { id: 85, name: "Hancock County Co-op Oil", website: "https://www.hancockcountycoop.com/" },
