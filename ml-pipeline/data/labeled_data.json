@@ -2,10 +2,10 @@
   "metadata": {
     "description": "Labeled data for Iowa cooperative discovery pipeline",
     "created": "2024-01-16",
-    "last_updated": "2026-01-16T12:29:09.893065"
+    "last_updated": "2026-01-16T12:46:01.276942"
   },
   "stats": {
-    "total_verified": 453,
+    "total_verified": 428,
     "total_rejected": 1,
     "total_reviewed": 50,
     "precision_history": [
@@ -752,7 +752,7 @@
       "location": "Ames, IA",
       "type": "Worker-Owned",
       "website": "https://morningbellcoffee.com/",
-      "category": "worker",
+      "category": "other",
       "source": "iowa_institute"
     },
     {
@@ -761,7 +761,7 @@
       "location": "Iowa City, IA",
       "type": "Housing",
       "website": "https://rchc.coop/",
-      "category": "housing",
+      "category": "other",
       "source": "iowa_institute"
     },
     {
@@ -770,7 +770,7 @@
       "location": "Coralville, IA",
       "type": "Housing",
       "website": "https://www.browndeercooperative.com",
-      "category": "housing",
+      "category": "other",
       "source": "iowa_institute"
     },
     {
@@ -1309,20 +1309,9 @@
       "similarity_score": 0.28774815797805786
     },
     {
-      "id": 138,
-      "name": "STAGE DOOR CINEMA, CP",
-      "category": "other",
-      "website": null,
-      "location": "FAIRFIELD, IA",
-      "verified_date": "2026-01-16T12:25:57.678995",
-      "source": "iowa_sos",
-      "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "414634"
-    },
-    {
       "id": 139,
       "name": "LINK PURCHASING COOPERATIVE",
-      "category": "other",
+      "category": "purchasing",
       "website": null,
       "location": "Iowa",
       "verified_date": "2026-01-16T12:25:57.679014",
@@ -1340,17 +1329,6 @@
       "source": "iowa_sos",
       "corp_type": "REVISED DOMESTIC NON-PROFIT",
       "corp_number": "059137"
-    },
-    {
-      "id": 141,
-      "name": "NUWAY-K&H COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "TRIMONT, IA",
-      "verified_date": "2026-01-16T12:25:57.679021",
-      "source": "iowa_sos",
-      "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "053605"
     },
     {
       "id": 142,
@@ -1410,7 +1388,7 @@
     {
       "id": 147,
       "name": "ASSOCIATED MILK PRODUCERS, INC.",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "NEW ULM, IA",
       "verified_date": "2026-01-16T12:25:57.679034",
@@ -1432,7 +1410,7 @@
     {
       "id": 149,
       "name": "COMMUNITY OIL COMPANY, A COOPERATIVE",
-      "category": "other",
+      "category": "energy",
       "website": null,
       "location": "ROCK VALLEY, IA",
       "verified_date": "2026-01-16T12:25:57.679039",
@@ -1575,7 +1553,7 @@
     {
       "id": 162,
       "name": "SIOUX HONEY ASSOCIATION, COOPERATIVE",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "SIOUX CITY, IA",
       "verified_date": "2026-01-16T12:25:57.679063",
@@ -1608,7 +1586,7 @@
     {
       "id": 165,
       "name": "HANCOCK COUNTY COOPERATIVE OIL ASSOCIATION",
-      "category": "other",
+      "category": "energy",
       "website": null,
       "location": "GARNER, IA",
       "verified_date": "2026-01-16T12:25:57.679070",
@@ -1663,7 +1641,7 @@
     {
       "id": 170,
       "name": "PRAIRIE AG COOPERATIVE",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "MT UNION, IA",
       "verified_date": "2026-01-16T12:25:57.679081",
@@ -1674,7 +1652,7 @@
     {
       "id": 171,
       "name": "ONEOTA COMMUNITY COOPERATIVE",
-      "category": "other",
+      "category": "food",
       "website": null,
       "location": "DECORAH, IA",
       "verified_date": "2026-01-16T12:25:57.679084",
@@ -1685,7 +1663,7 @@
     {
       "id": 172,
       "name": "NEW PIONEER'S COOPERATIVE SOCIETY",
-      "category": "other",
+      "category": "food",
       "website": null,
       "location": "IOWA CITY, IA",
       "verified_date": "2026-01-16T12:25:57.679087",
@@ -1740,7 +1718,7 @@
     {
       "id": 177,
       "name": "PRODUCERS COOPERATIVE COMPANY",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "GAZA, IA",
       "verified_date": "2026-01-16T12:25:57.679096",
@@ -1780,17 +1758,6 @@
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
       "corp_number": "054045"
-    },
-    {
-      "id": 181,
-      "name": "FRONTIER COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "NORWAY, IA",
-      "verified_date": "2026-01-16T12:25:57.679104",
-      "source": "iowa_sos",
-      "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "054019"
     },
     {
       "id": 182,
@@ -1839,7 +1806,7 @@
     {
       "id": 186,
       "name": "COOPERATIVE ENERGY COMPANY",
-      "category": "other",
+      "category": "energy",
       "website": null,
       "location": "SIBLEY, IA",
       "verified_date": "2026-01-16T12:25:57.679113",
@@ -1894,24 +1861,13 @@
     {
       "id": 191,
       "name": "CONSUMERS ENERGY COOPERATIVE",
-      "category": "other",
+      "category": "energy",
       "website": null,
       "location": "MARSHALLTOWN, IA",
       "verified_date": "2026-01-16T12:25:57.679127",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
       "corp_number": "054071"
-    },
-    {
-      "id": 192,
-      "name": "THE CONSUMERS COOPERATIVE SOCIETY",
-      "category": "other",
-      "website": null,
-      "location": "CORALVILLE, IA",
-      "verified_date": "2026-01-16T12:25:57.679131",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "053953"
     },
     {
       "id": 193,
@@ -1938,7 +1894,7 @@
     {
       "id": 195,
       "name": "CO-OP OIL COMPANY",
-      "category": "other",
+      "category": "energy",
       "website": null,
       "location": "NEW VIENNA, IA",
       "verified_date": "2026-01-16T12:25:57.679137",
@@ -2090,37 +2046,15 @@
       "corp_number": "053993"
     },
     {
-      "id": 209,
-      "name": "FIRST COOPERATIVE ASSOCIATION",
-      "category": "other",
-      "website": null,
-      "location": "CHEROKEE, IA",
-      "verified_date": "2026-01-16T12:25:57.679164",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "053731"
-    },
-    {
       "id": 210,
       "name": "AG PROCESSING INC A COOPERATIVE",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "OMAHA, IA",
       "verified_date": "2026-01-16T12:25:57.679167",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
       "corp_number": "053637"
-    },
-    {
-      "id": 211,
-      "name": "FRYTOWN WATER CO-OPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "KALONA, IA",
-      "verified_date": "2026-01-16T12:25:57.679169",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054020"
     },
     {
       "id": 212,
@@ -2158,7 +2092,7 @@
     {
       "id": 215,
       "name": "MFA INCORPORATED",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "COLUMBIA, IA",
       "verified_date": "2026-01-16T12:25:57.679177",
@@ -2169,7 +2103,7 @@
     {
       "id": 216,
       "name": "LAND O'LAKES, INC.",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "ARDEN HILLS, IA",
       "verified_date": "2026-01-16T12:25:57.679180",
@@ -2200,31 +2134,9 @@
       "corp_number": "053593"
     },
     {
-      "id": 219,
-      "name": "ASPINWALL COOPERATIVE CO.",
-      "category": "other",
-      "website": null,
-      "location": "ASPINWALL, IA",
-      "verified_date": "2026-01-16T12:25:57.679186",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "053628"
-    },
-    {
-      "id": 220,
-      "name": "TAMA-BENTON COOPERATIVE COMPANY",
-      "category": "other",
-      "website": null,
-      "location": "DYSART, IA",
-      "verified_date": "2026-01-16T12:25:57.679189",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "053893"
-    },
-    {
       "id": 221,
       "name": "GROWMARK, INC.",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "BLOOMINGTON, IA",
       "verified_date": "2026-01-16T12:25:57.679192",
@@ -2345,7 +2257,7 @@
     {
       "id": 232,
       "name": "COOPERATIVE GAS AND OIL COMPANY",
-      "category": "other",
+      "category": "energy",
       "website": null,
       "location": "SIOUX CENTER, IA",
       "verified_date": "2026-01-16T12:25:57.679211",
@@ -2389,7 +2301,7 @@
     {
       "id": 236,
       "name": "LINN COOPERATIVE OIL COMPANY",
-      "category": "other",
+      "category": "energy",
       "website": null,
       "location": "MARION, IA",
       "verified_date": "2026-01-16T12:25:57.679219",
@@ -2466,7 +2378,7 @@
     {
       "id": 243,
       "name": "RUTHVEN COOPERATIVE OIL COMPANY",
-      "category": "other",
+      "category": "energy",
       "website": null,
       "location": "RUTHVEN, IA",
       "verified_date": "2026-01-16T12:25:57.679232",
@@ -2477,7 +2389,7 @@
     {
       "id": 244,
       "name": "W & H COOPERATIVE OIL COMPANY",
-      "category": "other",
+      "category": "energy",
       "website": null,
       "location": "HUMBOLDT, IA",
       "verified_date": "2026-01-16T12:25:57.679234",
@@ -2497,17 +2409,6 @@
       "corp_number": "053843"
     },
     {
-      "id": 246,
-      "name": "L. C. CO-OPERATIVE, INC.",
-      "category": "other",
-      "website": null,
-      "location": "FORT MADISON, IA",
-      "verified_date": "2026-01-16T12:25:57.679238",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "053820"
-    },
-    {
       "id": 247,
       "name": "HARRISON COUNTY RURAL ELECTRIC COOPERATIVE",
       "category": "electric",
@@ -2517,17 +2418,6 @@
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
       "corp_number": "054030"
-    },
-    {
-      "id": 248,
-      "name": "BUCKINGHAM CO-OPERATIVE CO.",
-      "category": "other",
-      "website": null,
-      "location": "BUCKINGHAM, IA",
-      "verified_date": "2026-01-16T12:25:57.679242",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "124323"
     },
     {
       "id": 249,
@@ -2618,17 +2508,6 @@
       "corp_number": "054007"
     },
     {
-      "id": 257,
-      "name": "MUSCATINE ISLAND COOPERATIVE ASSOCIATION",
-      "category": "other",
-      "website": null,
-      "location": "MUSCATINE, IA",
-      "verified_date": "2026-01-16T12:25:57.679258",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054080"
-    },
-    {
       "id": 258,
       "name": "CLAYTON COUNTY COOPERATIVE DAIRY HERD IMPROVEMENT ASSOCIATION, INC.",
       "category": "agricultural",
@@ -2675,7 +2554,7 @@
     {
       "id": 262,
       "name": "MFA OIL COMPANY",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "COLUMBIA, IA",
       "verified_date": "2026-01-16T12:25:57.679268",
@@ -2750,17 +2629,6 @@
       "corp_number": "053966"
     },
     {
-      "id": 269,
-      "name": "HULL COOPERATIVE ASSOCIATION",
-      "category": "other",
-      "website": null,
-      "location": "HULL, IA",
-      "verified_date": "2026-01-16T12:25:57.679280",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "053985"
-    },
-    {
       "id": 270,
       "name": "PRAIRIE FARMS DAIRY, INC.",
       "category": "agricultural",
@@ -2770,17 +2638,6 @@
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
       "corp_number": "053868"
-    },
-    {
-      "id": 271,
-      "name": "ASIAN IOWAN COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "DES MOINES, IA",
-      "verified_date": "2026-01-16T12:25:57.679286",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "053627"
     },
     {
       "id": 272,
@@ -2807,7 +2664,7 @@
     {
       "id": 274,
       "name": "IOWA TURKEY GROWERS COOPERATIVE",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "WEST LIBERTY, IA",
       "verified_date": "2026-01-16T12:25:57.679292",
@@ -2827,37 +2684,15 @@
       "corp_number": "122059"
     },
     {
-      "id": 276,
-      "name": "NEW HORIZON COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "BRITT, IA",
-      "verified_date": "2026-01-16T12:25:57.679296",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK VALUE ADDED",
-      "corp_number": "221596"
-    },
-    {
       "id": 277,
       "name": "WARREN COUNTY OIL COOPERATIVE ASSOCIATION",
-      "category": "other",
+      "category": "energy",
       "website": null,
       "location": "INDIANOLA, IA",
       "verified_date": "2026-01-16T12:25:57.679299",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
       "corp_number": "128102"
-    },
-    {
-      "id": 278,
-      "name": "BORDER COUNTY CO-OPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "INWOOD, IA",
-      "verified_date": "2026-01-16T12:25:57.679301",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "190699"
     },
     {
       "id": 279,
@@ -2873,24 +2708,13 @@
     {
       "id": 280,
       "name": "SOUTHWEST IOWA EGG COOPERATIVE.",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "MASSENA, IA",
       "verified_date": "2026-01-16T12:25:57.679306",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK VALUE ADDED",
       "corp_number": "211544"
-    },
-    {
-      "id": 281,
-      "name": "REALIFE COOPERATIVE OF DENISON",
-      "category": "other",
-      "website": null,
-      "location": "DENISON, IA",
-      "verified_date": "2026-01-16T12:25:57.679308",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "146841"
     },
     {
       "id": 282,
@@ -2902,17 +2726,6 @@
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
       "corp_number": "118810"
-    },
-    {
-      "id": 283,
-      "name": "UPPER IOWA COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "POSTVILLE, IA",
-      "verified_date": "2026-01-16T12:25:57.679312",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "130103"
     },
     {
       "id": 284,
@@ -2972,24 +2785,13 @@
     {
       "id": 289,
       "name": "COOPERATIVE RESPONSE CENTER, INC.",
-      "category": "other",
+      "category": "purchasing",
       "website": null,
       "location": "AUSTIN, IA",
       "verified_date": "2026-01-16T12:25:57.679324",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
       "corp_number": "162133"
-    },
-    {
-      "id": 290,
-      "name": "BALSAM COOP.",
-      "category": "other",
-      "website": null,
-      "location": "FAIRMONT, IA",
-      "verified_date": "2026-01-16T12:25:57.679326",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK VALUE ADDED",
-      "corp_number": "216084"
     },
     {
       "id": 291,
@@ -3005,7 +2807,7 @@
     {
       "id": 292,
       "name": "AG VENTURES ALLIANCE COOPERATIVE",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "MASON CITY, IA",
       "verified_date": "2026-01-16T12:25:57.679332",
@@ -3016,7 +2818,7 @@
     {
       "id": 293,
       "name": "THE COOPERATIVE FINANCE ASSOCIATION, INC.",
-      "category": "other",
+      "category": "purchasing",
       "website": null,
       "location": "KANSAS CITY, IA",
       "verified_date": "2026-01-16T12:25:57.679335",
@@ -3025,37 +2827,15 @@
       "corp_number": "278901"
     },
     {
-      "id": 294,
-      "name": "RV COOP",
-      "category": "other",
-      "website": null,
-      "location": "ELDRIDGE, IA",
-      "verified_date": "2026-01-16T12:25:57.679337",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "276373"
-    },
-    {
       "id": 295,
       "name": "TRI COUNTY STEER CARCASS FUTURITY COOPERATIVE",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "LEWIS, IA",
       "verified_date": "2026-01-16T12:25:57.679340",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
       "corp_number": "246372"
-    },
-    {
-      "id": 296,
-      "name": "HEARTLAND PROPERTY COOP",
-      "category": "other",
-      "website": null,
-      "location": "CLIVE, IA",
-      "verified_date": "2026-01-16T12:25:57.679343",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "255069"
     },
     {
       "id": 297,
@@ -3071,7 +2851,7 @@
     {
       "id": 298,
       "name": "SIOUXLAND ENERGY COOPERATIVE",
-      "category": "other",
+      "category": "energy",
       "website": null,
       "location": "SIOUX CENTER, IA",
       "verified_date": "2026-01-16T12:25:57.679347",
@@ -3082,7 +2862,7 @@
     {
       "id": 299,
       "name": "QUAD COUNTY CORN PROCESSORS COOPERATIVE",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "GALVA, IA",
       "verified_date": "2026-01-16T12:25:57.679350",
@@ -3100,17 +2880,6 @@
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK VALUE ADDED",
       "corp_number": "242828"
-    },
-    {
-      "id": 301,
-      "name": "BIG RIVER RESOURCES COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "WEST BURLINGTON, IA",
-      "verified_date": "2026-01-16T12:25:57.679354",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK VALUE ADDED",
-      "corp_number": "252265"
     },
     {
       "id": 302,
@@ -3146,31 +2915,9 @@
       "corp_number": "230410"
     },
     {
-      "id": 305,
-      "name": "NE COOPERATIVE COMPANY",
-      "category": "other",
-      "website": null,
-      "location": "CHARLES CITY, IA",
-      "verified_date": "2026-01-16T12:25:57.679498",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "286552"
-    },
-    {
-      "id": 306,
-      "name": "FCS COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "SIOUX CENTER, IA",
-      "verified_date": "2026-01-16T12:25:57.679500",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "258902"
-    },
-    {
       "id": 307,
       "name": "UNITED PRODUCERS COOPERATIVE OF NORTH AMERICA, INC.",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "COLUMBUS, IA",
       "verified_date": "2026-01-16T12:25:57.679503",
@@ -3190,48 +2937,15 @@
       "corp_number": "224741"
     },
     {
-      "id": 309,
-      "name": "FC COOP II",
-      "category": "other",
-      "website": null,
-      "location": "DES MOINES, IA",
-      "verified_date": "2026-01-16T12:25:57.679508",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "257182"
-    },
-    {
-      "id": 310,
-      "name": "IASE COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "MONTICELLO, IA",
-      "verified_date": "2026-01-16T12:25:57.679515",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "358670"
-    },
-    {
       "id": 311,
       "name": "INNOVATIVE AG SERVICES CO.",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "MONTICELLO, IA",
       "verified_date": "2026-01-16T12:25:57.679518",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
       "corp_number": "312613"
-    },
-    {
-      "id": 312,
-      "name": "FRESH CONNECTIONS COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "ALGONA, IA",
-      "verified_date": "2026-01-16T12:25:57.679521",
-      "source": "iowa_sos",
-      "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "349271"
     },
     {
       "id": 313,
@@ -3245,17 +2959,6 @@
       "corp_number": "351346"
     },
     {
-      "id": 314,
-      "name": "OCI COOPERATIVE COMPANY",
-      "category": "other",
-      "website": null,
-      "location": "SIBLEY, IA",
-      "verified_date": "2026-01-16T12:25:57.679525",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "321425"
-    },
-    {
       "id": 315,
       "name": "AMERICAN PHARMACY COOPERATIVE, INC.",
       "category": "other",
@@ -3267,20 +2970,9 @@
       "corp_number": "307090"
     },
     {
-      "id": 316,
-      "name": "TRIANGLE COOPERATIVE SERVICE COMPANY",
-      "category": "other",
-      "website": null,
-      "location": "ENID, IA",
-      "verified_date": "2026-01-16T12:25:57.679530",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "306062"
-    },
-    {
       "id": 317,
       "name": "THE HEARTLAND VOLUNTARY ADVERTISING GROUP COOPERATIVE",
-      "category": "other",
+      "category": "purchasing",
       "website": null,
       "location": "OSAWATOMIE, IA",
       "verified_date": "2026-01-16T12:25:57.679533",
@@ -3311,17 +3003,6 @@
       "corp_number": "412737"
     },
     {
-      "id": 320,
-      "name": "RUTHVEN/PRO MERGER COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "POCAHONTAS, IA",
-      "verified_date": "2026-01-16T12:25:57.679539",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "373203"
-    },
-    {
       "id": 321,
       "name": "RIVERLOOP PUBLIC MARKET COOPERATIVE",
       "category": "food",
@@ -3331,17 +3012,6 @@
       "source": "iowa_sos",
       "corp_type": "DOMESTIC COOPERATIVE",
       "corp_number": "404875"
-    },
-    {
-      "id": 322,
-      "name": "UFMC COOPERATIVE II",
-      "category": "other",
-      "website": null,
-      "location": "FORT DODGE, IA",
-      "verified_date": "2026-01-16T12:25:57.679544",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "403205"
     },
     {
       "id": 323,
@@ -3368,7 +3038,7 @@
     {
       "id": 325,
       "name": "COOPERATIVE REGIONS OF ORGANIC PRODUCER POOLS",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "LA FARGE, IA",
       "verified_date": "2026-01-16T12:25:57.679550",
@@ -3379,24 +3049,13 @@
     {
       "id": 326,
       "name": "WEST CENTRAL FS, INC. COOPERATIVE",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "GALESBURG, IA",
       "verified_date": "2026-01-16T12:25:57.679552",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
       "corp_number": "439404"
-    },
-    {
-      "id": 327,
-      "name": "AMERIQOIN COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "ITHACA, IA",
-      "verified_date": "2026-01-16T12:25:57.679555",
-      "source": "iowa_sos",
-      "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "462992"
     },
     {
       "id": 328,
@@ -3434,7 +3093,7 @@
     {
       "id": 331,
       "name": "CENTRAL VALLEY AG COOPERTIVE",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "YORK, IA",
       "verified_date": "2026-01-16T12:25:57.679564",
@@ -3445,7 +3104,7 @@
     {
       "id": 332,
       "name": "PRAIRIELAND FS, INC. COOPERATIVE",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "JACKSONVILLE, IA",
       "verified_date": "2026-01-16T12:25:57.679566",
@@ -3476,53 +3135,9 @@
       "corp_number": "502148"
     },
     {
-      "id": 335,
-      "name": "SECOND STREET SENIOR CENTER",
-      "category": "other",
-      "website": null,
-      "location": "DEWITT, IA",
-      "verified_date": "2026-01-16T12:25:57.679573",
-      "source": "iowa_sos",
-      "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "480321"
-    },
-    {
-      "id": 336,
-      "name": "FW MERGER COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "FREDERICKSBURG, IA",
-      "verified_date": "2026-01-16T12:25:57.679576",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "560169"
-    },
-    {
-      "id": 337,
-      "name": "JOURNEYS LEARNING COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "WILLIAMSBURG, IA",
-      "verified_date": "2026-01-16T12:25:57.679578",
-      "source": "iowa_sos",
-      "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "545790"
-    },
-    {
-      "id": 338,
-      "name": "TEAM VICTORY COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "CEDAR RAPIDS, IA",
-      "verified_date": "2026-01-16T12:25:57.679580",
-      "source": "iowa_sos",
-      "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "531068"
-    },
-    {
       "id": 339,
       "name": "NATIONAL INFORMATION SOLUTIONS COOPERATIVE, INC",
-      "category": "other",
+      "category": "purchasing",
       "website": null,
       "location": "MANDAN, IA",
       "verified_date": "2026-01-16T12:25:57.679583",
@@ -3533,7 +3148,7 @@
     {
       "id": 340,
       "name": "ORGANIC PRODUCERS IOWA NEBRASKA SOUTH DAKOTA COOPERATIVE",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "NORTH BEND, IA",
       "verified_date": "2026-01-16T12:25:57.679586",
@@ -3553,17 +3168,6 @@
       "corp_number": "524705"
     },
     {
-      "id": 342,
-      "name": "CORRIDOR TEMPORARY WORKERS COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "CEDAR RAPIDS, IA",
-      "verified_date": "2026-01-16T12:25:57.679591",
-      "source": "iowa_sos",
-      "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "547330"
-    },
-    {
       "id": 343,
       "name": "FIRST FEDERAL CREDIT UNION FOUNDATION",
       "category": "credit",
@@ -3573,17 +3177,6 @@
       "source": "iowa_sos",
       "corp_type": "REVISED DOMESTIC NON-PROFIT",
       "corp_number": "565185"
-    },
-    {
-      "id": 344,
-      "name": "MEADOWLAND COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "PARKERSBURG, IA",
-      "verified_date": "2026-01-16T12:25:57.679595",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "564627"
     },
     {
       "id": 345,
@@ -3619,20 +3212,9 @@
       "corp_number": "581965"
     },
     {
-      "id": 348,
-      "name": "NEW CROSSROADS COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "FORT DODGE, IA",
-      "verified_date": "2026-01-16T12:25:57.679606",
-      "source": "iowa_sos",
-      "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "594318"
-    },
-    {
       "id": 349,
       "name": "MIDWEST PORK COOPERATIVE",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "CISSNA PARK, IA",
       "verified_date": "2026-01-16T12:25:57.679608",
@@ -3641,42 +3223,9 @@
       "corp_number": "599006"
     },
     {
-      "id": 350,
-      "name": "HEVENTEGRA COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "CEDAR RAPIDS, IA",
-      "verified_date": "2026-01-16T12:25:57.679611",
-      "source": "iowa_sos",
-      "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "570973"
-    },
-    {
-      "id": 351,
-      "name": "MID-IOWA MERGER COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "BEAMAN, IA",
-      "verified_date": "2026-01-16T12:25:57.679613",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "596069"
-    },
-    {
-      "id": 352,
-      "name": "ENOVUS MANAGEMENT COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "BOONE, IA",
-      "verified_date": "2026-01-16T12:25:57.679616",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "585235"
-    },
-    {
       "id": 353,
       "name": "IOWA INDUSTRIAL HEMP COOPERATIVE",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "JOHNSTON, IA",
       "verified_date": "2026-01-16T12:25:57.679618",
@@ -3687,7 +3236,7 @@
     {
       "id": 354,
       "name": "QCS PURCHASING COOPERATIVE",
-      "category": "other",
+      "category": "purchasing",
       "website": null,
       "location": "LISLE, IA",
       "verified_date": "2026-01-16T12:25:57.679620",
@@ -3709,24 +3258,13 @@
     {
       "id": 356,
       "name": "CHS COOPERATIVES",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "INVER GROVE HEIGHTS, IA",
       "verified_date": "2026-01-16T12:25:57.679625",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
       "corp_number": "633503"
-    },
-    {
-      "id": 357,
-      "name": "AGSTATE COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "CHEROKEE, IA",
-      "verified_date": "2026-01-16T12:25:57.679628",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "663679"
     },
     {
       "id": 358,
@@ -3740,42 +3278,9 @@
       "corp_number": "662427"
     },
     {
-      "id": 359,
-      "name": "ALL GENERATIONS COOP, LCA",
-      "category": "other",
-      "website": null,
-      "location": "JOHNSTON, IA",
-      "verified_date": "2026-01-16T12:25:57.679632",
-      "source": "iowa_sos",
-      "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "668713"
-    },
-    {
-      "id": 360,
-      "name": "NEW MERGER COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "FORT DODGE, IA",
-      "verified_date": "2026-01-16T12:25:57.679634",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "675309"
-    },
-    {
-      "id": 361,
-      "name": "EAGLE GROVE COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "AMES, IA",
-      "verified_date": "2026-01-16T12:25:57.679637",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "747017"
-    },
-    {
       "id": 362,
       "name": "LEGACY BEEF COOP",
-      "category": "other",
+      "category": "agricultural",
       "website": null,
       "location": "DES MOINES, IA",
       "verified_date": "2026-01-16T12:25:57.679639",
@@ -3817,17 +3322,6 @@
       "corp_number": "755162"
     },
     {
-      "id": 366,
-      "name": "GOLDFIELD COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "EAGLE GROVE, IA",
-      "verified_date": "2026-01-16T12:25:57.679647",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "789232"
-    },
-    {
       "id": 367,
       "name": "HEALTH ACCESS COOPERATIVE",
       "category": "other",
@@ -3850,31 +3344,9 @@
       "corp_number": "818960"
     },
     {
-      "id": 369,
-      "name": "REICKSVIEW COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "LAWLER, IA",
-      "verified_date": "2026-01-16T12:25:57.679653",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK VALUE ADDED",
-      "corp_number": "811489"
-    },
-    {
-      "id": 370,
-      "name": "NCGA DEVELOPMENT COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "ST. PAUL, IA",
-      "verified_date": "2026-01-16T12:25:57.679656",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "821368"
-    },
-    {
       "id": 371,
       "name": "NATIONAL COOPERATIVE GROCERS ASSOCIATION",
-      "category": "other",
+      "category": "food",
       "website": null,
       "location": "ST. PAUL, IA",
       "verified_date": "2026-01-16T12:25:57.679658",
@@ -3903,17 +3375,6 @@
       "source": "iowa_sos",
       "corp_type": "REVISED FOREIGN NON-PROFIT",
       "corp_number": "844666"
-    },
-    {
-      "id": 374,
-      "name": "CALIHAN PROCESSING COOPERATIVE",
-      "category": "other",
-      "website": null,
-      "location": "DES MOINES, IA",
-      "verified_date": "2026-01-16T12:25:57.679664",
-      "source": "iowa_sos",
-      "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "839592"
     },
     {
       "id": 375,
@@ -4724,6 +4185,270 @@
       "verified_date": "2026-01-16T12:29:09.893060",
       "source": "iowa_sos",
       "corp_number": "851863"
+    },
+    {
+      "id": 456,
+      "name": "AGSTATE COOPERATIVE",
+      "category": "agricultural",
+      "website": null,
+      "location": "CHEROKEE, IA",
+      "verified_date": "2026-01-16T12:41:34.436248",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "663679"
+    },
+    {
+      "id": 457,
+      "name": "BALSAM COOP.",
+      "category": "agricultural",
+      "website": null,
+      "location": "FAIRMONT, IA",
+      "verified_date": "2026-01-16T12:41:34.436265",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK VALUE ADDED",
+      "corp_number": "216084"
+    },
+    {
+      "id": 458,
+      "name": "BORDER COUNTY CO-OPERATIVE",
+      "category": "agricultural",
+      "website": null,
+      "location": "INWOOD, IA",
+      "verified_date": "2026-01-16T12:41:34.436270",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "190699"
+    },
+    {
+      "id": 459,
+      "name": "FIRST COOPERATIVE ASSOCIATION",
+      "category": "agricultural",
+      "website": null,
+      "location": "CHEROKEE, IA",
+      "verified_date": "2026-01-16T12:41:34.436274",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053731"
+    },
+    {
+      "id": 460,
+      "name": "TAMA-BENTON COOPERATIVE COMPANY",
+      "category": "agricultural",
+      "website": null,
+      "location": "DYSART, IA",
+      "verified_date": "2026-01-16T12:41:34.436277",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053893"
+    },
+    {
+      "id": 461,
+      "name": "UPPER IOWA COOPERATIVE",
+      "category": "agricultural",
+      "website": null,
+      "location": "POSTVILLE, IA",
+      "verified_date": "2026-01-16T12:41:34.436282",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "130103"
+    },
+    {
+      "id": 462,
+      "name": "FCS COOPERATIVE",
+      "category": "agricultural",
+      "website": null,
+      "location": "SIOUX CENTER, IA",
+      "verified_date": "2026-01-16T12:41:34.436287",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "258902"
+    },
+    {
+      "id": 463,
+      "name": "NEW HORIZON COOPERATIVE",
+      "category": "agricultural",
+      "website": null,
+      "location": "BRITT, IA",
+      "verified_date": "2026-01-16T12:41:34.436291",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK VALUE ADDED",
+      "corp_number": "221596"
+    },
+    {
+      "id": 464,
+      "name": "MUSCATINE ISLAND COOPERATIVE ASSOCIATION",
+      "category": "agricultural",
+      "website": null,
+      "location": "MUSCATINE, IA",
+      "verified_date": "2026-01-16T12:41:34.436295",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054080"
+    },
+    {
+      "id": 465,
+      "name": "MEADOWLAND COOPERATIVE",
+      "category": "agricultural",
+      "website": null,
+      "location": "PARKERSBURG, IA",
+      "verified_date": "2026-01-16T12:41:34.436302",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "564627"
+    },
+    {
+      "id": 466,
+      "name": "NE COOPERATIVE COMPANY",
+      "category": "agricultural",
+      "website": null,
+      "location": "CHARLES CITY, IA",
+      "verified_date": "2026-01-16T12:41:34.436308",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "286552"
+    },
+    {
+      "id": 467,
+      "name": "ASPINWALL COOPERATIVE CO.",
+      "category": "agricultural",
+      "website": null,
+      "location": "ASPINWALL, IA",
+      "verified_date": "2026-01-16T12:41:34.436312",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053628"
+    },
+    {
+      "id": 468,
+      "name": "BUCKINGHAM CO-OPERATIVE CO.",
+      "category": "agricultural",
+      "website": null,
+      "location": "BUCKINGHAM, IA",
+      "verified_date": "2026-01-16T12:41:34.436316",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "124323"
+    },
+    {
+      "id": 469,
+      "name": "EAGLE GROVE COOPERATIVE",
+      "category": "agricultural",
+      "website": null,
+      "location": "AMES, IA",
+      "verified_date": "2026-01-16T12:41:34.436325",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "747017"
+    },
+    {
+      "id": 470,
+      "name": "GOLDFIELD COOPERATIVE",
+      "category": "agricultural",
+      "website": null,
+      "location": "EAGLE GROVE, IA",
+      "verified_date": "2026-01-16T12:41:34.436334",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "789232"
+    },
+    {
+      "id": 471,
+      "name": "HULL COOPERATIVE ASSOCIATION",
+      "category": "agricultural",
+      "website": null,
+      "location": "HULL, IA",
+      "verified_date": "2026-01-16T12:41:34.436338",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053985"
+    },
+    {
+      "id": 472,
+      "name": "FRONTIER COOPERATIVE",
+      "category": "food",
+      "website": null,
+      "location": "NORWAY, IA",
+      "verified_date": "2026-01-16T12:41:34.436341",
+      "source": "iowa_sos",
+      "corp_type": "DOMESTIC COOPERATIVE",
+      "corp_number": "054019"
+    },
+    {
+      "id": 473,
+      "name": "FRESH CONNECTIONS COOPERATIVE",
+      "category": "food",
+      "website": null,
+      "location": "ALGONA, IA",
+      "verified_date": "2026-01-16T12:41:34.436346",
+      "source": "iowa_sos",
+      "corp_type": "DOMESTIC COOPERATIVE",
+      "corp_number": "349271"
+    },
+    {
+      "id": 474,
+      "name": "THE CONSUMERS COOPERATIVE SOCIETY",
+      "category": "energy",
+      "website": null,
+      "location": "CORALVILLE, IA",
+      "verified_date": "2026-01-16T12:41:34.436349",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "053953"
+    },
+    {
+      "id": 475,
+      "name": "BIG RIVER RESOURCES COOPERATIVE",
+      "category": "energy",
+      "website": null,
+      "location": "WEST BURLINGTON, IA",
+      "verified_date": "2026-01-16T12:41:34.436355",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK VALUE ADDED",
+      "corp_number": "252265"
+    },
+    {
+      "id": 476,
+      "name": "REALIFE COOPERATIVE OF DENISON",
+      "category": "other",
+      "website": null,
+      "location": "DENISON, IA",
+      "verified_date": "2026-01-16T12:41:34.436360",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "146841"
+    },
+    {
+      "id": 477,
+      "name": "JOURNEYS LEARNING COOPERATIVE",
+      "category": "other",
+      "website": null,
+      "location": "WILLIAMSBURG, IA",
+      "verified_date": "2026-01-16T12:41:34.436366",
+      "source": "iowa_sos",
+      "corp_type": "DOMESTIC COOPERATIVE",
+      "corp_number": "545790"
+    },
+    {
+      "id": 478,
+      "name": "CORRIDOR TEMPORARY WORKERS COOPERATIVE",
+      "category": "other",
+      "website": null,
+      "location": "CEDAR RAPIDS, IA",
+      "verified_date": "2026-01-16T12:41:34.436373",
+      "source": "iowa_sos",
+      "corp_type": "DOMESTIC COOPERATIVE",
+      "corp_number": "547330"
+    },
+    {
+      "id": 479,
+      "name": "FRYTOWN WATER CO-OPERATIVE",
+      "category": "other",
+      "website": null,
+      "location": "KALONA, IA",
+      "verified_date": "2026-01-16T12:41:34.436376",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054020"
     }
   ],
   "rejected_candidates": [
