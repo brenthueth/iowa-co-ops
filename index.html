@@ -35,7 +35,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: linear-gradient(to bottom, rgba(200, 16, 46, 0.95) 0%, rgba(200, 16, 46, 0) 100%);
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 100%);
             pointer-events: none;
         }
         .header > * { pointer-events: auto; }
@@ -43,25 +43,25 @@
             font-family: 'Playfair Display', serif;
             font-size: 1.5rem;
             font-weight: 700;
-            color: #ffffff;
+            color: var(--accent-cardinal);
         }
         .logo span { color: var(--accent-gold); }
         .controls { display: flex; align-items: center; gap: 16px; }
         .zoom-display {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.85rem;
-            color: #ffffff;
-            background: rgba(255, 255, 255, 0.2);
-            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: var(--text-secondary);
+            background: rgba(255, 255, 255, 0.8);
+            border: 1px solid var(--card-border);
             padding: 8px 16px;
             border-radius: 8px;
             min-width: 80px;
             text-align: center;
         }
         .btn {
-            background: rgba(255, 255, 255, 0.2);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            color: #ffffff;
+            background: rgba(255, 255, 255, 0.8);
+            border: 1px solid var(--card-border);
+            color: var(--text-primary);
             padding: 10px 20px;
             border-radius: 8px;
             cursor: pointer;
@@ -71,9 +71,9 @@
             transition: all 0.3s ease;
         }
         .btn:hover {
-            background: rgba(255, 255, 255, 0.3);
-            border-color: var(--accent-gold);
-            box-shadow: 0 0 20px rgba(241, 190, 72, 0.3);
+            background: #ffffff;
+            border-color: var(--accent-cardinal);
+            box-shadow: 0 0 20px var(--glow);
         }
         .btn-icon { padding: 10px; width: 42px; height: 42px; display: flex; align-items: center; justify-content: center; }
         .filter-bar {
