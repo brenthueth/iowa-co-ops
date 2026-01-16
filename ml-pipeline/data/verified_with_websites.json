@@ -1,7 +1,7 @@
 {
   "metadata": {
     "description": "Verified Iowa cooperatives with websites (for batch import)",
-    "total": 218,
+    "total": 216,
     "last_updated": "2026-01-16T12:57:58.119713"
   },
   "cooperatives": [
@@ -828,16 +828,6 @@
       "verified_date": "2026-01-16T11:25:57.435196",
       "source": "ml_pipeline",
       "similarity_score": 0.4820309579372406
-    },
-    {
-      "id": 94,
-      "name": "Collins Community Credit Union",
-      "category": "credit",
-      "website": "https://www.collinscu.org/",
-      "location": "Cedar Rapids, IA",
-      "verified_date": "2026-01-16T11:26:04.063220",
-      "source": "ml_pipeline",
-      "similarity_score": 0.4757583737373352
     },
     {
       "id": 95,
@@ -1807,17 +1797,6 @@
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK VALUE ADDED",
       "corp_number": "243282"
-    },
-    {
-      "id": 299,
-      "name": "QUAD COUNTY CORN PROCESSORS COOPERATIVE",
-      "category": "agricultural",
-      "website": "https://www.quad-county.com/",
-      "location": "GALVA, IA",
-      "verified_date": "2026-01-16T12:25:57.679350",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK VALUE ADDED",
-      "corp_number": "244440"
     },
     {
       "id": 315,
