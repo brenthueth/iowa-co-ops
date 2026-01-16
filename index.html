@@ -96,6 +96,9 @@
             backdrop-filter: blur(20px);
             border: 1px solid var(--card-border);
             border-radius: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 90vw;
         }
         .filter-btn {
             padding: 10px 20px;
@@ -121,24 +124,37 @@
         .canvas-container:active { cursor: grabbing; }
         .collage-canvas {
             position: absolute;
-            transform-origin: center center;
-            transition: transform 0.1s ease-out;
+            transform-origin: 0 0;
+            will-change: transform;
         }
         .coop-card {
             position: absolute;
-            border-radius: 8px;
+            border-radius: 12px;
             overflow: hidden;
             cursor: pointer;
-            transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+            transition: box-shadow 0.3s ease, left 0.4s ease, top 0.4s ease, opacity 0.3s ease;
+            will-change: transform;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
         }
         .coop-card:hover {
-            transform: scale(1.08);
+            box-shadow: 0 12px 50px rgba(0, 0, 0, 0.6), 0 0 80px var(--glow);
             z-index: 100;
-            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5), 0 0 60px var(--glow);
         }
-        .coop-card.hidden { opacity: 0; transform: scale(0.8); pointer-events: none; }
-        .coop-screenshot { width: 100%; height: 100%; object-fit: cover; display: block; }
+        .coop-card.filtered-out {
+            opacity: 0;
+            pointer-events: none;
+        }
+        .coop-screenshot {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.4s ease;
+        }
+        .coop-card:hover .coop-screenshot {
+            transform: scale(1.05);
+        }
         .coop-placeholder {
             width: 100%; height: 100%;
             display: flex;
@@ -147,11 +163,11 @@
             justify-content: center;
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
         }
-        .coop-placeholder-icon { font-size: 2.5rem; opacity: 0.6; }
+        .coop-placeholder-icon { font-size: 3rem; opacity: 0.5; }
         .coop-overlay {
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: linear-gradient(to top, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.3) 70%, transparent 100%);
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.6) 50%, transparent 100%);
             opacity: 0;
             transition: opacity 0.3s ease;
             display: flex;
@@ -258,7 +274,7 @@
         .instructions h3 { font-family: 'Playfair Display', serif; font-size: 1.1rem; margin-bottom: 16px; color: var(--accent-gold); }
         .instructions ul { list-style: none; font-size: 0.9rem; color: var(--text-secondary); }
         .instructions li { margin-bottom: 12px; padding-left: 24px; position: relative; }
-        .instructions li::before { content: '→'; position: absolute; left: 0; color: var(--accent-teal); }
+        .instructions li::before { content: '->'; position: absolute; left: 0; color: var(--accent-teal); }
         .instructions .dismiss { margin-top: 16px; width: 100%; background: transparent; border: 1px solid var(--card-border); }
     </style>
 </head>
@@ -271,7 +287,7 @@
         <div class="logo">Iowa <span>Cooperatives</span></div>
         <div class="controls">
             <div class="zoom-display" id="zoomDisplay">100%</div>
-            <button class="btn btn-icon" id="zoomOut" title="Zoom Out">−</button>
+            <button class="btn btn-icon" id="zoomOut" title="Zoom Out">-</button>
             <button class="btn btn-icon" id="zoomIn" title="Zoom In">+</button>
             <button class="btn" id="resetView">Reset View</button>
         </div>
@@ -287,6 +303,7 @@
         <button class="filter-btn" data-filter="telecom">Telecom</button>
         <button class="filter-btn" data-filter="food">Food</button>
         <button class="filter-btn" data-filter="housing">Housing</button>
+        <button class="filter-btn" data-filter="energy">Energy</button>
         <button class="filter-btn" data-filter="worker">Worker-Owned</button>
     </div>
     <div class="instructions" id="instructions">
@@ -395,79 +412,293 @@
             { id: 87, name: "W & H Oil Cooperative", location: "Humboldt, IA", type: "Energy", website: "http://www.whcoop.com/", category: "energy" },
             { id: 88, name: "Siouxland Energy Coop", location: "Sioux Center, IA", type: "Renewable Energy", website: "http://www.siouxlandenergy.com/", category: "energy" }
         ];
-        const CARD_WIDTH = 280, CARD_HEIGHT = 175, GRID_COLS = 10, GAP = 12;
+
+        // Masonry layout config
+        const CARD_WIDTH = 260;
+        const GAP = 16;
+        const NUM_COLUMNS = 8;
         const SCREENSHOT_PATH = 'screenshots/';
-        let scale = 1, translateX = 0, translateY = 0, isDragging = false, startX, startY, dragStartTime;
+
+        // Card height variations for masonry effect
+        const HEIGHT_VARIANTS = [180, 220, 260, 200, 240];
+
+        let scale = 1, translateX = 0, translateY = 0;
+        let isDragging = false, startX, startY, dragStartTime;
+        let currentFilter = 'all';
+        let cardElements = [];
+        let canvasWidth = 0, canvasHeight = 0;
+
         const canvas = document.getElementById('collageCanvas');
         const container = document.getElementById('canvasContainer');
         const zoomDisplay = document.getElementById('zoomDisplay');
-        const typeClasses = { 'Agricultural': 'type-agricultural', 'Rural Electric': 'type-electric', 'Credit Union': 'type-credit', 'Telecommunications': 'type-telecom', 'Food/Consumer': 'type-food', 'Housing': 'type-housing', 'Energy': 'type-energy', 'Renewable Energy': 'type-energy', 'Worker-Owned': 'type-worker' };
-        const typeIcons = { 'agricultural': '🌾', 'electric': '⚡', 'credit': '🏦', 'telecom': '📡', 'food': '🥗', 'housing': '🏠', 'energy': '🔋', 'worker': '🤝' };
+
+        const typeClasses = {
+            'Agricultural': 'type-agricultural',
+            'Rural Electric': 'type-electric',
+            'Credit Union': 'type-credit',
+            'Telecommunications': 'type-telecom',
+            'Food/Consumer': 'type-food',
+            'Housing': 'type-housing',
+            'Energy': 'type-energy',
+            'Renewable Energy': 'type-energy',
+            'Worker-Owned': 'type-worker'
+        };
+
+        const typeIcons = {
+            'agricultural': '🌾',
+            'electric': '⚡',
+            'credit': '🏦',
+            'telecom': '📡',
+            'food': '🥗',
+            'housing': '🏠',
+            'energy': '🔋',
+            'worker': '🤝'
+        };
+
         function init() {
             createCards();
             setupEventListeners();
             updateStats();
-            centerCanvas();
-            setTimeout(() => document.getElementById('loading').classList.add('hidden'), 800);
+            // Wait for images to start loading, then center
+            requestAnimationFrame(() => {
+                layoutCards();
+                centerCanvas();
+                setTimeout(() => document.getElementById('loading').classList.add('hidden'), 500);
+            });
         }
+
+        function getCardHeight(index) {
+            // Use deterministic "random" heights based on index
+            return HEIGHT_VARIANTS[index % HEIGHT_VARIANTS.length];
+        }
+
         function createCards() {
             cooperatives.forEach((coop, index) => {
-                const row = Math.floor(index / GRID_COLS), col = index % GRID_COLS;
-                const x = col * (CARD_WIDTH + GAP), y = row * (CARD_HEIGHT + GAP);
                 const card = document.createElement('div');
                 card.className = 'coop-card';
                 card.dataset.category = coop.category;
-                card.style.cssText = `left:${x}px;top:${y}px;width:${CARD_WIDTH}px;height:${CARD_HEIGHT}px;`;
+                card.dataset.index = index;
+
+                const height = getCardHeight(index);
+                card.style.width = `${CARD_WIDTH}px`;
+                card.style.height = `${height}px`;
+
                 const typeClass = typeClasses[coop.type] || 'type-agricultural';
                 const icon = typeIcons[coop.category] || '🏢';
                 const screenshotFile = `${String(coop.id).padStart(3, '0')}.png`;
-                card.innerHTML = `<img class="coop-screenshot" src="${SCREENSHOT_PATH}${screenshotFile}" alt="${coop.name}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="coop-placeholder" style="display:none;"><div class="coop-placeholder-icon">${icon}</div></div><div class="coop-overlay"><h3 class="coop-name">${coop.name}</h3><p class="coop-location">${coop.location}</p><span class="coop-type ${typeClass}">${coop.type}</span></div><div class="click-hint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>Visit site</div>`;
-                card.addEventListener('click', () => { if (Date.now() - dragStartTime < 200 && !isDragging) window.open(coop.website, '_blank', 'noopener,noreferrer'); });
+
+                card.innerHTML = `
+                    <img class="coop-screenshot" src="${SCREENSHOT_PATH}${screenshotFile}" alt="${coop.name}"
+                         onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+                    <div class="coop-placeholder" style="display:none;">
+                        <div class="coop-placeholder-icon">${icon}</div>
+                    </div>
+                    <div class="coop-overlay">
+                        <h3 class="coop-name">${coop.name}</h3>
+                        <p class="coop-location">${coop.location}</p>
+                        <span class="coop-type ${typeClass}">${coop.type}</span>
+                    </div>
+                    <div class="click-hint">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                        </svg>
+                        Visit site
+                    </div>
+                `;
+
+                card.addEventListener('click', (e) => {
+                    if (Date.now() - dragStartTime < 200 && !isDragging) {
+                        window.open(coop.website, '_blank', 'noopener,noreferrer');
+                    }
+                });
+
                 canvas.appendChild(card);
+                cardElements.push({ element: card, coop, height });
             });
-            const rows = Math.ceil(cooperatives.length / GRID_COLS);
-            canvas.style.width = `${GRID_COLS * (CARD_WIDTH + GAP)}px`;
-            canvas.style.height = `${rows * (CARD_HEIGHT + GAP)}px`;
         }
+
+        function layoutCards() {
+            // Get visible cards based on current filter
+            const visibleCards = cardElements.filter(card => {
+                const visible = currentFilter === 'all' || card.coop.category === currentFilter;
+                card.element.classList.toggle('filtered-out', !visible);
+                return visible;
+            });
+
+            // Initialize column heights
+            const columnHeights = new Array(NUM_COLUMNS).fill(0);
+
+            visibleCards.forEach((card) => {
+                // Find the shortest column
+                const minHeight = Math.min(...columnHeights);
+                const columnIndex = columnHeights.indexOf(minHeight);
+
+                // Position the card
+                const x = columnIndex * (CARD_WIDTH + GAP);
+                const y = columnHeights[columnIndex];
+
+                card.element.style.left = `${x}px`;
+                card.element.style.top = `${y}px`;
+
+                // Update column height
+                columnHeights[columnIndex] += card.height + GAP;
+            });
+
+            // Update canvas size
+            canvasWidth = NUM_COLUMNS * (CARD_WIDTH + GAP) - GAP;
+            canvasHeight = Math.max(...columnHeights);
+            canvas.style.width = `${canvasWidth}px`;
+            canvas.style.height = `${canvasHeight}px`;
+
+            // Update visible count
+            document.getElementById('visibleCount').textContent = visibleCards.length;
+        }
+
         function setupEventListeners() {
-            document.getElementById('zoomIn').addEventListener('click', () => zoom(1.2));
+            document.getElementById('zoomIn').addEventListener('click', () => zoom(1.25));
             document.getElementById('zoomOut').addEventListener('click', () => zoom(0.8));
             document.getElementById('resetView').addEventListener('click', centerCanvas);
-            container.addEventListener('wheel', (e) => { e.preventDefault(); zoom(e.deltaY > 0 ? 0.9 : 1.1, e.clientX, e.clientY); }, { passive: false });
-            container.addEventListener('mousedown', (e) => { dragStartTime = Date.now(); isDragging = true; startX = e.clientX - translateX; startY = e.clientY - translateY; });
-            container.addEventListener('mousemove', (e) => { if (!isDragging) return; translateX = e.clientX - startX; translateY = e.clientY - startY; updateTransform(); });
-            container.addEventListener('mouseup', () => isDragging = false);
-            container.addEventListener('mouseleave', () => isDragging = false);
+
+            // Smooth wheel zoom
+            container.addEventListener('wheel', (e) => {
+                e.preventDefault();
+                const delta = e.deltaY > 0 ? 0.9 : 1.1;
+                zoom(delta, e.clientX, e.clientY);
+            }, { passive: false });
+
+            // Drag to pan
+            container.addEventListener('mousedown', (e) => {
+                dragStartTime = Date.now();
+                isDragging = true;
+                startX = e.clientX - translateX;
+                startY = e.clientY - translateY;
+                container.style.cursor = 'grabbing';
+            });
+
+            container.addEventListener('mousemove', (e) => {
+                if (!isDragging) return;
+                translateX = e.clientX - startX;
+                translateY = e.clientY - startY;
+                updateTransform();
+            });
+
+            container.addEventListener('mouseup', () => {
+                isDragging = false;
+                container.style.cursor = 'grab';
+            });
+
+            container.addEventListener('mouseleave', () => {
+                isDragging = false;
+                container.style.cursor = 'grab';
+            });
+
+            // Touch support
             let lastTouchDist = 0;
-            container.addEventListener('touchstart', (e) => { dragStartTime = Date.now(); if (e.touches.length === 2) lastTouchDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY); else if (e.touches.length === 1) { isDragging = true; startX = e.touches[0].clientX - translateX; startY = e.touches[0].clientY - translateY; } }, { passive: false });
-            container.addEventListener('touchmove', (e) => { e.preventDefault(); if (e.touches.length === 2) { const dist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY); zoom(dist / lastTouchDist); lastTouchDist = dist; } else if (e.touches.length === 1 && isDragging) { translateX = e.touches[0].clientX - startX; translateY = e.touches[0].clientY - startY; updateTransform(); } }, { passive: false });
-            container.addEventListener('touchend', () => isDragging = false);
-            document.querySelectorAll('.filter-btn').forEach(btn => btn.addEventListener('click', () => { document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active')); btn.classList.add('active'); filterCards(btn.dataset.filter); }));
-            document.getElementById('dismissInstructions').addEventListener('click', () => document.getElementById('instructions').style.display = 'none');
+            let lastTouchCenter = { x: 0, y: 0 };
+
+            container.addEventListener('touchstart', (e) => {
+                dragStartTime = Date.now();
+                if (e.touches.length === 2) {
+                    lastTouchDist = Math.hypot(
+                        e.touches[0].clientX - e.touches[1].clientX,
+                        e.touches[0].clientY - e.touches[1].clientY
+                    );
+                    lastTouchCenter = {
+                        x: (e.touches[0].clientX + e.touches[1].clientX) / 2,
+                        y: (e.touches[0].clientY + e.touches[1].clientY) / 2
+                    };
+                } else if (e.touches.length === 1) {
+                    isDragging = true;
+                    startX = e.touches[0].clientX - translateX;
+                    startY = e.touches[0].clientY - translateY;
+                }
+            }, { passive: false });
+
+            container.addEventListener('touchmove', (e) => {
+                e.preventDefault();
+                if (e.touches.length === 2) {
+                    const dist = Math.hypot(
+                        e.touches[0].clientX - e.touches[1].clientX,
+                        e.touches[0].clientY - e.touches[1].clientY
+                    );
+                    const center = {
+                        x: (e.touches[0].clientX + e.touches[1].clientX) / 2,
+                        y: (e.touches[0].clientY + e.touches[1].clientY) / 2
+                    };
+                    zoom(dist / lastTouchDist, center.x, center.y);
+                    lastTouchDist = dist;
+                    lastTouchCenter = center;
+                } else if (e.touches.length === 1 && isDragging) {
+                    translateX = e.touches[0].clientX - startX;
+                    translateY = e.touches[0].clientY - startY;
+                    updateTransform();
+                }
+            }, { passive: false });
+
+            container.addEventListener('touchend', () => {
+                isDragging = false;
+            });
+
+            // Filter buttons
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    currentFilter = btn.dataset.filter;
+                    layoutCards();
+                    // Recenter after filter
+                    setTimeout(centerCanvas, 50);
+                });
+            });
+
+            document.getElementById('dismissInstructions').addEventListener('click', () => {
+                document.getElementById('instructions').style.display = 'none';
+            });
         }
+
         function zoom(delta, cx, cy) {
             const oldScale = scale;
-            scale = Math.min(Math.max(scale * delta, 0.2), 4);
-            if (cx !== undefined && cy !== undefined) { const rect = container.getBoundingClientRect(); const x = cx - rect.left, y = cy - rect.top; translateX = x - (x - translateX) * (scale / oldScale); translateY = y - (y - translateY) * (scale / oldScale); }
+            scale = Math.min(Math.max(scale * delta, 0.15), 5);
+
+            if (cx !== undefined && cy !== undefined) {
+                // Zoom toward cursor/touch point
+                const rect = container.getBoundingClientRect();
+                const x = cx - rect.left;
+                const y = cy - rect.top;
+                translateX = x - (x - translateX) * (scale / oldScale);
+                translateY = y - (y - translateY) * (scale / oldScale);
+            }
+
             updateTransform();
             zoomDisplay.textContent = `${Math.round(scale * 100)}%`;
         }
-        function updateTransform() { canvas.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`; }
+
+        function updateTransform() {
+            canvas.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+        }
+
         function centerCanvas() {
             const rect = container.getBoundingClientRect();
-            const cw = GRID_COLS * (CARD_WIDTH + GAP), ch = Math.ceil(cooperatives.length / GRID_COLS) * (CARD_HEIGHT + GAP);
-            scale = Math.min(rect.width / cw * 0.9, rect.height / ch * 0.85, 1);
-            translateX = (rect.width - cw * scale) / 2;
-            translateY = (rect.height - ch * scale) / 2 + 40;
+
+            // Calculate scale to fit content with padding
+            const scaleX = (rect.width - 100) / canvasWidth;
+            const scaleY = (rect.height - 180) / canvasHeight;
+            scale = Math.min(scaleX, scaleY, 1);
+            scale = Math.max(scale, 0.2); // Minimum scale
+
+            // Center the canvas
+            translateX = (rect.width - canvasWidth * scale) / 2;
+            translateY = (rect.height - canvasHeight * scale) / 2 + 30;
+
             updateTransform();
             zoomDisplay.textContent = `${Math.round(scale * 100)}%`;
         }
-        function filterCards(category) {
-            let count = 0;
-            document.querySelectorAll('.coop-card').forEach(card => { const match = category === 'all' || card.dataset.category === category; card.classList.toggle('hidden', !match); if (match) count++; });
-            document.getElementById('visibleCount').textContent = count;
+
+        function updateStats() {
+            document.getElementById('totalCount').textContent = cooperatives.length;
+            document.getElementById('visibleCount').textContent = cooperatives.length;
         }
-        function updateStats() { document.getElementById('totalCount').textContent = cooperatives.length; document.getElementById('visibleCount').textContent = cooperatives.length; }
+
         document.addEventListener('DOMContentLoaded', init);
     </script>
 </body>
