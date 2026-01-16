@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iowa Cooperative Businesses | Interactive Collage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --text-primary: #f5f5f7;
+            --text-secondary: #8b8b99;
+            --accent-gold: #d4a853;
+            --accent-teal: #4fd1c5;
+            --card-border: rgba(255, 255, 255, 0.08);
+            --glow: rgba(79, 209, 197, 0.15);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body {
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+            background: var(--bg-primary);
+            font-family: 'DM Sans', sans-serif;
+            color: var(--text-primary);
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 10000;
+        }
+        .header {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 1000;
+            padding: 24px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to bottom, rgba(10, 10, 15, 0.95) 0%, rgba(10, 10, 15, 0) 100%);
+            pointer-events: none;
+        }
+        .header > * { pointer-events: auto; }
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .logo span { color: var(--accent-gold); }
+        .controls { display: flex; align-items: center; gap: 16px; }
+        .zoom-display {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--card-border);
+            padding: 8px 16px;
+            border-radius: 8px;
+            min-width: 80px;
+            text-align: center;
+        }
+        .btn {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--card-border);
+            color: var(--text-primary);
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: var(--accent-teal);
+            box-shadow: 0 0 20px var(--glow);
+        }
+        .btn-icon { padding: 10px; width: 42px; height: 42px; display: flex; align-items: center; justify-content: center; }
+        .filter-bar {
+            position: fixed;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            display: flex;
+            gap: 8px;
+            padding: 8px;
+            background: rgba(18, 18, 26, 0.9);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+        }
+        .filter-btn {
+            padding: 10px 20px;
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 500;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        .filter-btn:hover { color: var(--text-primary); background: rgba(255, 255, 255, 0.05); }
+        .filter-btn.active { background: var(--accent-teal); color: var(--bg-primary); }
+        .canvas-container {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            overflow: hidden;
+            cursor: grab;
+        }
+        .canvas-container:active { cursor: grabbing; }
+        .collage-canvas {
+            position: absolute;
+            transform-origin: center center;
+            transition: transform 0.1s ease-out;
+        }
+        .coop-card {
+            position: absolute;
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+        .coop-card:hover {
+            transform: scale(1.08);
+            z-index: 100;
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5), 0 0 60px var(--glow);
+        }
+        .coop-card.hidden { opacity: 0; transform: scale(0.8); pointer-events: none; }
+        .coop-screenshot { width: 100%; height: 100%; object-fit: cover; display: block; }
+        .coop-placeholder {
+            width: 100%; height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+        }
+        .coop-placeholder-icon { font-size: 2.5rem; opacity: 0.6; }
+        .coop-overlay {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.3) 70%, transparent 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 20px;
+        }
+        .coop-card:hover .coop-overlay { opacity: 1; }
+        .coop-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+            line-height: 1.2;
+            color: #fff;
+        }
+        .coop-location { font-size: 0.85rem; color: rgba(255, 255, 255, 0.7); margin-bottom: 8px; }
+        .coop-type {
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 5px 10px;
+            border-radius: 4px;
+            display: inline-block;
+            width: fit-content;
+        }
+        .type-agricultural { background: rgba(76, 175, 80, 0.3); color: #a5d6a7; }
+        .type-electric { background: rgba(255, 193, 7, 0.3); color: #ffe082; }
+        .type-credit { background: rgba(33, 150, 243, 0.3); color: #90caf9; }
+        .type-telecom { background: rgba(156, 39, 176, 0.3); color: #ce93d8; }
+        .type-food { background: rgba(244, 67, 54, 0.3); color: #ef9a9a; }
+        .type-housing { background: rgba(0, 188, 212, 0.3); color: #80deea; }
+        .type-energy { background: rgba(255, 152, 0, 0.3); color: #ffcc80; }
+        .type-worker { background: rgba(233, 30, 99, 0.3); color: #f48fb1; }
+        .click-hint {
+            position: absolute;
+            top: 12px; right: 12px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 6px 10px;
+            border-radius: 6px;
+            font-size: 0.7rem;
+            color: rgba(255, 255, 255, 0.8);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .coop-card:hover .click-hint { opacity: 1; }
+        .stats {
+            position: fixed;
+            bottom: 90px; right: 24px;
+            display: flex;
+            gap: 16px;
+            z-index: 999;
+        }
+        .stat {
+            background: rgba(18, 18, 26, 0.9);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            padding: 16px 20px;
+            text-align: center;
+        }
+        .stat-value { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 700; color: var(--accent-gold); }
+        .stat-label { font-size: 0.75rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.1em; }
+        .loading {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: var(--bg-primary);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+            transition: opacity 0.5s ease;
+        }
+        .loading.hidden { opacity: 0; pointer-events: none; }
+        .loading-spinner {
+            width: 60px; height: 60px;
+            border: 3px solid var(--card-border);
+            border-top-color: var(--accent-teal);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .loading-text { margin-top: 24px; font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--text-secondary); }
+        .instructions {
+            position: fixed;
+            top: 100px; right: 24px;
+            width: 280px;
+            background: rgba(18, 18, 26, 0.95);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 24px;
+            z-index: 999;
+            opacity: 0;
+            transform: translateX(20px);
+            animation: slideIn 0.6s ease 1s forwards;
+        }
+        @keyframes slideIn { to { opacity: 1; transform: translateX(0); } }
+        .instructions h3 { font-family: 'Playfair Display', serif; font-size: 1.1rem; margin-bottom: 16px; color: var(--accent-gold); }
+        .instructions ul { list-style: none; font-size: 0.9rem; color: var(--text-secondary); }
+        .instructions li { margin-bottom: 12px; padding-left: 24px; position: relative; }
+        .instructions li::before { content: '→'; position: absolute; left: 0; color: var(--accent-teal); }
+        .instructions .dismiss { margin-top: 16px; width: 100%; background: transparent; border: 1px solid var(--card-border); }
+    </style>
+</head>
+<body>
+    <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Loading Iowa Cooperatives...</div>
+    </div>
+    <header class="header">
+        <div class="logo">Iowa <span>Cooperatives</span></div>
+        <div class="controls">
+            <div class="zoom-display" id="zoomDisplay">100%</div>
+            <button class="btn btn-icon" id="zoomOut" title="Zoom Out">−</button>
+            <button class="btn btn-icon" id="zoomIn" title="Zoom In">+</button>
+            <button class="btn" id="resetView">Reset View</button>
+        </div>
+    </header>
+    <div class="canvas-container" id="canvasContainer">
+        <div class="collage-canvas" id="collageCanvas"></div>
+    </div>
+    <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="agricultural">Agricultural</button>
+        <button class="filter-btn" data-filter="electric">Electric</button>
+        <button class="filter-btn" data-filter="credit">Credit Unions</button>
+        <button class="filter-btn" data-filter="telecom">Telecom</button>
+        <button class="filter-btn" data-filter="food">Food</button>
+        <button class="filter-btn" data-filter="housing">Housing</button>
+        <button class="filter-btn" data-filter="worker">Worker-Owned</button>
+    </div>
+    <div class="instructions" id="instructions">
+        <h3>How to Navigate</h3>
+        <ul>
+            <li>Scroll to zoom in/out</li>
+            <li>Click and drag to pan</li>
+            <li>Pinch to zoom on touch</li>
+            <li>Hover for cooperative info</li>
+            <li>Click to visit website</li>
+        </ul>
+        <button class="btn dismiss" id="dismissInstructions">Got it!</button>
+    </div>
+    <div class="stats">
+        <div class="stat"><div class="stat-value" id="totalCount">0</div><div class="stat-label">Cooperatives</div></div>
+        <div class="stat"><div class="stat-value" id="visibleCount">0</div><div class="stat-label">Showing</div></div>
+    </div>
+    <script>
+        const cooperatives = [
+            { id: 1, name: "21st Century Cooperative", location: "Cumberland, IA", type: "Agricultural", website: "http://www.21stcoop.com/", category: "agricultural" },
+            { id: 2, name: "AgState", location: "Cherokee, IA", type: "Agricultural", website: "https://agstate.org/", category: "agricultural" },
+            { id: 3, name: "Archer Cooperative Grain", location: "Archer, IA", type: "Agricultural", website: "http://archercoopgrain.com/", category: "agricultural" },
+            { id: 4, name: "Aspinwall Coop Company", location: "Aspinwall, IA", type: "Agricultural", website: "http://www.aspinwallcoop.com/", category: "agricultural" },
+            { id: 5, name: "Buckingham Cooperative", location: "Buckingham, IA", type: "Agricultural", website: "http://www.buckingham.coop/", category: "agricultural" },
+            { id: 6, name: "Cedar County Cooperative", location: "Tipton, IA", type: "Agricultural", website: "http://www.cedarcountycoop.com/", category: "agricultural" },
+            { id: 7, name: "Cooperative Farmers Elevator", location: "Rock Valley, IA", type: "Agricultural", website: "http://www.coopfe.com/", category: "agricultural" },
+            { id: 8, name: "Dunkerton Co-op Elevator", location: "Dunkerton, IA", type: "Agricultural", website: "http://www.dunkertoncoop.com/", category: "agricultural" },
+            { id: 9, name: "Farm Service Cooperative", location: "Harlan, IA", type: "Agricultural", website: "http://www.fscoop.com/", category: "agricultural" },
+            { id: 10, name: "Farmers Cooperative", location: "Keota, IA", type: "Agricultural", website: "http://www.keotafarmerscoop.com/", category: "agricultural" },
+            { id: 11, name: "Farmers Co-op (Readlyn)", location: "Readlyn, IA", type: "Agricultural", website: "http://www.readlynshellrockcoop.com/", category: "agricultural" },
+            { id: 12, name: "Farmers Cooperative (Radcliffe)", location: "Radcliffe, IA", type: "Agricultural", website: "https://www.radcliffecoop.com/", category: "agricultural" },
+            { id: 13, name: "Farmers Cooperative (Craig)", location: "Craig, IA", type: "Agricultural", website: "http://craigcoop.com/", category: "agricultural" },
+            { id: 14, name: "Farmers Cooperative (Remsen)", location: "Remsen, IA", type: "Agricultural", website: "http://www.remsencoop.com/", category: "agricultural" },
+            { id: 15, name: "Farmers Cooperative (Ottosen)", location: "Ottosen, IA", type: "Agricultural", website: "http://www.ottosenelevator.com/", category: "agricultural" },
+            { id: 16, name: "Farmers Cooperative (Arcadia)", location: "Arcadia, IA", type: "Agricultural", website: "http://www.faccooperative.com/", category: "agricultural" },
+            { id: 17, name: "Farmers Cooperative Society", location: "Sioux Center, IA", type: "Agricultural", website: "http://www.farmerscoopsociety.com/", category: "agricultural" },
+            { id: 18, name: "Farmers Union Cooperative", location: "Ossian, IA", type: "Agricultural", website: "http://www.farmerunion.net/", category: "agricultural" },
+            { id: 19, name: "Farmers Win Cooperative", location: "Fredericksburg, IA", type: "Agricultural", website: "http://www.farmerswin.com/", category: "agricultural" },
+            { id: 20, name: "Five Star Cooperative", location: "New Hampton, IA", type: "Agricultural", website: "https://www.fivestarcoop.com/", category: "agricultural" },
+            { id: 21, name: "Gold-Eagle Cooperative", location: "Goldfield, IA", type: "Agricultural", website: "http://www.goldeaglecoop.com/", category: "agricultural" },
+            { id: 22, name: "Heartland Co-op", location: "West Des Moines, IA", type: "Agricultural", website: "http://www.heartlandcoop.com/", category: "agricultural" },
+            { id: 23, name: "Hull Cooperative", location: "Hull, IA", type: "Agricultural", website: "http://www.hullcoop.com/", category: "agricultural" },
+            { id: 24, name: "Innovative Ag Services", location: "Monticello, IA", type: "Agricultural", website: "http://www.innovativeag.com/", category: "agricultural" },
+            { id: 25, name: "Key Cooperative", location: "Roland, IA", type: "Agricultural", website: "http://www.keycoop.com/", category: "agricultural" },
+            { id: 26, name: "Landus", location: "Des Moines, IA", type: "Agricultural", website: "https://www.landus.ag/", category: "agricultural" },
+            { id: 27, name: "Linn Cooperative Oil Co.", location: "Marion, IA", type: "Agricultural", website: "https://www.linncoop.com/", category: "agricultural" },
+            { id: 28, name: "Mid-Iowa Cooperative", location: "Beaman, IA", type: "Agricultural", website: "http://www.midiowacoop.com/", category: "agricultural" },
+            { id: 29, name: "NEW Cooperative Inc.", location: "Fort Dodge, IA", type: "Agricultural", website: "http://www.newcoop.com/", category: "agricultural" },
+            { id: 30, name: "Nexus Cooperative", location: "Charles City, IA", type: "Agricultural", website: "https://www.nexus.coop/", category: "agricultural" },
+            { id: 31, name: "North Iowa Cooperative", location: "Thornton, IA", type: "Agricultural", website: "http://www.nicoop.com/", category: "agricultural" },
+            { id: 32, name: "PRO Cooperative", location: "Pocahontas, IA", type: "Agricultural", website: "http://www.procooperative.com/", category: "agricultural" },
+            { id: 33, name: "Producer Cooperative", location: "Gaza, IA", type: "Agricultural", website: "https://gazaproducerscoop.com/", category: "agricultural" },
+            { id: 34, name: "River Valley Cooperative", location: "Davenport, IA", type: "Agricultural", website: "http://www.rivervalleycoop.com/", category: "agricultural" },
+            { id: 35, name: "SilverEdge Cooperative", location: "Edgewood, IA", type: "Agricultural", website: "http://www.silveredgecoop.com/", category: "agricultural" },
+            { id: 36, name: "Stateline Cooperative", location: "Burt, IA", type: "Agricultural", website: "http://www.statelinecoop.com/", category: "agricultural" },
+            { id: 37, name: "Tama-Benton Cooperative", location: "Dysart, IA", type: "Agricultural", website: "http://www.tamabentoncoop.com/", category: "agricultural" },
+            { id: 38, name: "Two Rivers Cooperative", location: "Pella, IA", type: "Agricultural", website: "http://www.tworivers.coop/", category: "agricultural" },
+            { id: 39, name: "United Cooperative", location: "Webster City, IA", type: "Agricultural", website: "http://www.unitedcoop.com/", category: "agricultural" },
+            { id: 40, name: "Access Energy Cooperative", location: "Mount Pleasant, IA", type: "Rural Electric", website: "http://www.accessenergycoop.com/", category: "electric" },
+            { id: 41, name: "Allamakee-Clayton REC", location: "Postville, IA", type: "Rural Electric", website: "http://www.acrec.com/", category: "electric" },
+            { id: 42, name: "Butler County REC", location: "Allison, IA", type: "Rural Electric", website: "http://www.butlerrec.coop/", category: "electric" },
+            { id: 43, name: "Calhoun County Electric", location: "Rockwell City, IA", type: "Rural Electric", website: "https://www.calhounrec.coop/", category: "electric" },
+            { id: 44, name: "Central Iowa Power Coop", location: "Cedar Rapids, IA", type: "Rural Electric", website: "http://www.cipco.net/", category: "electric" },
+            { id: 45, name: "Chariton Valley Electric", location: "Albia, IA", type: "Rural Electric", website: "https://www.cvrec.com/", category: "electric" },
+            { id: 46, name: "Consumers Energy Coop", location: "Marshalltown, IA", type: "Rural Electric", website: "https://www.consumersenergy.coop/", category: "electric" },
+            { id: 47, name: "Corn Belt Power Coop", location: "Humboldt, IA", type: "Rural Electric", website: "http://www.cbpower.coop/", category: "electric" },
+            { id: 48, name: "Corridor Energy Coop", location: "Marion, IA", type: "Rural Electric", website: "https://corridorenergy.coop/", category: "electric" },
+            { id: 49, name: "East Central Iowa REC", location: "Urbana, IA", type: "Rural Electric", website: "http://www.ecirec.coop/", category: "electric" },
+            { id: 50, name: "Farmers Electric Co-op", location: "Greenfield, IA", type: "Rural Electric", website: "http://www.farmersrec.com/", category: "electric" },
+            { id: 51, name: "Franklin Rural Electric", location: "Hampton, IA", type: "Rural Electric", website: "https://www.franklinrec.coop/", category: "electric" },
+            { id: 52, name: "Grundy County REC", location: "Grundy Center, IA", type: "Rural Electric", website: "http://www.grundycountyrecia.com/", category: "electric" },
+            { id: 53, name: "Guthrie County REC", location: "Guthrie Center, IA", type: "Rural Electric", website: "http://www.guthrie-rec.coop/", category: "electric" },
+            { id: 54, name: "Harrison County REC", location: "Woodbine, IA", type: "Rural Electric", website: "http://www.hcrec.coop/", category: "electric" },
+            { id: 55, name: "Iowa Lakes Electric", location: "Estherville, IA", type: "Rural Electric", website: "http://www.ilec.org/", category: "electric" },
+            { id: 56, name: "Midland Power Coop", location: "Jefferson, IA", type: "Rural Electric", website: "http://www.midlandpower.com/", category: "electric" },
+            { id: 57, name: "Nishnabotna Valley REC", location: "Harlan, IA", type: "Rural Electric", website: "https://www.nvrec.com/", category: "electric" },
+            { id: 58, name: "Northwest REC", location: "Orange City, IA", type: "Rural Electric", website: "http://www.nwrec.com/", category: "electric" },
+            { id: 59, name: "Northwest Iowa Power", location: "LeMars, IA", type: "Rural Electric", website: "http://www.nipco.coop/", category: "electric" },
+            { id: 60, name: "Raccoon Valley Electric", location: "Glidden, IA", type: "Rural Electric", website: "http://www.rvec.coop/", category: "electric" },
+            { id: 61, name: "Cedar Falls Credit Union", location: "Cedar Falls, IA", type: "Credit Union", website: "http://www.cfccu.org/", category: "credit" },
+            { id: 62, name: "Community Choice CU", location: "Johnston, IA", type: "Credit Union", website: "http://www.comchoicecu.org/", category: "credit" },
+            { id: 63, name: "Community 1st CU", location: "Ottumwa, IA", type: "Credit Union", website: "https://www.c1stcreditunion.com/", category: "credit" },
+            { id: 64, name: "Dupaco Community CU", location: "Dubuque, IA", type: "Credit Union", website: "https://www.dupaco.com/", category: "credit" },
+            { id: 65, name: "Financial Plus CU", location: "West Des Moines, IA", type: "Credit Union", website: "https://secure.financialpluscu.com/", category: "credit" },
+            { id: 66, name: "Greater Iowa CU", location: "Ames, IA", type: "Credit Union", website: "https://www.greateriowacu.org/", category: "credit" },
+            { id: 67, name: "Green State CU", location: "North Liberty, IA", type: "Credit Union", website: "https://www.greenstate.org/", category: "credit" },
+            { id: 68, name: "Farmers Co-op Telephone", location: "Dysart, IA", type: "Telecommunications", website: "http://www.fctc.coop/", category: "telecom" },
+            { id: 69, name: "Farmers Mutual Telephone", location: "Harlan, IA", type: "Telecommunications", website: "http://www.fmctc.com/", category: "telecom" },
+            { id: 70, name: "Heart of Iowa Comm.", location: "Union, IA", type: "Telecommunications", website: "http://www.heartofiowa.coop/", category: "telecom" },
+            { id: 71, name: "Huxley Communications", location: "Huxley, IA", type: "Telecommunications", website: "http://www.huxcomm.net/", category: "telecom" },
+            { id: 72, name: "Northwest Communications", location: "Havelock, IA", type: "Telecommunications", website: "https://ncn.net/", category: "telecom" },
+            { id: 73, name: "South Slope Cooperative", location: "North Liberty, IA", type: "Telecommunications", website: "https://www.southslope.com/", category: "telecom" },
+            { id: 74, name: "Western Iowa Telephone", location: "Lawton, IA", type: "Telecommunications", website: "https://www.wiatel.com/", category: "telecom" },
+            { id: 75, name: "Iowa Food Cooperative", location: "Des Moines, IA", type: "Food/Consumer", website: "https://iowafood.coop/", category: "food" },
+            { id: 76, name: "Oneota Food Cooperative", location: "Decorah, IA", type: "Food/Consumer", website: "https://oneotacoop.com/", category: "food" },
+            { id: 77, name: "New Pioneer Food Co-op", location: "Iowa City, IA", type: "Food/Consumer", website: "https://www.newpi.coop/", category: "food" },
+            { id: 78, name: "Frontier Co-op", location: "Norway, IA", type: "Food/Consumer", website: "https://www.frontiercoop.com/", category: "food" },
+            { id: 79, name: "Morning Bell Coffee", location: "Ames, IA", type: "Worker-Owned", website: "https://morningbellcoffee.com/", category: "worker" },
+            { id: 80, name: "River City Housing", location: "Iowa City, IA", type: "Housing", website: "https://rchc.coop/", category: "housing" },
+            { id: 81, name: "Prairie Hill Co-Housing", location: "Iowa City, IA", type: "Housing", website: "https://www.prairiehillcohousing.org/", category: "housing" },
+            { id: 82, name: "Vintage Cooperative", location: "Iowa City, IA", type: "Housing", website: "https://www.ewingdevelopment.com/cooperatives", category: "housing" },
+            { id: 83, name: "Brown Deer Cooperative", location: "Coralville, IA", type: "Housing", website: "https://www.browndeercooperative.com", category: "housing" },
+            { id: 84, name: "Cooperative Energy Co.", location: "Sibley, IA", type: "Energy", website: "http://www.coopenergyco.com/", category: "energy" },
+            { id: 85, name: "Hancock County Co-op Oil", location: "Garner, IA", type: "Energy", website: "https://www.hancockcountycoop.com/", category: "energy" },
+            { id: 86, name: "NuWay K&H Cooperative", location: "Clear Lake, IA", type: "Energy", website: "https://www.nuway-kandh.com/", category: "energy" },
+            { id: 87, name: "W & H Oil Cooperative", location: "Humboldt, IA", type: "Energy", website: "http://www.whcoop.com/", category: "energy" },
+            { id: 88, name: "Siouxland Energy Coop", location: "Sioux Center, IA", type: "Renewable Energy", website: "http://www.siouxlandenergy.com/", category: "energy" }
+        ];
+        const CARD_WIDTH = 280, CARD_HEIGHT = 175, GRID_COLS = 10, GAP = 12;
+        const SCREENSHOT_PATH = 'screenshots/';
+        let scale = 1, translateX = 0, translateY = 0, isDragging = false, startX, startY, dragStartTime;
+        const canvas = document.getElementById('collageCanvas');
+        const container = document.getElementById('canvasContainer');
+        const zoomDisplay = document.getElementById('zoomDisplay');
+        const typeClasses = { 'Agricultural': 'type-agricultural', 'Rural Electric': 'type-electric', 'Credit Union': 'type-credit', 'Telecommunications': 'type-telecom', 'Food/Consumer': 'type-food', 'Housing': 'type-housing', 'Energy': 'type-energy', 'Renewable Energy': 'type-energy', 'Worker-Owned': 'type-worker' };
+        const typeIcons = { 'agricultural': '🌾', 'electric': '⚡', 'credit': '🏦', 'telecom': '📡', 'food': '🥗', 'housing': '🏠', 'energy': '🔋', 'worker': '🤝' };
+        function init() {
+            createCards();
+            setupEventListeners();
+            updateStats();
+            centerCanvas();
+            setTimeout(() => document.getElementById('loading').classList.add('hidden'), 800);
+        }
+        function createCards() {
+            cooperatives.forEach((coop, index) => {
+                const row = Math.floor(index / GRID_COLS), col = index % GRID_COLS;
+                const x = col * (CARD_WIDTH + GAP), y = row * (CARD_HEIGHT + GAP);
+                const card = document.createElement('div');
+                card.className = 'coop-card';
+                card.dataset.category = coop.category;
+                card.style.cssText = `left:${x}px;top:${y}px;width:${CARD_WIDTH}px;height:${CARD_HEIGHT}px;`;
+                const typeClass = typeClasses[coop.type] || 'type-agricultural';
+                const icon = typeIcons[coop.category] || '🏢';
+                const screenshotFile = `${String(coop.id).padStart(3, '0')}.png`;
+                card.innerHTML = `<img class="coop-screenshot" src="${SCREENSHOT_PATH}${screenshotFile}" alt="${coop.name}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="coop-placeholder" style="display:none;"><div class="coop-placeholder-icon">${icon}</div></div><div class="coop-overlay"><h3 class="coop-name">${coop.name}</h3><p class="coop-location">${coop.location}</p><span class="coop-type ${typeClass}">${coop.type}</span></div><div class="click-hint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>Visit site</div>`;
+                card.addEventListener('click', () => { if (Date.now() - dragStartTime < 200 && !isDragging) window.open(coop.website, '_blank', 'noopener,noreferrer'); });
+                canvas.appendChild(card);
+            });
+            const rows = Math.ceil(cooperatives.length / GRID_COLS);
+            canvas.style.width = `${GRID_COLS * (CARD_WIDTH + GAP)}px`;
+            canvas.style.height = `${rows * (CARD_HEIGHT + GAP)}px`;
+        }
+        function setupEventListeners() {
+            document.getElementById('zoomIn').addEventListener('click', () => zoom(1.2));
+            document.getElementById('zoomOut').addEventListener('click', () => zoom(0.8));
+            document.getElementById('resetView').addEventListener('click', centerCanvas);
+            container.addEventListener('wheel', (e) => { e.preventDefault(); zoom(e.deltaY > 0 ? 0.9 : 1.1, e.clientX, e.clientY); }, { passive: false });
+            container.addEventListener('mousedown', (e) => { dragStartTime = Date.now(); isDragging = true; startX = e.clientX - translateX; startY = e.clientY - translateY; });
+            container.addEventListener('mousemove', (e) => { if (!isDragging) return; translateX = e.clientX - startX; translateY = e.clientY - startY; updateTransform(); });
+            container.addEventListener('mouseup', () => isDragging = false);
+            container.addEventListener('mouseleave', () => isDragging = false);
+            let lastTouchDist = 0;
+            container.addEventListener('touchstart', (e) => { dragStartTime = Date.now(); if (e.touches.length === 2) lastTouchDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY); else if (e.touches.length === 1) { isDragging = true; startX = e.touches[0].clientX - translateX; startY = e.touches[0].clientY - translateY; } }, { passive: false });
+            container.addEventListener('touchmove', (e) => { e.preventDefault(); if (e.touches.length === 2) { const dist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY); zoom(dist / lastTouchDist); lastTouchDist = dist; } else if (e.touches.length === 1 && isDragging) { translateX = e.touches[0].clientX - startX; translateY = e.touches[0].clientY - startY; updateTransform(); } }, { passive: false });
+            container.addEventListener('touchend', () => isDragging = false);
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.addEventListener('click', () => { document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active')); btn.classList.add('active'); filterCards(btn.dataset.filter); }));
+            document.getElementById('dismissInstructions').addEventListener('click', () => document.getElementById('instructions').style.display = 'none');
+        }
+        function zoom(delta, cx, cy) {
+            const oldScale = scale;
+            scale = Math.min(Math.max(scale * delta, 0.2), 4);
+            if (cx !== undefined && cy !== undefined) { const rect = container.getBoundingClientRect(); const x = cx - rect.left, y = cy - rect.top; translateX = x - (x - translateX) * (scale / oldScale); translateY = y - (y - translateY) * (scale / oldScale); }
+            updateTransform();
+            zoomDisplay.textContent = `${Math.round(scale * 100)}%`;
+        }
+        function updateTransform() { canvas.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`; }
+        function centerCanvas() {
+            const rect = container.getBoundingClientRect();
+            const cw = GRID_COLS * (CARD_WIDTH + GAP), ch = Math.ceil(cooperatives.length / GRID_COLS) * (CARD_HEIGHT + GAP);
+            scale = Math.min(rect.width / cw * 0.9, rect.height / ch * 0.85, 1);
+            translateX = (rect.width - cw * scale) / 2;
+            translateY = (rect.height - ch * scale) / 2 + 40;
+            updateTransform();
+            zoomDisplay.textContent = `${Math.round(scale * 100)}%`;
+        }
+        function filterCards(category) {
+            let count = 0;
+            document.querySelectorAll('.coop-card').forEach(card => { const match = category === 'all' || card.dataset.category === category; card.classList.toggle('hidden', !match); if (match) count++; });
+            document.getElementById('visibleCount').textContent = count;
+        }
+        function updateStats() { document.getElementById('totalCount').textContent = cooperatives.length; document.getElementById('visibleCount').textContent = cooperatives.length; }
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

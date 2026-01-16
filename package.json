@@ -1,0 +1,12 @@
+{
+  "name": "iowa-coops-screenshots",
+  "version": "1.0.0",
+  "description": "Capture screenshots of Iowa cooperative websites",
+  "main": "capture-screenshots.js",
+  "scripts": {
+    "capture": "node capture-screenshots.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}
