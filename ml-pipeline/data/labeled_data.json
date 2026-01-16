@@ -2,10 +2,10 @@
   "metadata": {
     "description": "Labeled data for Iowa cooperative discovery pipeline",
     "created": "2024-01-16",
-    "last_updated": "2026-01-16T13:18:54.519261"
+    "last_updated": "2026-01-16T13:29:50.201678"
   },
   "stats": {
-    "total_verified": 426,
+    "total_verified": 412,
     "total_rejected": 1,
     "total_reviewed": 50,
     "precision_history": [
@@ -1878,32 +1878,6 @@
       "export_date": "2026-01-16T13:18:54.519160"
     },
     {
-      "id": 165,
-      "name": "HANCOCK COUNTY COOPERATIVE OIL ASSOCIATION",
-      "category": "energy",
-      "website": "https://www.hancockcountycoop.com/",
-      "location": "GARNER, IA",
-      "verified_date": "2026-01-16T12:25:57.679070",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "053810",
-      "exported_to_website": true,
-      "export_date": "2026-01-16T13:18:54.519162"
-    },
-    {
-      "id": 166,
-      "name": "FRANKLIN RURAL ELECTRIC COOPERATIVE",
-      "category": "electric",
-      "website": "https://www.franklinrec.coop/",
-      "location": "HAMPTON, IA",
-      "verified_date": "2026-01-16T12:25:57.679071",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054017",
-      "exported_to_website": true,
-      "export_date": "2026-01-16T13:18:54.519163"
-    },
-    {
       "id": 167,
       "name": "CASS ELECTRIC COOPERATIVE",
       "category": "electric",
@@ -1950,32 +1924,6 @@
       "corp_number": "053848"
     },
     {
-      "id": 171,
-      "name": "ONEOTA COMMUNITY COOPERATIVE",
-      "category": "food",
-      "website": "https://oneotacoop.com/",
-      "location": "DECORAH, IA",
-      "verified_date": "2026-01-16T12:25:57.679084",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "054095",
-      "exported_to_website": true,
-      "export_date": "2026-01-16T13:18:54.519166"
-    },
-    {
-      "id": 172,
-      "name": "NEW PIONEER'S COOPERATIVE SOCIETY",
-      "category": "food",
-      "website": "https://www.newpi.coop/",
-      "location": "IOWA CITY, IA",
-      "verified_date": "2026-01-16T12:25:57.679087",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054083",
-      "exported_to_website": true,
-      "export_date": "2026-01-16T13:18:54.519167"
-    },
-    {
       "id": 173,
       "name": "WOODBURY COUNTY RURAL ELECTRIC COOPERATIVE ASSOCIATION",
       "category": "electric",
@@ -2020,19 +1968,6 @@
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
       "corp_number": "054069"
-    },
-    {
-      "id": 177,
-      "name": "PRODUCERS COOPERATIVE COMPANY",
-      "category": "agricultural",
-      "website": "https://gazaproducerscoop.com/",
-      "location": "GAZA, IA",
-      "verified_date": "2026-01-16T12:25:57.679096",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054116",
-      "exported_to_website": true,
-      "export_date": "2026-01-16T13:18:54.519170"
     },
     {
       "id": 178,
@@ -2129,19 +2064,6 @@
       "export_date": "2026-01-16T13:18:54.519174"
     },
     {
-      "id": 187,
-      "name": "NISHNABOTNA VALLEY RURAL ELECTRIC COOPERATIVE",
-      "category": "electric",
-      "website": "https://www.nvrec.com/",
-      "location": "HARLAN, IA",
-      "verified_date": "2026-01-16T12:25:57.679114",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054084",
-      "exported_to_website": true,
-      "export_date": "2026-01-16T13:18:54.519175"
-    },
-    {
       "id": 188,
       "name": "NEW LONDON FARMERS COOPERATIVE",
       "category": "agricultural",
@@ -2173,19 +2095,6 @@
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
       "corp_number": "054088"
-    },
-    {
-      "id": 191,
-      "name": "CONSUMERS ENERGY COOPERATIVE",
-      "category": "energy",
-      "website": "https://www.consumersenergy.coop/",
-      "location": "MARSHALLTOWN, IA",
-      "verified_date": "2026-01-16T12:25:57.679127",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054071",
-      "exported_to_website": true,
-      "export_date": "2026-01-16T13:18:54.519177"
     },
     {
       "id": 193,
@@ -2629,19 +2538,6 @@
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
       "corp_number": "053976"
-    },
-    {
-      "id": 236,
-      "name": "LINN COOPERATIVE OIL COMPANY",
-      "category": "energy",
-      "website": "https://www.linncoop.com/",
-      "location": "MARION, IA",
-      "verified_date": "2026-01-16T12:25:57.679219",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "053829",
-      "exported_to_website": true,
-      "export_date": "2026-01-16T13:18:54.519191"
     },
     {
       "id": 237,
@@ -3142,19 +3038,6 @@
       "corp_number": "162133",
       "exported_to_website": true,
       "export_date": "2026-01-16T13:18:54.519204"
-    },
-    {
-      "id": 291,
-      "name": "WESTERN IOWA POWER COOPERATIVE",
-      "category": "electric",
-      "website": "https://www.wipco.com/",
-      "location": "DENISON, IA",
-      "verified_date": "2026-01-16T12:25:57.679328",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "204945",
-      "exported_to_website": true,
-      "export_date": "2026-01-16T13:18:54.519206"
     },
     {
       "id": 292,
@@ -4576,19 +4459,6 @@
       "corp_number": "851863"
     },
     {
-      "id": 456,
-      "name": "AGSTATE COOPERATIVE",
-      "category": "agricultural",
-      "website": "https://agstate.org/",
-      "location": "CHEROKEE, IA",
-      "verified_date": "2026-01-16T12:41:34.436248",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "663679",
-      "exported_to_website": true,
-      "export_date": "2026-01-16T13:18:54.519245"
-    },
-    {
       "id": 457,
       "name": "BALSAM COOP.",
       "category": "agricultural",
@@ -4609,19 +4479,6 @@
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
       "corp_number": "190699"
-    },
-    {
-      "id": 459,
-      "name": "FIRST COOPERATIVE ASSOCIATION",
-      "category": "agricultural",
-      "website": "https://agstate.org/",
-      "location": "CHEROKEE, IA",
-      "verified_date": "2026-01-16T12:41:34.436274",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "053731",
-      "exported_to_website": true,
-      "export_date": "2026-01-16T13:18:54.519246"
     },
     {
       "id": 460,
@@ -4705,19 +4562,6 @@
       "corp_number": "286552"
     },
     {
-      "id": 467,
-      "name": "ASPINWALL COOPERATIVE CO.",
-      "category": "agricultural",
-      "website": "http://www.aspinwallcoop.com/",
-      "location": "ASPINWALL, IA",
-      "verified_date": "2026-01-16T12:41:34.436312",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "053628",
-      "exported_to_website": true,
-      "export_date": "2026-01-16T13:18:54.519251"
-    },
-    {
       "id": 468,
       "name": "BUCKINGHAM CO-OPERATIVE CO.",
       "category": "agricultural",
@@ -4744,19 +4588,6 @@
       "export_date": "2026-01-16T13:18:54.519253"
     },
     {
-      "id": 470,
-      "name": "GOLDFIELD COOPERATIVE",
-      "category": "agricultural",
-      "website": "https://www.goldeaglecoop.com/",
-      "location": "EAGLE GROVE, IA",
-      "verified_date": "2026-01-16T12:41:34.436334",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "789232",
-      "exported_to_website": true,
-      "export_date": "2026-01-16T13:18:54.519255"
-    },
-    {
       "id": 471,
       "name": "HULL COOPERATIVE ASSOCIATION",
       "category": "agricultural",
@@ -4768,19 +4599,6 @@
       "corp_number": "053985",
       "exported_to_website": true,
       "export_date": "2026-01-16T13:18:54.519256"
-    },
-    {
-      "id": 472,
-      "name": "FRONTIER COOPERATIVE",
-      "category": "food",
-      "website": "https://www.frontiercoop.com/",
-      "location": "NORWAY, IA",
-      "verified_date": "2026-01-16T12:41:34.436341",
-      "source": "iowa_sos",
-      "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "054019",
-      "exported_to_website": true,
-      "export_date": "2026-01-16T13:18:54.519259"
     },
     {
       "id": 473,

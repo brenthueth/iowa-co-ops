@@ -1,8 +1,8 @@
 {
   "metadata": {
     "description": "Verified Iowa cooperatives with websites (for batch import)",
-    "total": 216,
-    "last_updated": "2026-01-16T12:57:58.119713"
+    "total": 202,
+    "last_updated": "2026-01-16T13:30:00.801022"
   },
   "cooperatives": [
     {
@@ -12,7 +12,9 @@
       "type": "Agricultural",
       "website": "http://www.21stcoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518958"
     },
     {
       "id": 2,
@@ -21,7 +23,9 @@
       "type": "Agricultural",
       "website": "https://agstate.org/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518974"
     },
     {
       "id": 3,
@@ -30,7 +34,9 @@
       "type": "Agricultural",
       "website": "http://archercoopgrain.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518976"
     },
     {
       "id": 4,
@@ -39,7 +45,9 @@
       "type": "Agricultural",
       "website": "http://www.aspinwallcoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518978"
     },
     {
       "id": 5,
@@ -48,7 +56,9 @@
       "type": "Agricultural",
       "website": "http://www.buckingham.coop/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518980"
     },
     {
       "id": 6,
@@ -57,7 +67,9 @@
       "type": "Agricultural",
       "website": "http://www.cedarcountycoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518981"
     },
     {
       "id": 7,
@@ -66,7 +78,9 @@
       "type": "Agricultural",
       "website": "http://www.coopfe.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518982"
     },
     {
       "id": 8,
@@ -75,7 +89,9 @@
       "type": "Agricultural",
       "website": "http://www.dunkertoncoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518984"
     },
     {
       "id": 9,
@@ -84,7 +100,9 @@
       "type": "Agricultural",
       "website": "http://www.fscoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518985"
     },
     {
       "id": 10,
@@ -93,7 +111,9 @@
       "type": "Agricultural",
       "website": "http://www.keotafarmerscoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518986"
     },
     {
       "id": 11,
@@ -102,7 +122,9 @@
       "type": "Agricultural",
       "website": "http://www.readlynshellrockcoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518988"
     },
     {
       "id": 12,
@@ -111,7 +133,9 @@
       "type": "Agricultural",
       "website": "https://www.radcliffecoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518989"
     },
     {
       "id": 13,
@@ -120,7 +144,9 @@
       "type": "Agricultural",
       "website": "http://www.craigcoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518990"
     },
     {
       "id": 14,
@@ -129,7 +155,9 @@
       "type": "Agricultural",
       "website": "http://www.remsencoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518991"
     },
     {
       "id": 15,
@@ -138,7 +166,9 @@
       "type": "Agricultural",
       "website": "http://www.ottosenelevator.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518993"
     },
     {
       "id": 16,
@@ -147,7 +177,9 @@
       "type": "Agricultural",
       "website": "http://www.faccooperative.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518994"
     },
     {
       "id": 17,
@@ -156,7 +188,9 @@
       "type": "Agricultural",
       "website": "http://www.farmerscoopsociety.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518995"
     },
     {
       "id": 18,
@@ -165,7 +199,9 @@
       "type": "Agricultural",
       "website": "http://www.farmerunion.net/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518996"
     },
     {
       "id": 19,
@@ -174,7 +210,9 @@
       "type": "Agricultural",
       "website": "http://www.farmerswin.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518997"
     },
     {
       "id": 20,
@@ -183,7 +221,9 @@
       "type": "Agricultural",
       "website": "https://www.fivestarcoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.518999"
     },
     {
       "id": 21,
@@ -192,7 +232,9 @@
       "type": "Agricultural",
       "website": "http://www.goldeaglecoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519000"
     },
     {
       "id": 22,
@@ -201,7 +243,9 @@
       "type": "Agricultural",
       "website": "http://www.heartlandcoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519001"
     },
     {
       "id": 23,
@@ -210,7 +254,9 @@
       "type": "Agricultural",
       "website": "http://www.hullcoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519002"
     },
     {
       "id": 24,
@@ -219,7 +265,9 @@
       "type": "Agricultural",
       "website": "http://www.innovativeag.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519005"
     },
     {
       "id": 25,
@@ -228,7 +276,9 @@
       "type": "Agricultural",
       "website": "http://www.keycoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519006"
     },
     {
       "id": 26,
@@ -237,7 +287,9 @@
       "type": "Agricultural",
       "website": "https://www.landus.ag/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519008"
     },
     {
       "id": 27,
@@ -246,7 +298,9 @@
       "type": "Agricultural",
       "website": "https://www.linncoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519009"
     },
     {
       "id": 28,
@@ -255,7 +309,9 @@
       "type": "Agricultural",
       "website": "http://www.midiowacoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519010"
     },
     {
       "id": 29,
@@ -264,7 +320,9 @@
       "type": "Agricultural",
       "website": "http://www.newcoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519011"
     },
     {
       "id": 30,
@@ -273,7 +331,9 @@
       "type": "Agricultural",
       "website": "https://www.nexus.coop/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519013"
     },
     {
       "id": 31,
@@ -282,7 +342,9 @@
       "type": "Agricultural",
       "website": "http://www.nicoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519014"
     },
     {
       "id": 32,
@@ -291,7 +353,9 @@
       "type": "Agricultural",
       "website": "http://www.procooperative.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519015"
     },
     {
       "id": 33,
@@ -300,7 +364,9 @@
       "type": "Agricultural",
       "website": "https://gazaproducerscoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519016"
     },
     {
       "id": 34,
@@ -309,7 +375,9 @@
       "type": "Agricultural",
       "website": "http://www.rivervalleycoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519017"
     },
     {
       "id": 35,
@@ -318,7 +386,9 @@
       "type": "Agricultural",
       "website": "http://www.silveredgecoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519018"
     },
     {
       "id": 36,
@@ -327,7 +397,9 @@
       "type": "Agricultural",
       "website": "http://www.statelinecoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519020"
     },
     {
       "id": 37,
@@ -336,7 +408,9 @@
       "type": "Agricultural",
       "website": "http://www.tamabentoncoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519021"
     },
     {
       "id": 38,
@@ -345,7 +419,9 @@
       "type": "Agricultural",
       "website": "http://www.tworivers.coop/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519022"
     },
     {
       "id": 39,
@@ -354,7 +430,9 @@
       "type": "Agricultural",
       "website": "http://www.unitedcoop.com/",
       "category": "agricultural",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519023"
     },
     {
       "id": 40,
@@ -363,7 +441,9 @@
       "type": "Rural Electric",
       "website": "http://www.accessenergycoop.com/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519024"
     },
     {
       "id": 41,
@@ -372,7 +452,9 @@
       "type": "Rural Electric",
       "website": "http://www.acrec.com/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519026"
     },
     {
       "id": 42,
@@ -381,7 +463,9 @@
       "type": "Rural Electric",
       "website": "http://www.butlerrec.coop/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519027"
     },
     {
       "id": 43,
@@ -390,7 +474,9 @@
       "type": "Rural Electric",
       "website": "https://www.calhounrec.coop/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519028"
     },
     {
       "id": 44,
@@ -399,7 +485,9 @@
       "type": "Rural Electric",
       "website": "http://www.cipco.net/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519029"
     },
     {
       "id": 45,
@@ -408,7 +496,9 @@
       "type": "Rural Electric",
       "website": "https://www.cvrec.com/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519030"
     },
     {
       "id": 46,
@@ -417,7 +507,9 @@
       "type": "Rural Electric",
       "website": "https://www.consumersenergy.coop/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519032"
     },
     {
       "id": 47,
@@ -426,7 +518,9 @@
       "type": "Rural Electric",
       "website": "http://www.cbpower.coop/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519033"
     },
     {
       "id": 48,
@@ -435,7 +529,9 @@
       "type": "Rural Electric",
       "website": "https://corridorenergy.coop/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519034"
     },
     {
       "id": 49,
@@ -444,7 +540,9 @@
       "type": "Rural Electric",
       "website": "http://www.ecirec.coop/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519035"
     },
     {
       "id": 50,
@@ -453,7 +551,9 @@
       "type": "Rural Electric",
       "website": "http://www.farmersrec.com/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519036"
     },
     {
       "id": 51,
@@ -462,7 +562,9 @@
       "type": "Rural Electric",
       "website": "https://www.franklinrec.coop/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519037"
     },
     {
       "id": 52,
@@ -471,7 +573,9 @@
       "type": "Rural Electric",
       "website": "http://www.grundycountyrecia.com/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519039"
     },
     {
       "id": 53,
@@ -480,7 +584,9 @@
       "type": "Rural Electric",
       "website": "http://www.guthrie-rec.coop/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519040"
     },
     {
       "id": 54,
@@ -489,7 +595,9 @@
       "type": "Rural Electric",
       "website": "http://www.hcrec.coop/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519041"
     },
     {
       "id": 55,
@@ -498,7 +606,9 @@
       "type": "Rural Electric",
       "website": "http://www.ilec.org/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519042"
     },
     {
       "id": 56,
@@ -507,7 +617,9 @@
       "type": "Rural Electric",
       "website": "http://www.midlandpower.com/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519044"
     },
     {
       "id": 57,
@@ -516,7 +628,9 @@
       "type": "Rural Electric",
       "website": "https://www.nvrec.com/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519045"
     },
     {
       "id": 58,
@@ -525,7 +639,9 @@
       "type": "Rural Electric",
       "website": "http://www.nwrec.com/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519046"
     },
     {
       "id": 59,
@@ -534,7 +650,9 @@
       "type": "Rural Electric",
       "website": "http://www.nipco.coop/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519047"
     },
     {
       "id": 60,
@@ -543,7 +661,9 @@
       "type": "Rural Electric",
       "website": "http://www.rvec.coop/",
       "category": "electric",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519049"
     },
     {
       "id": 61,
@@ -552,7 +672,9 @@
       "type": "Credit Union",
       "website": "http://www.cfccu.org/",
       "category": "credit",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519050"
     },
     {
       "id": 62,
@@ -561,7 +683,9 @@
       "type": "Credit Union",
       "website": "http://www.comchoicecu.org/",
       "category": "credit",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519051"
     },
     {
       "id": 63,
@@ -570,7 +694,9 @@
       "type": "Credit Union",
       "website": "https://www.c1stcreditunion.com/",
       "category": "credit",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519052"
     },
     {
       "id": 64,
@@ -579,7 +705,9 @@
       "type": "Credit Union",
       "website": "https://www.dupaco.com/",
       "category": "credit",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519053"
     },
     {
       "id": 65,
@@ -588,7 +716,9 @@
       "type": "Credit Union",
       "website": "https://secure.financialpluscu.com/",
       "category": "credit",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519054"
     },
     {
       "id": 66,
@@ -597,7 +727,9 @@
       "type": "Credit Union",
       "website": "https://www.greateriowacu.org/",
       "category": "credit",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519056"
     },
     {
       "id": 67,
@@ -606,7 +738,9 @@
       "type": "Credit Union",
       "website": "https://www.greenstate.org/",
       "category": "credit",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519057"
     },
     {
       "id": 68,
@@ -615,7 +749,9 @@
       "type": "Telecommunications",
       "website": "http://www.fctc.coop/",
       "category": "telecom",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519058"
     },
     {
       "id": 69,
@@ -624,7 +760,9 @@
       "type": "Telecommunications",
       "website": "http://www.fmctc.com/",
       "category": "telecom",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519059"
     },
     {
       "id": 70,
@@ -633,7 +771,9 @@
       "type": "Telecommunications",
       "website": "http://www.heartofiowa.coop/",
       "category": "telecom",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519060"
     },
     {
       "id": 71,
@@ -642,7 +782,9 @@
       "type": "Telecommunications",
       "website": "http://www.huxcomm.net/",
       "category": "telecom",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519062"
     },
     {
       "id": 72,
@@ -651,7 +793,9 @@
       "type": "Telecommunications",
       "website": "https://ncn.net/",
       "category": "telecom",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519063"
     },
     {
       "id": 73,
@@ -660,7 +804,9 @@
       "type": "Telecommunications",
       "website": "https://www.southslope.com/",
       "category": "telecom",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519064"
     },
     {
       "id": 74,
@@ -669,7 +815,9 @@
       "type": "Telecommunications",
       "website": "https://www.wiatel.com/",
       "category": "telecom",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519065"
     },
     {
       "id": 75,
@@ -678,7 +826,9 @@
       "type": "Food/Consumer",
       "website": "https://iowafood.coop/",
       "category": "food",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519066"
     },
     {
       "id": 76,
@@ -687,7 +837,9 @@
       "type": "Food/Consumer",
       "website": "https://oneotacoop.com/",
       "category": "food",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519067"
     },
     {
       "id": 77,
@@ -696,7 +848,9 @@
       "type": "Food/Consumer",
       "website": "https://www.newpi.coop/",
       "category": "food",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519069"
     },
     {
       "id": 78,
@@ -705,7 +859,9 @@
       "type": "Food/Consumer",
       "website": "https://www.frontiercoop.com/",
       "category": "food",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519070"
     },
     {
       "id": 79,
@@ -714,7 +870,9 @@
       "type": "Worker-Owned",
       "website": "https://morningbellcoffee.com/",
       "category": "other",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519071"
     },
     {
       "id": 80,
@@ -723,7 +881,9 @@
       "type": "Housing",
       "website": "https://rchc.coop/",
       "category": "other",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519072"
     },
     {
       "id": 83,
@@ -732,7 +892,9 @@
       "type": "Housing",
       "website": "https://www.browndeercooperative.com",
       "category": "other",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519074"
     },
     {
       "id": 84,
@@ -741,7 +903,9 @@
       "type": "Energy",
       "website": "http://www.coopenergyco.com/",
       "category": "energy",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519075"
     },
     {
       "id": 85,
@@ -750,7 +914,9 @@
       "type": "Energy",
       "website": "https://www.hancockcountycoop.com/",
       "category": "energy",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519076"
     },
     {
       "id": 86,
@@ -759,7 +925,9 @@
       "type": "Energy",
       "website": "https://www.nuway-kandh.com/",
       "category": "energy",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519077"
     },
     {
       "id": 87,
@@ -768,7 +936,9 @@
       "type": "Energy",
       "website": "http://www.whcoop.com/",
       "category": "energy",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519078"
     },
     {
       "id": 88,
@@ -777,7 +947,9 @@
       "type": "Renewable Energy",
       "website": "http://www.siouxlandenergy.com/",
       "category": "energy",
-      "source": "iowa_institute"
+      "source": "iowa_institute",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519080"
     },
     {
       "id": 89,
@@ -787,7 +959,9 @@
       "location": "Iowa",
       "verified_date": "2026-01-16T11:24:52.484177",
       "source": "ml_pipeline",
-      "similarity_score": 0.6644138097763062
+      "similarity_score": 0.6644138097763062,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519081"
     },
     {
       "id": 90,
@@ -797,7 +971,9 @@
       "location": "Clarion, IA",
       "verified_date": "2026-01-16T11:25:19.300459",
       "source": "ml_pipeline",
-      "similarity_score": 0.6127160787582397
+      "similarity_score": 0.6127160787582397,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519082"
     },
     {
       "id": 91,
@@ -807,7 +983,9 @@
       "location": "Brooklyn, IA",
       "verified_date": "2026-01-16T11:25:26.430264",
       "source": "ml_pipeline",
-      "similarity_score": 0.5546269416809082
+      "similarity_score": 0.5546269416809082,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519083"
     },
     {
       "id": 92,
@@ -817,7 +995,9 @@
       "location": "Anamosa, IA",
       "verified_date": "2026-01-16T11:25:34.855703",
       "source": "ml_pipeline",
-      "similarity_score": 0.5267581939697266
+      "similarity_score": 0.5267581939697266,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519084"
     },
     {
       "id": 93,
@@ -827,7 +1007,9 @@
       "location": "Waterloo, IA",
       "verified_date": "2026-01-16T11:25:57.435196",
       "source": "ml_pipeline",
-      "similarity_score": 0.4820309579372406
+      "similarity_score": 0.4820309579372406,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519085"
     },
     {
       "id": 95,
@@ -837,7 +1019,9 @@
       "location": "Wilton, IA",
       "verified_date": "2026-01-16T11:53:30.195714",
       "source": "ml_pipeline",
-      "similarity_score": 0.7003740668296814
+      "similarity_score": 0.7003740668296814,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519087"
     },
     {
       "id": 96,
@@ -847,7 +1031,9 @@
       "location": "Corning, IA",
       "verified_date": "2026-01-16T11:53:37.132799",
       "source": "ml_pipeline",
-      "similarity_score": 0.6905277371406555
+      "similarity_score": 0.6905277371406555,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519088"
     },
     {
       "id": 97,
@@ -857,7 +1043,9 @@
       "location": "Denison, IA",
       "verified_date": "2026-01-16T11:53:44.925322",
       "source": "ml_pipeline",
-      "similarity_score": 0.6677846312522888
+      "similarity_score": 0.6677846312522888,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519089"
     },
     {
       "id": 98,
@@ -867,7 +1055,9 @@
       "location": "Jefferson, IA",
       "verified_date": "2026-01-16T11:53:49.368888",
       "source": "ml_pipeline",
-      "similarity_score": 0.6433296203613281
+      "similarity_score": 0.6433296203613281,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519091"
     },
     {
       "id": 99,
@@ -877,7 +1067,9 @@
       "location": "Thompson, IA",
       "verified_date": "2026-01-16T11:53:58.469872",
       "source": "ml_pipeline",
-      "similarity_score": 0.6107368469238281
+      "similarity_score": 0.6107368469238281,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519092"
     },
     {
       "id": 100,
@@ -887,7 +1079,9 @@
       "location": "Moville, IA",
       "verified_date": "2026-01-16T11:54:04.055920",
       "source": "ml_pipeline",
-      "similarity_score": 0.5987504720687866
+      "similarity_score": 0.5987504720687866,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519093"
     },
     {
       "id": 101,
@@ -897,7 +1091,9 @@
       "location": "Rock Rapids, IA",
       "verified_date": "2026-01-16T11:54:09.008147",
       "source": "ml_pipeline",
-      "similarity_score": 0.5888598561286926
+      "similarity_score": 0.5888598561286926,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519094"
     },
     {
       "id": 102,
@@ -907,7 +1103,9 @@
       "location": "Estherville, IA",
       "verified_date": "2026-01-16T11:54:17.710143",
       "source": "ml_pipeline",
-      "similarity_score": 0.5851613283157349
+      "similarity_score": 0.5851613283157349,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519095"
     },
     {
       "id": 103,
@@ -917,7 +1115,9 @@
       "location": "Osceola, IA",
       "verified_date": "2026-01-16T11:54:24.154121",
       "source": "ml_pipeline",
-      "similarity_score": 0.5722360610961914
+      "similarity_score": 0.5722360610961914,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519097"
     },
     {
       "id": 104,
@@ -927,7 +1127,9 @@
       "location": "Bloomfield, IA",
       "verified_date": "2026-01-16T11:54:28.112491",
       "source": "ml_pipeline",
-      "similarity_score": 0.5710510015487671
+      "similarity_score": 0.5710510015487671,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519098"
     },
     {
       "id": 105,
@@ -937,7 +1139,9 @@
       "location": "West Des Moines, IA",
       "verified_date": "2026-01-16T12:05:48.845520",
       "source": "ml_pipeline",
-      "similarity_score": 0.6414369344711304
+      "similarity_score": 0.6414369344711304,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519099"
     },
     {
       "id": 106,
@@ -947,7 +1151,9 @@
       "location": "JOHNSTON, IA",
       "verified_date": "2026-01-16T12:05:54.290387",
       "source": "ml_pipeline",
-      "similarity_score": 0.6400502324104309
+      "similarity_score": 0.6400502324104309,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519100"
     },
     {
       "id": 107,
@@ -957,7 +1163,9 @@
       "location": "AMES, IA",
       "verified_date": "2026-01-16T12:05:57.886055",
       "source": "ml_pipeline",
-      "similarity_score": 0.6105263829231262
+      "similarity_score": 0.6105263829231262,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519101"
     },
     {
       "id": 108,
@@ -967,7 +1175,9 @@
       "location": "DES MOINES, IA",
       "verified_date": "2026-01-16T12:06:01.307376",
       "source": "ml_pipeline",
-      "similarity_score": 0.60783851146698
+      "similarity_score": 0.60783851146698,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519103"
     },
     {
       "id": 109,
@@ -977,7 +1187,9 @@
       "location": "Cedar Falls, IA",
       "verified_date": "2026-01-16T12:06:04.165829",
       "source": "ml_pipeline",
-      "similarity_score": 0.5810512900352478
+      "similarity_score": 0.5810512900352478,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519104"
     },
     {
       "id": 110,
@@ -987,7 +1199,9 @@
       "location": "MASON CITY, IA",
       "verified_date": "2026-01-16T12:06:12.404333",
       "source": "ml_pipeline",
-      "similarity_score": 0.5714877843856812
+      "similarity_score": 0.5714877843856812,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519105"
     },
     {
       "id": 111,
@@ -997,7 +1211,9 @@
       "location": "Sioux City, IA",
       "verified_date": "2026-01-16T12:06:15.997864",
       "source": "ml_pipeline",
-      "similarity_score": 0.5639382600784302
+      "similarity_score": 0.5639382600784302,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519106"
     },
     {
       "id": 112,
@@ -1007,7 +1223,9 @@
       "location": "Ames, IA",
       "verified_date": "2026-01-16T12:06:19.144254",
       "source": "ml_pipeline",
-      "similarity_score": 0.5572196245193481
+      "similarity_score": 0.5572196245193481,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519107"
     },
     {
       "id": 113,
@@ -1017,7 +1235,9 @@
       "location": "Cedar Rapids, IA",
       "verified_date": "2026-01-16T12:06:23.522729",
       "source": "ml_pipeline",
-      "similarity_score": 0.5559180974960327
+      "similarity_score": 0.5559180974960327,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519108"
     },
     {
       "id": 114,
@@ -1027,7 +1247,9 @@
       "location": "Sibley, IA",
       "verified_date": "2026-01-16T12:06:26.931889",
       "source": "ml_pipeline",
-      "similarity_score": 0.5555607676506042
+      "similarity_score": 0.5555607676506042,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519110"
     },
     {
       "id": 115,
@@ -1037,7 +1259,9 @@
       "location": "Rock Rapids, IA",
       "verified_date": "2026-01-16T12:06:33.052394",
       "source": "ml_pipeline",
-      "similarity_score": 0.540638267993927
+      "similarity_score": 0.540638267993927,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519111"
     },
     {
       "id": 116,
@@ -1047,7 +1271,9 @@
       "location": "Manning, IA",
       "verified_date": "2026-01-16T12:06:40.365784",
       "source": "ml_pipeline",
-      "similarity_score": 0.5313416719436646
+      "similarity_score": 0.5313416719436646,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519112"
     },
     {
       "id": 117,
@@ -1057,7 +1283,9 @@
       "location": "Monona, IA",
       "verified_date": "2026-01-16T12:06:43.793157",
       "source": "ml_pipeline",
-      "similarity_score": 0.5249463319778442
+      "similarity_score": 0.5249463319778442,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519113"
     },
     {
       "id": 118,
@@ -1067,7 +1295,9 @@
       "location": "Cedar Rapids, IA",
       "verified_date": "2026-01-16T12:06:46.803044",
       "source": "ml_pipeline",
-      "similarity_score": 0.5236430168151855
+      "similarity_score": 0.5236430168151855,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519114"
     },
     {
       "id": 119,
@@ -1077,7 +1307,9 @@
       "location": "Des Moines, IA",
       "verified_date": "2026-01-16T12:06:48.990755",
       "source": "ml_pipeline",
-      "similarity_score": 0.5231670141220093
+      "similarity_score": 0.5231670141220093,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519115"
     },
     {
       "id": 120,
@@ -1087,7 +1319,9 @@
       "location": "Ottumwa, IA",
       "verified_date": "2026-01-16T12:12:45.418097",
       "source": "ml_pipeline",
-      "similarity_score": 0.5216506123542786
+      "similarity_score": 0.5216506123542786,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519117"
     },
     {
       "id": 121,
@@ -1097,7 +1331,9 @@
       "location": "Cresco, IA",
       "verified_date": "2026-01-16T12:12:51.105818",
       "source": "ml_pipeline",
-      "similarity_score": 0.520733654499054
+      "similarity_score": 0.520733654499054,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519118"
     },
     {
       "id": 122,
@@ -1107,7 +1343,9 @@
       "location": "Charles City, IA",
       "verified_date": "2026-01-16T12:12:55.980685",
       "source": "ml_pipeline",
-      "similarity_score": 0.5011758804321289
+      "similarity_score": 0.5011758804321289,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519119"
     },
     {
       "id": 123,
@@ -1117,7 +1355,9 @@
       "location": "Bettendorf, IA",
       "verified_date": "2026-01-16T12:12:58.580949",
       "source": "ml_pipeline",
-      "similarity_score": 0.4997260570526123
+      "similarity_score": 0.4997260570526123,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519120"
     },
     {
       "id": 124,
@@ -1127,7 +1367,9 @@
       "location": "Reinbeck, IA",
       "verified_date": "2026-01-16T12:13:11.631785",
       "source": "ml_pipeline",
-      "similarity_score": 0.48483118414878845
+      "similarity_score": 0.48483118414878845,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519121"
     },
     {
       "id": 125,
@@ -1137,7 +1379,9 @@
       "location": "DUBUQUE, IA",
       "verified_date": "2026-01-16T12:13:16.498255",
       "source": "ml_pipeline",
-      "similarity_score": 0.481743186712265
+      "similarity_score": 0.481743186712265,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519123"
     },
     {
       "id": 126,
@@ -1147,7 +1391,9 @@
       "location": "Des Moines, IA",
       "verified_date": "2026-01-16T12:13:19.993467",
       "source": "ml_pipeline",
-      "similarity_score": 0.4781624674797058
+      "similarity_score": 0.4781624674797058,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519124"
     },
     {
       "id": 127,
@@ -1157,7 +1403,9 @@
       "location": "Lake Mills, IA",
       "verified_date": "2026-01-16T12:13:24.995139",
       "source": "ml_pipeline",
-      "similarity_score": 0.4776788353919983
+      "similarity_score": 0.4776788353919983,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519125"
     },
     {
       "id": 128,
@@ -1167,7 +1415,9 @@
       "location": "Mason City, IA",
       "verified_date": "2026-01-16T12:13:28.324128",
       "source": "ml_pipeline",
-      "similarity_score": 0.4715557098388672
+      "similarity_score": 0.4715557098388672,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519126"
     },
     {
       "id": 129,
@@ -1177,7 +1427,9 @@
       "location": "Marshalltown, IA",
       "verified_date": "2026-01-16T12:13:31.784237",
       "source": "ml_pipeline",
-      "similarity_score": 0.4712509512901306
+      "similarity_score": 0.4712509512901306,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519127"
     },
     {
       "id": 130,
@@ -1187,7 +1439,9 @@
       "location": "Fort Dodge, IA",
       "verified_date": "2026-01-16T12:13:34.534058",
       "source": "ml_pipeline",
-      "similarity_score": 0.46861180663108826
+      "similarity_score": 0.46861180663108826,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519128"
     },
     {
       "id": 131,
@@ -1197,7 +1451,9 @@
       "location": "Davenport, IA",
       "verified_date": "2026-01-16T12:13:37.738515",
       "source": "ml_pipeline",
-      "similarity_score": 0.46846795082092285
+      "similarity_score": 0.46846795082092285,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519130"
     },
     {
       "id": 132,
@@ -1207,7 +1463,9 @@
       "location": "Pella, IA",
       "verified_date": "2026-01-16T12:13:41.671067",
       "source": "ml_pipeline",
-      "similarity_score": 0.46447819471359253
+      "similarity_score": 0.46447819471359253,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519131"
     },
     {
       "id": 133,
@@ -1217,7 +1475,9 @@
       "location": "Cherokee, IA",
       "verified_date": "2026-01-16T12:13:45.618053",
       "source": "ml_pipeline",
-      "similarity_score": 0.45342355966567993
+      "similarity_score": 0.45342355966567993,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519132"
     },
     {
       "id": 134,
@@ -1227,7 +1487,9 @@
       "location": "Newton, IA",
       "verified_date": "2026-01-16T12:13:48.224901",
       "source": "ml_pipeline",
-      "similarity_score": 0.44012251496315
+      "similarity_score": 0.44012251496315,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519133"
     },
     {
       "id": 135,
@@ -1237,7 +1499,9 @@
       "location": "Hiawatha, IA",
       "verified_date": "2026-01-16T12:13:53.957571",
       "source": "ml_pipeline",
-      "similarity_score": 0.413717120885849
+      "similarity_score": 0.413717120885849,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519134"
     },
     {
       "id": 136,
@@ -1247,7 +1511,9 @@
       "location": "Camanche, IA",
       "verified_date": "2026-01-16T12:14:26.177587",
       "source": "ml_pipeline",
-      "similarity_score": 0.38645055890083313
+      "similarity_score": 0.38645055890083313,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519136"
     },
     {
       "id": 137,
@@ -1257,7 +1523,9 @@
       "location": "Ottumwa, IA",
       "verified_date": "2026-01-16T12:14:30.362682",
       "source": "ml_pipeline",
-      "similarity_score": 0.28774815797805786
+      "similarity_score": 0.28774815797805786,
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519137"
     },
     {
       "id": 140,
@@ -1268,7 +1536,9 @@
       "verified_date": "2026-01-16T12:25:57.679018",
       "source": "iowa_sos",
       "corp_type": "REVISED DOMESTIC NON-PROFIT",
-      "corp_number": "059137"
+      "corp_number": "059137",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519138"
     },
     {
       "id": 142,
@@ -1279,7 +1549,9 @@
       "verified_date": "2026-01-16T12:25:57.679023",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "053958"
+      "corp_number": "053958",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519140"
     },
     {
       "id": 144,
@@ -1290,7 +1562,9 @@
       "verified_date": "2026-01-16T12:25:57.679026",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054090"
+      "corp_number": "054090",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519141"
     },
     {
       "id": 146,
@@ -1301,7 +1575,9 @@
       "verified_date": "2026-01-16T12:25:57.679032",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054018"
+      "corp_number": "054018",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519143"
     },
     {
       "id": 147,
@@ -1312,7 +1588,9 @@
       "verified_date": "2026-01-16T12:25:57.679034",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "053920"
+      "corp_number": "053920",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519144"
     },
     {
       "id": 148,
@@ -1323,7 +1601,9 @@
       "verified_date": "2026-01-16T12:25:57.679036",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054147"
+      "corp_number": "054147",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519145"
     },
     {
       "id": 149,
@@ -1334,7 +1614,9 @@
       "verified_date": "2026-01-16T12:25:57.679039",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "053654"
+      "corp_number": "053654",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519146"
     },
     {
       "id": 150,
@@ -1345,7 +1627,9 @@
       "verified_date": "2026-01-16T12:25:57.679040",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "053921"
+      "corp_number": "053921",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519147"
     },
     {
       "id": 151,
@@ -1356,7 +1640,9 @@
       "verified_date": "2026-01-16T12:25:57.679042",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054025"
+      "corp_number": "054025",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519149"
     },
     {
       "id": 152,
@@ -1367,7 +1653,9 @@
       "verified_date": "2026-01-16T12:25:57.679044",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054005"
+      "corp_number": "054005",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519150"
     },
     {
       "id": 153,
@@ -1378,7 +1666,9 @@
       "verified_date": "2026-01-16T12:25:57.679045",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "053885"
+      "corp_number": "053885",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519151"
     },
     {
       "id": 155,
@@ -1389,7 +1679,9 @@
       "verified_date": "2026-01-16T12:25:57.679048",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "053933"
+      "corp_number": "053933",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519153"
     },
     {
       "id": 158,
@@ -1400,7 +1692,9 @@
       "verified_date": "2026-01-16T12:25:57.679054",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "053837"
+      "corp_number": "053837",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519154"
     },
     {
       "id": 160,
@@ -1411,7 +1705,9 @@
       "verified_date": "2026-01-16T12:25:57.679058",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054026"
+      "corp_number": "054026",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519155"
     },
     {
       "id": 161,
@@ -1422,7 +1718,9 @@
       "verified_date": "2026-01-16T12:25:57.679061",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "053861"
+      "corp_number": "053861",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519157"
     },
     {
       "id": 162,
@@ -1433,7 +1731,9 @@
       "verified_date": "2026-01-16T12:25:57.679063",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054124"
+      "corp_number": "054124",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519158"
     },
     {
       "id": 163,
@@ -1444,7 +1744,9 @@
       "verified_date": "2026-01-16T12:25:57.679065",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "065244"
+      "corp_number": "065244",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519159"
     },
     {
       "id": 164,
@@ -1455,29 +1757,9 @@
       "verified_date": "2026-01-16T12:25:57.679067",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "053835"
-    },
-    {
-      "id": 165,
-      "name": "HANCOCK COUNTY COOPERATIVE OIL ASSOCIATION",
-      "category": "energy",
-      "website": "https://www.hancockcountycoop.com/",
-      "location": "GARNER, IA",
-      "verified_date": "2026-01-16T12:25:57.679070",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "053810"
-    },
-    {
-      "id": 166,
-      "name": "FRANKLIN RURAL ELECTRIC COOPERATIVE",
-      "category": "electric",
-      "website": "https://www.franklinrec.coop/",
-      "location": "HAMPTON, IA",
-      "verified_date": "2026-01-16T12:25:57.679071",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054017"
+      "corp_number": "053835",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519160"
     },
     {
       "id": 169,
@@ -1488,29 +1770,9 @@
       "verified_date": "2026-01-16T12:25:57.679078",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "089568"
-    },
-    {
-      "id": 171,
-      "name": "ONEOTA COMMUNITY COOPERATIVE",
-      "category": "food",
-      "website": "https://oneotacoop.com/",
-      "location": "DECORAH, IA",
-      "verified_date": "2026-01-16T12:25:57.679084",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "054095"
-    },
-    {
-      "id": 172,
-      "name": "NEW PIONEER'S COOPERATIVE SOCIETY",
-      "category": "food",
-      "website": "https://www.newpi.coop/",
-      "location": "IOWA CITY, IA",
-      "verified_date": "2026-01-16T12:25:57.679087",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054083"
+      "corp_number": "089568",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519164"
     },
     {
       "id": 174,
@@ -1521,18 +1783,9 @@
       "verified_date": "2026-01-16T12:25:57.679090",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "070858"
-    },
-    {
-      "id": 177,
-      "name": "PRODUCERS COOPERATIVE COMPANY",
-      "category": "agricultural",
-      "website": "https://gazaproducerscoop.com/",
-      "location": "GAZA, IA",
-      "verified_date": "2026-01-16T12:25:57.679096",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054116"
+      "corp_number": "070858",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519168"
     },
     {
       "id": 178,
@@ -1543,7 +1796,9 @@
       "verified_date": "2026-01-16T12:25:57.679098",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "053841"
+      "corp_number": "053841",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519171"
     },
     {
       "id": 183,
@@ -1554,7 +1809,9 @@
       "verified_date": "2026-01-16T12:25:57.679107",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "053957"
+      "corp_number": "053957",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519172"
     },
     {
       "id": 186,
@@ -1565,29 +1822,9 @@
       "verified_date": "2026-01-16T12:25:57.679113",
       "source": "iowa_sos",
       "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "053607"
-    },
-    {
-      "id": 187,
-      "name": "NISHNABOTNA VALLEY RURAL ELECTRIC COOPERATIVE",
-      "category": "electric",
-      "website": "https://www.nvrec.com/",
-      "location": "HARLAN, IA",
-      "verified_date": "2026-01-16T12:25:57.679114",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054084"
-    },
-    {
-      "id": 191,
-      "name": "CONSUMERS ENERGY COOPERATIVE",
-      "category": "energy",
-      "website": "https://www.consumersenergy.coop/",
-      "location": "MARSHALLTOWN, IA",
-      "verified_date": "2026-01-16T12:25:57.679127",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054071"
+      "corp_number": "053607",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519174"
     },
     {
       "id": 202,
@@ -1598,7 +1835,9 @@
       "verified_date": "2026-01-16T12:25:57.679149",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054117"
+      "corp_number": "054117",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519180"
     },
     {
       "id": 206,
@@ -1609,7 +1848,9 @@
       "verified_date": "2026-01-16T12:25:57.679158",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054093"
+      "corp_number": "054093",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519182"
     },
     {
       "id": 207,
@@ -1620,7 +1861,9 @@
       "verified_date": "2026-01-16T12:25:57.679159",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "053961"
+      "corp_number": "053961",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519183"
     },
     {
       "id": 214,
@@ -1631,7 +1874,9 @@
       "verified_date": "2026-01-16T12:25:57.679175",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "053800"
+      "corp_number": "053800",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519185"
     },
     {
       "id": 229,
@@ -1642,7 +1887,9 @@
       "verified_date": "2026-01-16T12:25:57.679205",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054087"
+      "corp_number": "054087",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519187"
     },
     {
       "id": 232,
@@ -1653,7 +1900,9 @@
       "verified_date": "2026-01-16T12:25:57.679211",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "053659"
+      "corp_number": "053659",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519188"
     },
     {
       "id": 234,
@@ -1664,18 +1913,9 @@
       "verified_date": "2026-01-16T12:25:57.679214",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "053780"
-    },
-    {
-      "id": 236,
-      "name": "LINN COOPERATIVE OIL COMPANY",
-      "category": "energy",
-      "website": "https://www.linncoop.com/",
-      "location": "MARION, IA",
-      "verified_date": "2026-01-16T12:25:57.679219",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "053829"
+      "corp_number": "053780",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519190"
     },
     {
       "id": 244,
@@ -1686,7 +1926,9 @@
       "verified_date": "2026-01-16T12:25:57.679234",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "053905"
+      "corp_number": "053905",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519193"
     },
     {
       "id": 250,
@@ -1697,7 +1939,9 @@
       "verified_date": "2026-01-16T12:25:57.679246",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "053814"
+      "corp_number": "053814",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519195"
     },
     {
       "id": 260,
@@ -1708,7 +1952,9 @@
       "verified_date": "2026-01-16T12:25:57.679264",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "054013"
+      "corp_number": "054013",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519196"
     },
     {
       "id": 277,
@@ -1719,7 +1965,9 @@
       "verified_date": "2026-01-16T12:25:57.679299",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "128102"
+      "corp_number": "128102",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519199"
     },
     {
       "id": 279,
@@ -1730,7 +1978,9 @@
       "verified_date": "2026-01-16T12:25:57.679303",
       "source": "iowa_sos",
       "corp_type": "REVISED DOMESTIC NON-PROFIT",
-      "corp_number": "183487"
+      "corp_number": "183487",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519200"
     },
     {
       "id": 284,
@@ -1741,7 +1991,9 @@
       "verified_date": "2026-01-16T12:25:57.679314",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "211291"
+      "corp_number": "211291",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519202"
     },
     {
       "id": 288,
@@ -1752,7 +2004,9 @@
       "verified_date": "2026-01-16T12:25:57.679321",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "186571"
+      "corp_number": "186571",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519203"
     },
     {
       "id": 289,
@@ -1763,18 +2017,9 @@
       "verified_date": "2026-01-16T12:25:57.679324",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "162133"
-    },
-    {
-      "id": 291,
-      "name": "WESTERN IOWA POWER COOPERATIVE",
-      "category": "electric",
-      "website": "https://www.wipco.com/",
-      "location": "DENISON, IA",
-      "verified_date": "2026-01-16T12:25:57.679328",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "204945"
+      "corp_number": "162133",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519204"
     },
     {
       "id": 293,
@@ -1785,7 +2030,9 @@
       "verified_date": "2026-01-16T12:25:57.679335",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "278901"
+      "corp_number": "278901",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519207"
     },
     {
       "id": 298,
@@ -1796,7 +2043,9 @@
       "verified_date": "2026-01-16T12:25:57.679347",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK VALUE ADDED",
-      "corp_number": "243282"
+      "corp_number": "243282",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519209"
     },
     {
       "id": 315,
@@ -1807,7 +2056,9 @@
       "verified_date": "2026-01-16T12:25:57.679527",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "307090"
+      "corp_number": "307090",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519211"
     },
     {
       "id": 324,
@@ -1818,7 +2069,9 @@
       "verified_date": "2026-01-16T12:25:57.679547",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "387630"
+      "corp_number": "387630",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519212"
     },
     {
       "id": 329,
@@ -1829,7 +2082,9 @@
       "verified_date": "2026-01-16T12:25:57.679559",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "443646"
+      "corp_number": "443646",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519214"
     },
     {
       "id": 333,
@@ -1840,7 +2095,9 @@
       "verified_date": "2026-01-16T12:25:57.679569",
       "source": "iowa_sos",
       "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "482449"
+      "corp_number": "482449",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519215"
     },
     {
       "id": 339,
@@ -1851,7 +2108,9 @@
       "verified_date": "2026-01-16T12:25:57.679583",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "527417"
+      "corp_number": "527417",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519217"
     },
     {
       "id": 341,
@@ -1862,7 +2121,9 @@
       "verified_date": "2026-01-16T12:25:57.679588",
       "source": "iowa_sos",
       "corp_type": "REVISED FOREIGN NON-PROFIT",
-      "corp_number": "524705"
+      "corp_number": "524705",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519218"
     },
     {
       "id": 347,
@@ -1873,7 +2134,9 @@
       "verified_date": "2026-01-16T12:25:57.679602",
       "source": "iowa_sos",
       "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "581965"
+      "corp_number": "581965",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519219"
     },
     {
       "id": 354,
@@ -1884,7 +2147,9 @@
       "verified_date": "2026-01-16T12:25:57.679620",
       "source": "iowa_sos",
       "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "642398"
+      "corp_number": "642398",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519221"
     },
     {
       "id": 358,
@@ -1895,7 +2160,9 @@
       "verified_date": "2026-01-16T12:25:57.679629",
       "source": "iowa_sos",
       "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
-      "corp_number": "662427"
+      "corp_number": "662427",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519222"
     },
     {
       "id": 367,
@@ -1906,7 +2173,9 @@
       "verified_date": "2026-01-16T12:25:57.679649",
       "source": "iowa_sos",
       "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "797347"
+      "corp_number": "797347",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519224"
     },
     {
       "id": 371,
@@ -1917,7 +2186,9 @@
       "verified_date": "2026-01-16T12:25:57.679658",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "821291"
+      "corp_number": "821291",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519225"
     },
     {
       "id": 373,
@@ -1928,7 +2199,9 @@
       "verified_date": "2026-01-16T12:25:57.679661",
       "source": "iowa_sos",
       "corp_type": "REVISED FOREIGN NON-PROFIT",
-      "corp_number": "844666"
+      "corp_number": "844666",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519227"
     },
     {
       "id": 377,
@@ -1938,7 +2211,9 @@
       "location": "ALLISON, IA",
       "verified_date": "2026-01-16T12:29:09.892963",
       "source": "iowa_sos",
-      "corp_number": "069542"
+      "corp_number": "069542",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519228"
     },
     {
       "id": 378,
@@ -1948,7 +2223,9 @@
       "location": "HARTLEY, IA",
       "verified_date": "2026-01-16T12:29:09.892965",
       "source": "iowa_sos",
-      "corp_number": "087788"
+      "corp_number": "087788",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519229"
     },
     {
       "id": 379,
@@ -1958,7 +2235,9 @@
       "location": "DES MOINES, IA",
       "verified_date": "2026-01-16T12:29:09.892967",
       "source": "iowa_sos",
-      "corp_number": "235515"
+      "corp_number": "235515",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519231"
     },
     {
       "id": 380,
@@ -1968,7 +2247,9 @@
       "location": "GARNAVILLO, IA",
       "verified_date": "2026-01-16T12:29:09.892969",
       "source": "iowa_sos",
-      "corp_number": "087805"
+      "corp_number": "087805",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519232"
     },
     {
       "id": 383,
@@ -1978,7 +2259,9 @@
       "location": "WALCOTT, IA",
       "verified_date": "2026-01-16T12:29:09.892972",
       "source": "iowa_sos",
-      "corp_number": "069651"
+      "corp_number": "069651",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519233"
     },
     {
       "id": 393,
@@ -1988,7 +2271,9 @@
       "location": "ALGONA, IA",
       "verified_date": "2026-01-16T12:29:09.892983",
       "source": "iowa_sos",
-      "corp_number": "087790"
+      "corp_number": "087790",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519235"
     },
     {
       "id": 403,
@@ -1998,7 +2283,9 @@
       "location": "TRAER, IA",
       "verified_date": "2026-01-16T12:29:09.892997",
       "source": "iowa_sos",
-      "corp_number": "069645"
+      "corp_number": "069645",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519237"
     },
     {
       "id": 426,
@@ -2008,7 +2295,9 @@
       "location": "GRUNDY CENTER, IA",
       "verified_date": "2026-01-16T12:29:09.893025",
       "source": "iowa_sos",
-      "corp_number": "087783"
+      "corp_number": "087783",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519240"
     },
     {
       "id": 429,
@@ -2018,7 +2307,9 @@
       "location": "CRESCO, IA",
       "verified_date": "2026-01-16T12:29:09.893029",
       "source": "iowa_sos",
-      "corp_number": "069590"
+      "corp_number": "069590",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519241"
     },
     {
       "id": 433,
@@ -2028,29 +2319,9 @@
       "location": "CHARLES CITY, IA",
       "verified_date": "2026-01-16T12:29:09.893033",
       "source": "iowa_sos",
-      "corp_number": "069574"
-    },
-    {
-      "id": 456,
-      "name": "AGSTATE COOPERATIVE",
-      "category": "agricultural",
-      "website": "https://agstate.org/",
-      "location": "CHEROKEE, IA",
-      "verified_date": "2026-01-16T12:41:34.436248",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP NON STOCK",
-      "corp_number": "663679"
-    },
-    {
-      "id": 459,
-      "name": "FIRST COOPERATIVE ASSOCIATION",
-      "category": "agricultural",
-      "website": "https://agstate.org/",
-      "location": "CHEROKEE, IA",
-      "verified_date": "2026-01-16T12:41:34.436274",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "053731"
+      "corp_number": "069574",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519242"
     },
     {
       "id": 460,
@@ -2061,7 +2332,9 @@
       "verified_date": "2026-01-16T12:41:34.436277",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "053893"
+      "corp_number": "053893",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519248"
     },
     {
       "id": 462,
@@ -2072,18 +2345,9 @@
       "verified_date": "2026-01-16T12:41:34.436287",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "258902"
-    },
-    {
-      "id": 467,
-      "name": "ASPINWALL COOPERATIVE CO.",
-      "category": "agricultural",
-      "website": "http://www.aspinwallcoop.com/",
-      "location": "ASPINWALL, IA",
-      "verified_date": "2026-01-16T12:41:34.436312",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "053628"
+      "corp_number": "258902",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519249"
     },
     {
       "id": 468,
@@ -2094,7 +2358,9 @@
       "verified_date": "2026-01-16T12:41:34.436316",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "124323"
+      "corp_number": "124323",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519252"
     },
     {
       "id": 469,
@@ -2105,18 +2371,9 @@
       "verified_date": "2026-01-16T12:41:34.436325",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "747017"
-    },
-    {
-      "id": 470,
-      "name": "GOLDFIELD COOPERATIVE",
-      "category": "agricultural",
-      "website": "https://www.goldeaglecoop.com/",
-      "location": "EAGLE GROVE, IA",
-      "verified_date": "2026-01-16T12:41:34.436334",
-      "source": "iowa_sos",
-      "corp_type": "CO-OP STOCK",
-      "corp_number": "789232"
+      "corp_number": "747017",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519253"
     },
     {
       "id": 471,
@@ -2127,18 +2384,9 @@
       "verified_date": "2026-01-16T12:41:34.436338",
       "source": "iowa_sos",
       "corp_type": "CO-OP STOCK",
-      "corp_number": "053985"
-    },
-    {
-      "id": 472,
-      "name": "FRONTIER COOPERATIVE",
-      "category": "food",
-      "website": "https://www.frontiercoop.com/",
-      "location": "NORWAY, IA",
-      "verified_date": "2026-01-16T12:41:34.436341",
-      "source": "iowa_sos",
-      "corp_type": "DOMESTIC COOPERATIVE",
-      "corp_number": "054019"
+      "corp_number": "053985",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519256"
     },
     {
       "id": 474,
@@ -2149,7 +2397,9 @@
       "verified_date": "2026-01-16T12:41:34.436349",
       "source": "iowa_sos",
       "corp_type": "CO-OP NON STOCK",
-      "corp_number": "053953"
+      "corp_number": "053953",
+      "exported_to_website": true,
+      "export_date": "2026-01-16T13:18:54.519260"
     }
   ]
 }
