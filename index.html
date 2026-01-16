@@ -531,35 +531,35 @@
         const MIN_CARD_WIDTH = 220;
         const MAX_CARD_WIDTH = 300;
 
-        // Card height variations for masonry effect
-        const HEIGHT_VARIANTS = [180, 220, 260, 200, 240];
+        // Card height variations for masonry effect (shorter for more horizontal spread)
+        const HEIGHT_VARIANTS = [150, 170, 190, 160, 180];
 
-        // Calculate responsive values
+        // Calculate responsive values - optimized for horizontal spread
         function getResponsiveConfig() {
             const containerWidth = window.innerWidth;
             let cardWidth, numColumns;
 
             if (containerWidth <= 480) {
                 numColumns = 2;
-                cardWidth = (containerWidth - GAP * 3) / 2;
             } else if (containerWidth <= 768) {
-                numColumns = 3;
-                cardWidth = (containerWidth - GAP * 4) / 3;
-            } else if (containerWidth <= 1024) {
                 numColumns = 4;
-                cardWidth = (containerWidth - GAP * 5) / 4;
-            } else if (containerWidth <= 1440) {
+            } else if (containerWidth <= 1024) {
                 numColumns = 6;
-                cardWidth = (containerWidth - GAP * 7) / 6;
+            } else if (containerWidth <= 1440) {
+                numColumns = 8;
+            } else if (containerWidth <= 1920) {
+                numColumns = 10;
             } else {
-                // For very wide screens, calculate columns to fill width
+                // For very wide screens, maximize columns
                 numColumns = Math.floor((containerWidth - GAP) / (MIN_CARD_WIDTH + GAP));
-                numColumns = Math.max(numColumns, 6);
-                cardWidth = (containerWidth - GAP * (numColumns + 1)) / numColumns;
+                numColumns = Math.max(numColumns, 10);
             }
 
+            // Calculate card width to fill the screen
+            cardWidth = (containerWidth - GAP * (numColumns + 1)) / numColumns;
+
             // Clamp card width
-            cardWidth = Math.max(MIN_CARD_WIDTH, Math.min(MAX_CARD_WIDTH, cardWidth));
+            cardWidth = Math.max(MIN_CARD_WIDTH * 0.8, Math.min(MAX_CARD_WIDTH, cardWidth));
 
             return { cardWidth, numColumns };
         }
