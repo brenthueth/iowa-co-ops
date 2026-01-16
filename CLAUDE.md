@@ -92,3 +92,6 @@ Edit `index.html` - key sections:
 - Subcategories for large groups (agricultural types)
 - Search functionality
 - Cooperative detail pages
+- Add similar pages for other states 
+- Building national directory 
+- Expand to MGO class with cooperatives as subcategory
