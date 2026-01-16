@@ -1,0 +1,2176 @@
+{
+  "metadata": {
+    "description": "Verified Iowa cooperatives with websites (for batch import)",
+    "total": 218,
+    "last_updated": "2026-01-16T12:57:58.119713"
+  },
+  "cooperatives": [
+    {
+      "id": 1,
+      "name": "21st Century Cooperative",
+      "location": "Cumberland, IA",
+      "type": "Agricultural",
+      "website": "http://www.21stcoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 2,
+      "name": "AgState",
+      "location": "Cherokee, IA",
+      "type": "Agricultural",
+      "website": "https://agstate.org/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 3,
+      "name": "Archer Cooperative Grain",
+      "location": "Archer, IA",
+      "type": "Agricultural",
+      "website": "http://archercoopgrain.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 4,
+      "name": "Aspinwall Coop Company",
+      "location": "Aspinwall, IA",
+      "type": "Agricultural",
+      "website": "http://www.aspinwallcoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 5,
+      "name": "Buckingham Cooperative",
+      "location": "Buckingham, IA",
+      "type": "Agricultural",
+      "website": "http://www.buckingham.coop/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 6,
+      "name": "Cedar County Cooperative",
+      "location": "Tipton, IA",
+      "type": "Agricultural",
+      "website": "http://www.cedarcountycoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 7,
+      "name": "Cooperative Farmers Elevator",
+      "location": "Rock Valley, IA",
+      "type": "Agricultural",
+      "website": "http://www.coopfe.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 8,
+      "name": "Dunkerton Co-op Elevator",
+      "location": "Dunkerton, IA",
+      "type": "Agricultural",
+      "website": "http://www.dunkertoncoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 9,
+      "name": "Farm Service Cooperative",
+      "location": "Harlan, IA",
+      "type": "Agricultural",
+      "website": "http://www.fscoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 10,
+      "name": "Farmers Cooperative",
+      "location": "Keota, IA",
+      "type": "Agricultural",
+      "website": "http://www.keotafarmerscoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 11,
+      "name": "Farmers Co-op (Readlyn)",
+      "location": "Readlyn, IA",
+      "type": "Agricultural",
+      "website": "http://www.readlynshellrockcoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 12,
+      "name": "Farmers Cooperative (Radcliffe)",
+      "location": "Radcliffe, IA",
+      "type": "Agricultural",
+      "website": "https://www.radcliffecoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 13,
+      "name": "Farmers Cooperative (Craig)",
+      "location": "Craig, IA",
+      "type": "Agricultural",
+      "website": "http://www.craigcoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 14,
+      "name": "Farmers Cooperative (Remsen)",
+      "location": "Remsen, IA",
+      "type": "Agricultural",
+      "website": "http://www.remsencoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 15,
+      "name": "Farmers Cooperative (Ottosen)",
+      "location": "Ottosen, IA",
+      "type": "Agricultural",
+      "website": "http://www.ottosenelevator.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 16,
+      "name": "Farmers Cooperative (Arcadia)",
+      "location": "Arcadia, IA",
+      "type": "Agricultural",
+      "website": "http://www.faccooperative.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 17,
+      "name": "Farmers Cooperative Society",
+      "location": "Sioux Center, IA",
+      "type": "Agricultural",
+      "website": "http://www.farmerscoopsociety.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 18,
+      "name": "Farmers Union Cooperative",
+      "location": "Ossian, IA",
+      "type": "Agricultural",
+      "website": "http://www.farmerunion.net/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 19,
+      "name": "Farmers Win Cooperative",
+      "location": "Fredericksburg, IA",
+      "type": "Agricultural",
+      "website": "http://www.farmerswin.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 20,
+      "name": "Five Star Cooperative",
+      "location": "New Hampton, IA",
+      "type": "Agricultural",
+      "website": "https://www.fivestarcoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 21,
+      "name": "Gold-Eagle Cooperative",
+      "location": "Goldfield, IA",
+      "type": "Agricultural",
+      "website": "http://www.goldeaglecoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 22,
+      "name": "Heartland Co-op",
+      "location": "West Des Moines, IA",
+      "type": "Agricultural",
+      "website": "http://www.heartlandcoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 23,
+      "name": "Hull Cooperative",
+      "location": "Hull, IA",
+      "type": "Agricultural",
+      "website": "http://www.hullcoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 24,
+      "name": "Innovative Ag Services",
+      "location": "Monticello, IA",
+      "type": "Agricultural",
+      "website": "http://www.innovativeag.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 25,
+      "name": "Key Cooperative",
+      "location": "Roland, IA",
+      "type": "Agricultural",
+      "website": "http://www.keycoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 26,
+      "name": "Landus",
+      "location": "Des Moines, IA",
+      "type": "Agricultural",
+      "website": "https://www.landus.ag/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 27,
+      "name": "Linn Cooperative Oil Co.",
+      "location": "Marion, IA",
+      "type": "Agricultural",
+      "website": "https://www.linncoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 28,
+      "name": "Mid-Iowa Cooperative",
+      "location": "Beaman, IA",
+      "type": "Agricultural",
+      "website": "http://www.midiowacoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 29,
+      "name": "NEW Cooperative Inc.",
+      "location": "Fort Dodge, IA",
+      "type": "Agricultural",
+      "website": "http://www.newcoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 30,
+      "name": "Nexus Cooperative",
+      "location": "Charles City, IA",
+      "type": "Agricultural",
+      "website": "https://www.nexus.coop/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 31,
+      "name": "North Iowa Cooperative",
+      "location": "Thornton, IA",
+      "type": "Agricultural",
+      "website": "http://www.nicoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 32,
+      "name": "PRO Cooperative",
+      "location": "Pocahontas, IA",
+      "type": "Agricultural",
+      "website": "http://www.procooperative.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 33,
+      "name": "Producer Cooperative",
+      "location": "Gaza, IA",
+      "type": "Agricultural",
+      "website": "https://gazaproducerscoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 34,
+      "name": "River Valley Cooperative",
+      "location": "Davenport, IA",
+      "type": "Agricultural",
+      "website": "http://www.rivervalleycoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 35,
+      "name": "SilverEdge Cooperative",
+      "location": "Edgewood, IA",
+      "type": "Agricultural",
+      "website": "http://www.silveredgecoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 36,
+      "name": "Stateline Cooperative",
+      "location": "Burt, IA",
+      "type": "Agricultural",
+      "website": "http://www.statelinecoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 37,
+      "name": "Tama-Benton Cooperative",
+      "location": "Dysart, IA",
+      "type": "Agricultural",
+      "website": "http://www.tamabentoncoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 38,
+      "name": "Two Rivers Cooperative",
+      "location": "Pella, IA",
+      "type": "Agricultural",
+      "website": "http://www.tworivers.coop/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 39,
+      "name": "United Cooperative",
+      "location": "Webster City, IA",
+      "type": "Agricultural",
+      "website": "http://www.unitedcoop.com/",
+      "category": "agricultural",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 40,
+      "name": "Access Energy Cooperative",
+      "location": "Mount Pleasant, IA",
+      "type": "Rural Electric",
+      "website": "http://www.accessenergycoop.com/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 41,
+      "name": "Allamakee-Clayton REC",
+      "location": "Postville, IA",
+      "type": "Rural Electric",
+      "website": "http://www.acrec.com/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 42,
+      "name": "Butler County REC",
+      "location": "Allison, IA",
+      "type": "Rural Electric",
+      "website": "http://www.butlerrec.coop/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 43,
+      "name": "Calhoun County Electric",
+      "location": "Rockwell City, IA",
+      "type": "Rural Electric",
+      "website": "https://www.calhounrec.coop/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 44,
+      "name": "Central Iowa Power Coop",
+      "location": "Cedar Rapids, IA",
+      "type": "Rural Electric",
+      "website": "http://www.cipco.net/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 45,
+      "name": "Chariton Valley Electric",
+      "location": "Albia, IA",
+      "type": "Rural Electric",
+      "website": "https://www.cvrec.com/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 46,
+      "name": "Consumers Energy Coop",
+      "location": "Marshalltown, IA",
+      "type": "Rural Electric",
+      "website": "https://www.consumersenergy.coop/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 47,
+      "name": "Corn Belt Power Coop",
+      "location": "Humboldt, IA",
+      "type": "Rural Electric",
+      "website": "http://www.cbpower.coop/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 48,
+      "name": "Corridor Energy Coop",
+      "location": "Marion, IA",
+      "type": "Rural Electric",
+      "website": "https://corridorenergy.coop/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 49,
+      "name": "East Central Iowa REC",
+      "location": "Urbana, IA",
+      "type": "Rural Electric",
+      "website": "http://www.ecirec.coop/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 50,
+      "name": "Farmers Electric Co-op",
+      "location": "Greenfield, IA",
+      "type": "Rural Electric",
+      "website": "http://www.farmersrec.com/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 51,
+      "name": "Franklin Rural Electric",
+      "location": "Hampton, IA",
+      "type": "Rural Electric",
+      "website": "https://www.franklinrec.coop/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 52,
+      "name": "Grundy County REC",
+      "location": "Grundy Center, IA",
+      "type": "Rural Electric",
+      "website": "http://www.grundycountyrecia.com/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 53,
+      "name": "Guthrie County REC",
+      "location": "Guthrie Center, IA",
+      "type": "Rural Electric",
+      "website": "http://www.guthrie-rec.coop/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 54,
+      "name": "Harrison County REC",
+      "location": "Woodbine, IA",
+      "type": "Rural Electric",
+      "website": "http://www.hcrec.coop/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 55,
+      "name": "Iowa Lakes Electric",
+      "location": "Estherville, IA",
+      "type": "Rural Electric",
+      "website": "http://www.ilec.org/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 56,
+      "name": "Midland Power Coop",
+      "location": "Jefferson, IA",
+      "type": "Rural Electric",
+      "website": "http://www.midlandpower.com/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 57,
+      "name": "Nishnabotna Valley REC",
+      "location": "Harlan, IA",
+      "type": "Rural Electric",
+      "website": "https://www.nvrec.com/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 58,
+      "name": "Northwest REC",
+      "location": "Orange City, IA",
+      "type": "Rural Electric",
+      "website": "http://www.nwrec.com/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 59,
+      "name": "Northwest Iowa Power",
+      "location": "LeMars, IA",
+      "type": "Rural Electric",
+      "website": "http://www.nipco.coop/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 60,
+      "name": "Raccoon Valley Electric",
+      "location": "Glidden, IA",
+      "type": "Rural Electric",
+      "website": "http://www.rvec.coop/",
+      "category": "electric",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 61,
+      "name": "Cedar Falls Credit Union",
+      "location": "Cedar Falls, IA",
+      "type": "Credit Union",
+      "website": "http://www.cfccu.org/",
+      "category": "credit",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 62,
+      "name": "Community Choice CU",
+      "location": "Johnston, IA",
+      "type": "Credit Union",
+      "website": "http://www.comchoicecu.org/",
+      "category": "credit",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 63,
+      "name": "Community 1st CU",
+      "location": "Ottumwa, IA",
+      "type": "Credit Union",
+      "website": "https://www.c1stcreditunion.com/",
+      "category": "credit",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 64,
+      "name": "Dupaco Community CU",
+      "location": "Dubuque, IA",
+      "type": "Credit Union",
+      "website": "https://www.dupaco.com/",
+      "category": "credit",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 65,
+      "name": "Financial Plus CU",
+      "location": "West Des Moines, IA",
+      "type": "Credit Union",
+      "website": "https://secure.financialpluscu.com/",
+      "category": "credit",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 66,
+      "name": "Greater Iowa CU",
+      "location": "Ames, IA",
+      "type": "Credit Union",
+      "website": "https://www.greateriowacu.org/",
+      "category": "credit",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 67,
+      "name": "Green State CU",
+      "location": "North Liberty, IA",
+      "type": "Credit Union",
+      "website": "https://www.greenstate.org/",
+      "category": "credit",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 68,
+      "name": "Farmers Co-op Telephone",
+      "location": "Dysart, IA",
+      "type": "Telecommunications",
+      "website": "http://www.fctc.coop/",
+      "category": "telecom",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 69,
+      "name": "Farmers Mutual Telephone",
+      "location": "Harlan, IA",
+      "type": "Telecommunications",
+      "website": "http://www.fmctc.com/",
+      "category": "telecom",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 70,
+      "name": "Heart of Iowa Comm.",
+      "location": "Union, IA",
+      "type": "Telecommunications",
+      "website": "http://www.heartofiowa.coop/",
+      "category": "telecom",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 71,
+      "name": "Huxley Communications",
+      "location": "Huxley, IA",
+      "type": "Telecommunications",
+      "website": "http://www.huxcomm.net/",
+      "category": "telecom",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 72,
+      "name": "Northwest Communications",
+      "location": "Havelock, IA",
+      "type": "Telecommunications",
+      "website": "https://ncn.net/",
+      "category": "telecom",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 73,
+      "name": "South Slope Cooperative",
+      "location": "North Liberty, IA",
+      "type": "Telecommunications",
+      "website": "https://www.southslope.com/",
+      "category": "telecom",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 74,
+      "name": "Western Iowa Telephone",
+      "location": "Lawton, IA",
+      "type": "Telecommunications",
+      "website": "https://www.wiatel.com/",
+      "category": "telecom",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 75,
+      "name": "Iowa Food Cooperative",
+      "location": "Des Moines, IA",
+      "type": "Food/Consumer",
+      "website": "https://iowafood.coop/",
+      "category": "food",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 76,
+      "name": "Oneota Food Cooperative",
+      "location": "Decorah, IA",
+      "type": "Food/Consumer",
+      "website": "https://oneotacoop.com/",
+      "category": "food",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 77,
+      "name": "New Pioneer Food Co-op",
+      "location": "Iowa City, IA",
+      "type": "Food/Consumer",
+      "website": "https://www.newpi.coop/",
+      "category": "food",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 78,
+      "name": "Frontier Co-op",
+      "location": "Norway, IA",
+      "type": "Food/Consumer",
+      "website": "https://www.frontiercoop.com/",
+      "category": "food",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 79,
+      "name": "Morning Bell Coffee",
+      "location": "Ames, IA",
+      "type": "Worker-Owned",
+      "website": "https://morningbellcoffee.com/",
+      "category": "other",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 80,
+      "name": "River City Housing",
+      "location": "Iowa City, IA",
+      "type": "Housing",
+      "website": "https://rchc.coop/",
+      "category": "other",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 83,
+      "name": "Brown Deer Cooperative",
+      "location": "Coralville, IA",
+      "type": "Housing",
+      "website": "https://www.browndeercooperative.com",
+      "category": "other",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 84,
+      "name": "Cooperative Energy Co.",
+      "location": "Sibley, IA",
+      "type": "Energy",
+      "website": "http://www.coopenergyco.com/",
+      "category": "energy",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 85,
+      "name": "Hancock County Co-op Oil",
+      "location": "Garner, IA",
+      "type": "Energy",
+      "website": "https://www.hancockcountycoop.com/",
+      "category": "energy",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 86,
+      "name": "NuWay K&H Cooperative",
+      "location": "Clear Lake, IA",
+      "type": "Energy",
+      "website": "https://www.nuway-kandh.com/",
+      "category": "energy",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 87,
+      "name": "W & H Oil Cooperative",
+      "location": "Humboldt, IA",
+      "type": "Energy",
+      "website": "http://www.whcoop.com/",
+      "category": "energy",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 88,
+      "name": "Siouxland Energy Coop",
+      "location": "Sioux Center, IA",
+      "type": "Renewable Energy",
+      "website": "http://www.siouxlandenergy.com/",
+      "category": "energy",
+      "source": "iowa_institute"
+    },
+    {
+      "id": 89,
+      "name": "Ag Partners Cooperative",
+      "category": "agricultural",
+      "website": "https://www.agpartnerscoop.com/",
+      "location": "Iowa",
+      "verified_date": "2026-01-16T11:24:52.484177",
+      "source": "ml_pipeline",
+      "similarity_score": 0.6644138097763062
+    },
+    {
+      "id": 90,
+      "name": "Prairie Energy Cooperative",
+      "category": "electric",
+      "website": "https://www.prairieenergy.coop/",
+      "location": "Clarion, IA",
+      "verified_date": "2026-01-16T11:25:19.300459",
+      "source": "ml_pipeline",
+      "similarity_score": 0.6127160787582397
+    },
+    {
+      "id": 91,
+      "name": "T.I.P. Rural Electric Cooperative",
+      "category": "electric",
+      "website": "https://www.tiprec.com/",
+      "location": "Brooklyn, IA",
+      "verified_date": "2026-01-16T11:25:26.430264",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5546269416809082
+    },
+    {
+      "id": 92,
+      "name": "Maquoketa Valley Electric Cooperative",
+      "category": "electric",
+      "website": "https://www.mvec.coop/",
+      "location": "Anamosa, IA",
+      "verified_date": "2026-01-16T11:25:34.855703",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5267581939697266
+    },
+    {
+      "id": 93,
+      "name": "Veridian Credit Union",
+      "category": "credit",
+      "website": "https://www.veridiancu.org/",
+      "location": "Waterloo, IA",
+      "verified_date": "2026-01-16T11:25:57.435196",
+      "source": "ml_pipeline",
+      "similarity_score": 0.4820309579372406
+    },
+    {
+      "id": 94,
+      "name": "Collins Community Credit Union",
+      "category": "credit",
+      "website": "https://www.collinscu.org/",
+      "location": "Cedar Rapids, IA",
+      "verified_date": "2026-01-16T11:26:04.063220",
+      "source": "ml_pipeline",
+      "similarity_score": 0.4757583737373352
+    },
+    {
+      "id": 95,
+      "name": "Eastern Iowa Light & Power Cooperative",
+      "category": "electric",
+      "website": "https://www.easterniowa.com/",
+      "location": "Wilton, IA",
+      "verified_date": "2026-01-16T11:53:30.195714",
+      "source": "ml_pipeline",
+      "similarity_score": 0.7003740668296814
+    },
+    {
+      "id": 96,
+      "name": "Southwest Iowa Rural Electric Cooperative",
+      "category": "electric",
+      "website": "https://www.swiarec.coop/",
+      "location": "Corning, IA",
+      "verified_date": "2026-01-16T11:53:37.132799",
+      "source": "ml_pipeline",
+      "similarity_score": 0.6905277371406555
+    },
+    {
+      "id": 97,
+      "name": "Western Iowa Power Cooperative (WIPCO)",
+      "category": "electric",
+      "website": "https://www.wipco.com/",
+      "location": "Denison, IA",
+      "verified_date": "2026-01-16T11:53:44.925322",
+      "source": "ml_pipeline",
+      "similarity_score": 0.6677846312522888
+    },
+    {
+      "id": 98,
+      "name": "Midland Power Cooperative",
+      "category": "electric",
+      "website": "https://www.midlandpower.coop/",
+      "location": "Jefferson, IA",
+      "verified_date": "2026-01-16T11:53:49.368888",
+      "source": "ml_pipeline",
+      "similarity_score": 0.6433296203613281
+    },
+    {
+      "id": 99,
+      "name": "Heartland Power Cooperative",
+      "category": "electric",
+      "website": "https://www.heartlandpower.com/",
+      "location": "Thompson, IA",
+      "verified_date": "2026-01-16T11:53:58.469872",
+      "source": "ml_pipeline",
+      "similarity_score": 0.6107368469238281
+    },
+    {
+      "id": 100,
+      "name": "Woodbury County Rural Electric Cooperative",
+      "category": "electric",
+      "website": "https://www.woodburyrec.com/",
+      "location": "Moville, IA",
+      "verified_date": "2026-01-16T11:54:04.055920",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5987504720687866
+    },
+    {
+      "id": 101,
+      "name": "Lyon Rural Electric Cooperative",
+      "category": "electric",
+      "website": "https://www.lyonrec.coop/",
+      "location": "Rock Rapids, IA",
+      "verified_date": "2026-01-16T11:54:09.008147",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5888598561286926
+    },
+    {
+      "id": 102,
+      "name": "Iowa Lakes Electric Cooperative",
+      "category": "electric",
+      "website": "https://www.ilec.coop/",
+      "location": "Estherville, IA",
+      "verified_date": "2026-01-16T11:54:17.710143",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5851613283157349
+    },
+    {
+      "id": 103,
+      "name": "Clarke Electric Cooperative",
+      "category": "electric",
+      "website": "https://www.cecnet.net/",
+      "location": "Osceola, IA",
+      "verified_date": "2026-01-16T11:54:24.154121",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5722360610961914
+    },
+    {
+      "id": 104,
+      "name": "Southern Iowa Electric Cooperative",
+      "category": "electric",
+      "website": "https://www.sie.coop/",
+      "location": "Bloomfield, IA",
+      "verified_date": "2026-01-16T11:54:28.112491",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5710510015487671
+    },
+    {
+      "id": 105,
+      "name": "FINANCIAL PLUS Credit Union",
+      "category": "credit",
+      "website": "https://www.financialpluscu.com/",
+      "location": "West Des Moines, IA",
+      "verified_date": "2026-01-16T12:05:48.845520",
+      "source": "ml_pipeline",
+      "similarity_score": 0.6414369344711304
+    },
+    {
+      "id": 106,
+      "name": "COMMUNITY CHOICE Credit Union",
+      "category": "credit",
+      "website": "https://www.comchoicecu.org/",
+      "location": "JOHNSTON, IA",
+      "verified_date": "2026-01-16T12:05:54.290387",
+      "source": "ml_pipeline",
+      "similarity_score": 0.6400502324104309
+    },
+    {
+      "id": 107,
+      "name": "RIVER VALLEY Credit Union",
+      "category": "credit",
+      "website": "https://www.rvcu.org/",
+      "location": "AMES, IA",
+      "verified_date": "2026-01-16T12:05:57.886055",
+      "source": "ml_pipeline",
+      "similarity_score": 0.6105263829231262
+    },
+    {
+      "id": 108,
+      "name": "SERVE Credit Union",
+      "category": "credit",
+      "website": "https://www.servecu.org/",
+      "location": "DES MOINES, IA",
+      "verified_date": "2026-01-16T12:06:01.307376",
+      "source": "ml_pipeline",
+      "similarity_score": 0.60783851146698
+    },
+    {
+      "id": 109,
+      "name": "UNITE Credit Union",
+      "category": "credit",
+      "website": "https://www.unite-cu.org/",
+      "location": "Cedar Falls, IA",
+      "verified_date": "2026-01-16T12:06:04.165829",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5810512900352478
+    },
+    {
+      "id": 110,
+      "name": "IOWA HEARTLAND Credit Union",
+      "category": "credit",
+      "website": "https://www.iowaheartland.org/",
+      "location": "MASON CITY, IA",
+      "verified_date": "2026-01-16T12:06:12.404333",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5714877843856812
+    },
+    {
+      "id": 111,
+      "name": "TELCO TRIAD COMMUNITY Credit Union",
+      "category": "credit",
+      "website": "https://www.telcotriad.org/",
+      "location": "Sioux City, IA",
+      "verified_date": "2026-01-16T12:06:15.997864",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5639382600784302
+    },
+    {
+      "id": 112,
+      "name": "GREATER IOWA Credit Union",
+      "category": "credit",
+      "website": "https://www.gicu.org/",
+      "location": "Ames, IA",
+      "verified_date": "2026-01-16T12:06:19.144254",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5572196245193481
+    },
+    {
+      "id": 113,
+      "name": "METCO Credit Union",
+      "category": "credit",
+      "website": "https://www.metcocu.org/",
+      "location": "Cedar Rapids, IA",
+      "verified_date": "2026-01-16T12:06:23.522729",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5559180974960327
+    },
+    {
+      "id": 114,
+      "name": "Osceola Electric Cooperative",
+      "category": "electric",
+      "website": "https://www.osceolaelectric.com/",
+      "location": "Sibley, IA",
+      "verified_date": "2026-01-16T12:06:26.931889",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5555607676506042
+    },
+    {
+      "id": 115,
+      "name": "L&O Power Cooperative",
+      "category": "electric",
+      "website": "https://www.landopowercoop.com/",
+      "location": "Rock Rapids, IA",
+      "verified_date": "2026-01-16T12:06:33.052394",
+      "source": "ml_pipeline",
+      "similarity_score": 0.540638267993927
+    },
+    {
+      "id": 116,
+      "name": "Coon Valley Telecommunications Cooperative",
+      "category": "telecom",
+      "website": "https://www.coonvalleytelco.com/",
+      "location": "Manning, IA",
+      "verified_date": "2026-01-16T12:06:40.365784",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5313416719436646
+    },
+    {
+      "id": 117,
+      "name": "Northeast Iowa Telephone Company",
+      "category": "telecom",
+      "website": "https://www.neitel.com/",
+      "location": "Monona, IA",
+      "verified_date": "2026-01-16T12:06:43.793157",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5249463319778442
+    },
+    {
+      "id": 118,
+      "name": "CORDA Credit Union",
+      "category": "credit",
+      "website": "https://www.cordacu.org/",
+      "location": "Cedar Rapids, IA",
+      "verified_date": "2026-01-16T12:06:46.803044",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5236430168151855
+    },
+    {
+      "id": 119,
+      "name": "JOURNEY Credit Union",
+      "category": "credit",
+      "website": "https://www.journeycu.org/",
+      "location": "Des Moines, IA",
+      "verified_date": "2026-01-16T12:06:48.990755",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5231670141220093
+    },
+    {
+      "id": 120,
+      "name": "RIVER COMMUNITY Credit Union",
+      "category": "credit",
+      "website": "https://www.rivercommunitycu.org/",
+      "location": "Ottumwa, IA",
+      "verified_date": "2026-01-16T12:12:45.418097",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5216506123542786
+    },
+    {
+      "id": 121,
+      "name": "MiEnergy Cooperative",
+      "category": "electric",
+      "website": "https://www.mienergy.coop/",
+      "location": "Cresco, IA",
+      "verified_date": "2026-01-16T12:12:51.105818",
+      "source": "ml_pipeline",
+      "similarity_score": 0.520733654499054
+    },
+    {
+      "id": 122,
+      "name": "FAMILY COMMUNITY Credit Union",
+      "category": "credit",
+      "website": "https://www.familycommunitycu.com/",
+      "location": "Charles City, IA",
+      "verified_date": "2026-01-16T12:12:55.980685",
+      "source": "ml_pipeline",
+      "similarity_score": 0.5011758804321289
+    },
+    {
+      "id": 123,
+      "name": "ASCENTRA Credit Union",
+      "category": "credit",
+      "website": "https://www.ascentra.org/",
+      "location": "Bettendorf, IA",
+      "verified_date": "2026-01-16T12:12:58.580949",
+      "source": "ml_pipeline",
+      "similarity_score": 0.4997260570526123
+    },
+    {
+      "id": 124,
+      "name": "Premier Cooperative",
+      "category": "agricultural",
+      "website": "https://www.premiercooperative.com/",
+      "location": "Reinbeck, IA",
+      "verified_date": "2026-01-16T12:13:11.631785",
+      "source": "ml_pipeline",
+      "similarity_score": 0.48483118414878845
+    },
+    {
+      "id": 125,
+      "name": "DU TRAC COMMUNITY Credit Union",
+      "category": "credit",
+      "website": "https://www.dutrac.org/",
+      "location": "DUBUQUE, IA",
+      "verified_date": "2026-01-16T12:13:16.498255",
+      "source": "ml_pipeline",
+      "similarity_score": 0.481743186712265
+    },
+    {
+      "id": 126,
+      "name": "AFFINITY Credit Union",
+      "category": "credit",
+      "website": "https://www.affinitycuia.org/",
+      "location": "Des Moines, IA",
+      "verified_date": "2026-01-16T12:13:19.993467",
+      "source": "ml_pipeline",
+      "similarity_score": 0.4781624674797058
+    },
+    {
+      "id": 127,
+      "name": "Winnebago Cooperative Telecom Association",
+      "category": "telecom",
+      "website": "https://www.wctatel.net/",
+      "location": "Lake Mills, IA",
+      "verified_date": "2026-01-16T12:13:24.995139",
+      "source": "ml_pipeline",
+      "similarity_score": 0.4776788353919983
+    },
+    {
+      "id": 128,
+      "name": "CENT Credit Union",
+      "category": "credit",
+      "website": "https://www.centcu.org/",
+      "location": "Mason City, IA",
+      "verified_date": "2026-01-16T12:13:28.324128",
+      "source": "ml_pipeline",
+      "similarity_score": 0.4715557098388672
+    },
+    {
+      "id": 129,
+      "name": "MEMBERS1ST COMMUNITY Credit Union",
+      "category": "credit",
+      "website": "https://www.members1st.com/",
+      "location": "Marshalltown, IA",
+      "verified_date": "2026-01-16T12:13:31.784237",
+      "source": "ml_pipeline",
+      "similarity_score": 0.4712509512901306
+    },
+    {
+      "id": 130,
+      "name": "FORT DODGE FAMILY Credit Union",
+      "category": "credit",
+      "website": "https://www.fdfcu.com/",
+      "location": "Fort Dodge, IA",
+      "verified_date": "2026-01-16T12:13:34.534058",
+      "source": "ml_pipeline",
+      "similarity_score": 0.46861180663108826
+    },
+    {
+      "id": 131,
+      "name": "THE FAMILY Credit Union",
+      "category": "credit",
+      "website": "https://www.familycu.com/",
+      "location": "Davenport, IA",
+      "verified_date": "2026-01-16T12:13:37.738515",
+      "source": "ml_pipeline",
+      "similarity_score": 0.46846795082092285
+    },
+    {
+      "id": 132,
+      "name": "Pella Cooperative Electric Association",
+      "category": "electric",
+      "website": "https://www.pella-cea.org/",
+      "location": "Pella, IA",
+      "verified_date": "2026-01-16T12:13:41.671067",
+      "source": "ml_pipeline",
+      "similarity_score": 0.46447819471359253
+    },
+    {
+      "id": 133,
+      "name": "NORTH STAR COMMUNITY Credit Union",
+      "category": "credit",
+      "website": "https://www.nsccu.org/",
+      "location": "Cherokee, IA",
+      "verified_date": "2026-01-16T12:13:45.618053",
+      "source": "ml_pipeline",
+      "similarity_score": 0.45342355966567993
+    },
+    {
+      "id": 134,
+      "name": "ADVANTAGE Credit Union",
+      "category": "credit",
+      "website": "https://www.acuiowa.org/",
+      "location": "Newton, IA",
+      "verified_date": "2026-01-16T12:13:48.224901",
+      "source": "ml_pipeline",
+      "similarity_score": 0.44012251496315
+    },
+    {
+      "id": 135,
+      "name": "FIRST Credit Union",
+      "category": "credit",
+      "website": "https://www.firstfedcu.com/",
+      "location": "Hiawatha, IA",
+      "verified_date": "2026-01-16T12:13:53.957571",
+      "source": "ml_pipeline",
+      "similarity_score": 0.413717120885849
+    },
+    {
+      "id": 136,
+      "name": "1ST GATEWAY Credit Union",
+      "category": "credit",
+      "website": "https://www.1stgateway.org/",
+      "location": "Camanche, IA",
+      "verified_date": "2026-01-16T12:14:26.177587",
+      "source": "ml_pipeline",
+      "similarity_score": 0.38645055890083313
+    },
+    {
+      "id": 137,
+      "name": "COMMUNITY 1ST Credit Union",
+      "category": "credit",
+      "website": "https://www.community1stcu.com/",
+      "location": "Ottumwa, IA",
+      "verified_date": "2026-01-16T12:14:30.362682",
+      "source": "ml_pipeline",
+      "similarity_score": 0.28774815797805786
+    },
+    {
+      "id": 140,
+      "name": "IOWA CREDIT UNION LEAGUE",
+      "category": "credit",
+      "website": "https://www.iowacreditunions.com/",
+      "location": "WEST DES MOINES, IA",
+      "verified_date": "2026-01-16T12:25:57.679018",
+      "source": "iowa_sos",
+      "corp_type": "REVISED DOMESTIC NON-PROFIT",
+      "corp_number": "059137"
+    },
+    {
+      "id": 142,
+      "name": "COOPERATIVE TELEPHONE EXCHANGE",
+      "category": "telecom",
+      "website": "https://www.cooptelexchange.com/",
+      "location": "STANHOPE, IA",
+      "verified_date": "2026-01-16T12:25:57.679023",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "053958"
+    },
+    {
+      "id": 144,
+      "name": "NORTHWEST IOWA POWER COOPERATIVE",
+      "category": "electric",
+      "website": "https://www.nipco.coop/",
+      "location": "LE MARS, IA",
+      "verified_date": "2026-01-16T12:25:57.679026",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054090"
+    },
+    {
+      "id": 146,
+      "name": "FREMONT FUNERAL CHAPEL COOPERATIVE",
+      "category": "other",
+      "website": "https://www.fremontfuneralchapel.com/",
+      "location": "FREMONT, IA",
+      "verified_date": "2026-01-16T12:25:57.679032",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054018"
+    },
+    {
+      "id": 147,
+      "name": "ASSOCIATED MILK PRODUCERS, INC.",
+      "category": "agricultural",
+      "website": "https://www.ampi.com/",
+      "location": "NEW ULM, IA",
+      "verified_date": "2026-01-16T12:25:57.679034",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "053920"
+    },
+    {
+      "id": 148,
+      "name": "VAN HORNE COOPERATIVE TELEPHONE COMPANY",
+      "category": "telecom",
+      "website": "https://vanhornecommunications.com/",
+      "location": "VAN HORNE, IA",
+      "verified_date": "2026-01-16T12:25:57.679036",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054147"
+    },
+    {
+      "id": 149,
+      "name": "COMMUNITY OIL COMPANY, A COOPERATIVE",
+      "category": "energy",
+      "website": "https://communityoilco.com/",
+      "location": "ROCK VALLEY, IA",
+      "verified_date": "2026-01-16T12:25:57.679039",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053654"
+    },
+    {
+      "id": 150,
+      "name": "ATCHISON-HOLT ELECTRIC COOPERATIVE",
+      "category": "electric",
+      "website": "https://www.ahec.coop/",
+      "location": "ROCK PORT, IA",
+      "verified_date": "2026-01-16T12:25:57.679040",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "053921"
+    },
+    {
+      "id": 151,
+      "name": "GRUNDY COUNTY RURAL ELECTRIC COOPERATIVE",
+      "category": "electric",
+      "website": "https://www.grundycountyrecia.com/",
+      "location": "GRUNDY CENTER, IA",
+      "verified_date": "2026-01-16T12:25:57.679042",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054025"
+    },
+    {
+      "id": 152,
+      "name": "FARMERS ELECTRIC COOPERATIVE",
+      "category": "electric",
+      "website": "https://www.farmersrec.com/",
+      "location": "KALONA, IA",
+      "verified_date": "2026-01-16T12:25:57.679044",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054005"
+    },
+    {
+      "id": 153,
+      "name": "SPRINGVILLE COOPERATIVE TELEPHONE ASSOCIATION",
+      "category": "telecom",
+      "website": "https://springvilletelephone.com/",
+      "location": "SPRINGVILLE, IA",
+      "verified_date": "2026-01-16T12:25:57.679045",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053885"
+    },
+    {
+      "id": 155,
+      "name": "BUTLER COUNTY RURAL ELECTRIC COOPERATIVE",
+      "category": "electric",
+      "website": "https://butlerrec.coop/",
+      "location": "ALLISON, IA",
+      "verified_date": "2026-01-16T12:25:57.679048",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "053933"
+    },
+    {
+      "id": 158,
+      "name": "MARTELLE COOPERATIVE TELEPHONE ASSOCIATION",
+      "category": "telecom",
+      "website": "https://martellecom.us/",
+      "location": "MARTELLE, IA",
+      "verified_date": "2026-01-16T12:25:57.679054",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053837"
+    },
+    {
+      "id": 160,
+      "name": "GUTHRIE COUNTY RURAL ELECTRIC COOPERATIVE ASSOCIATION",
+      "category": "electric",
+      "website": "https://www.guthrie-rec.coop/",
+      "location": "GUTHRIE CENTER, IA",
+      "verified_date": "2026-01-16T12:25:57.679058",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054026"
+    },
+    {
+      "id": 161,
+      "name": "OSAGE COOPERATIVE ELEVATOR",
+      "category": "agricultural",
+      "website": "https://osagecoop.com/",
+      "location": "OSAGE, IA",
+      "verified_date": "2026-01-16T12:25:57.679061",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053861"
+    },
+    {
+      "id": 162,
+      "name": "SIOUX HONEY ASSOCIATION, COOPERATIVE",
+      "category": "agricultural",
+      "website": "https://siouxhoney.com/",
+      "location": "SIOUX CITY, IA",
+      "verified_date": "2026-01-16T12:25:57.679063",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054124"
+    },
+    {
+      "id": 163,
+      "name": "RIVER VALLEY TELECOMMUNICATIONS COOP",
+      "category": "telecom",
+      "website": "https://rvtc.net/",
+      "location": "GRAETTINGER, IA",
+      "verified_date": "2026-01-16T12:25:57.679065",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "065244"
+    },
+    {
+      "id": 164,
+      "name": "MABEL COOPERATIVE TELEPHONE COMPANY",
+      "category": "telecom",
+      "website": "https://www.mabeltel.coop/",
+      "location": "MABEL, IA",
+      "verified_date": "2026-01-16T12:25:57.679067",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053835"
+    },
+    {
+      "id": 165,
+      "name": "HANCOCK COUNTY COOPERATIVE OIL ASSOCIATION",
+      "category": "energy",
+      "website": "https://www.hancockcountycoop.com/",
+      "location": "GARNER, IA",
+      "verified_date": "2026-01-16T12:25:57.679070",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053810"
+    },
+    {
+      "id": 166,
+      "name": "FRANKLIN RURAL ELECTRIC COOPERATIVE",
+      "category": "electric",
+      "website": "https://www.franklinrec.coop/",
+      "location": "HAMPTON, IA",
+      "verified_date": "2026-01-16T12:25:57.679071",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054017"
+    },
+    {
+      "id": 169,
+      "name": "HEALTH ENTERPRISES COOPERATIVE",
+      "category": "other",
+      "website": "https://healthenterprises.org/",
+      "location": "CEDAR RAPIDS, IA",
+      "verified_date": "2026-01-16T12:25:57.679078",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "089568"
+    },
+    {
+      "id": 171,
+      "name": "ONEOTA COMMUNITY COOPERATIVE",
+      "category": "food",
+      "website": "https://oneotacoop.com/",
+      "location": "DECORAH, IA",
+      "verified_date": "2026-01-16T12:25:57.679084",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "054095"
+    },
+    {
+      "id": 172,
+      "name": "NEW PIONEER'S COOPERATIVE SOCIETY",
+      "category": "food",
+      "website": "https://www.newpi.coop/",
+      "location": "IOWA CITY, IA",
+      "verified_date": "2026-01-16T12:25:57.679087",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054083"
+    },
+    {
+      "id": 174,
+      "name": "WEBSTER-CALHOUN COOPERATIVE TELEPHONE ASSOCIATION",
+      "category": "telecom",
+      "website": "https://www.wccta.com/",
+      "location": "GOWRIE, IA",
+      "verified_date": "2026-01-16T12:25:57.679090",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "070858"
+    },
+    {
+      "id": 177,
+      "name": "PRODUCERS COOPERATIVE COMPANY",
+      "category": "agricultural",
+      "website": "https://gazaproducerscoop.com/",
+      "location": "GAZA, IA",
+      "verified_date": "2026-01-16T12:25:57.679096",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054116"
+    },
+    {
+      "id": 178,
+      "name": "PARTNER COMMUNICATIONS COOPERATIVE",
+      "category": "telecom",
+      "website": "https://www.pcctel.net/",
+      "location": "GILMAN, IA",
+      "verified_date": "2026-01-16T12:25:57.679098",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053841"
+    },
+    {
+      "id": 183,
+      "name": "COOPERATIVE TELEPHONE COMPANY",
+      "category": "telecom",
+      "website": "https://www.ctctechnology.net/",
+      "location": "VICTOR, IA",
+      "verified_date": "2026-01-16T12:25:57.679107",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "053957"
+    },
+    {
+      "id": 186,
+      "name": "COOPERATIVE ENERGY COMPANY",
+      "category": "energy",
+      "website": "https://www.coopenergyco.com/",
+      "location": "SIBLEY, IA",
+      "verified_date": "2026-01-16T12:25:57.679113",
+      "source": "iowa_sos",
+      "corp_type": "DOMESTIC COOPERATIVE",
+      "corp_number": "053607"
+    },
+    {
+      "id": 187,
+      "name": "NISHNABOTNA VALLEY RURAL ELECTRIC COOPERATIVE",
+      "category": "electric",
+      "website": "https://www.nvrec.com/",
+      "location": "HARLAN, IA",
+      "verified_date": "2026-01-16T12:25:57.679114",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054084"
+    },
+    {
+      "id": 191,
+      "name": "CONSUMERS ENERGY COOPERATIVE",
+      "category": "energy",
+      "website": "https://www.consumersenergy.coop/",
+      "location": "MARSHALLTOWN, IA",
+      "verified_date": "2026-01-16T12:25:57.679127",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054071"
+    },
+    {
+      "id": 202,
+      "name": "PRODUCERS LIVE STOCK MARKETING ASSOCIATION",
+      "category": "food",
+      "website": "https://producers-livestock.com/",
+      "location": "OMAHA, IA",
+      "verified_date": "2026-01-16T12:25:57.679149",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054117"
+    },
+    {
+      "id": 206,
+      "name": "O'BRIEN COOPERATIVE FUNERAL ASSOCIATION",
+      "category": "other",
+      "website": "https://sanborn-hartleyfuneralhomes.com/",
+      "location": "SANBORN, IA",
+      "verified_date": "2026-01-16T12:25:57.679158",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054093"
+    },
+    {
+      "id": 207,
+      "name": "CORN BELT POWER COOPERATIVE",
+      "category": "electric",
+      "website": "https://www.cbpower.coop/",
+      "location": "HUMBOLDT, IA",
+      "verified_date": "2026-01-16T12:25:57.679159",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "053961"
+    },
+    {
+      "id": 214,
+      "name": "FEDERATED RURAL ELECTRIC ASSOCIATION",
+      "category": "electric",
+      "website": "https://federatedrea.coop/",
+      "location": "JACKSON, IA",
+      "verified_date": "2026-01-16T12:25:57.679175",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053800"
+    },
+    {
+      "id": 229,
+      "name": "NORTH ENGLISH COOPERATIVE TELEPHONE COMPANY",
+      "category": "telecom",
+      "website": "https://northenglishtelephone.com/",
+      "location": "NORTH ENGLISH, IA",
+      "verified_date": "2026-01-16T12:25:57.679205",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054087"
+    },
+    {
+      "id": 232,
+      "name": "COOPERATIVE GAS AND OIL COMPANY",
+      "category": "energy",
+      "website": "http://www.coopgassc.com/",
+      "location": "SIOUX CENTER, IA",
+      "verified_date": "2026-01-16T12:25:57.679211",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053659"
+    },
+    {
+      "id": 234,
+      "name": "FARMERS COOPERATIVE TELEPHONE COMPANY",
+      "category": "telecom",
+      "website": "https://fctc.coop/",
+      "location": "DYSART, IA",
+      "verified_date": "2026-01-16T12:25:57.679214",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053780"
+    },
+    {
+      "id": 236,
+      "name": "LINN COOPERATIVE OIL COMPANY",
+      "category": "energy",
+      "website": "https://www.linncoop.com/",
+      "location": "MARION, IA",
+      "verified_date": "2026-01-16T12:25:57.679219",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053829"
+    },
+    {
+      "id": 244,
+      "name": "W & H COOPERATIVE OIL COMPANY",
+      "category": "energy",
+      "website": "https://www.whcoop.com/",
+      "location": "HUMBOLDT, IA",
+      "verified_date": "2026-01-16T12:25:57.679234",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053905"
+    },
+    {
+      "id": 250,
+      "name": "HUBBARD COOPERATIVE TELEPHONE ASSOCIATION",
+      "category": "telecom",
+      "website": "https://hubbardtelephone.net/",
+      "location": "HUBBARD, IA",
+      "verified_date": "2026-01-16T12:25:57.679246",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053814"
+    },
+    {
+      "id": 260,
+      "name": "FENTON COOPERATIVE TELEPHONE COMPANY",
+      "category": "telecom",
+      "website": "https://www.fentontelephone.com/",
+      "location": "FENTON, IA",
+      "verified_date": "2026-01-16T12:25:57.679264",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "054013"
+    },
+    {
+      "id": 277,
+      "name": "WARREN COUNTY OIL COOPERATIVE ASSOCIATION",
+      "category": "energy",
+      "website": "https://warrencountyoil.com/",
+      "location": "INDIANOLA, IA",
+      "verified_date": "2026-01-16T12:25:57.679299",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "128102"
+    },
+    {
+      "id": 279,
+      "name": "IOWA CREDIT UNION FOUNDATION, INC",
+      "category": "credit",
+      "website": "https://www.iowacreditunionfoundation.org/",
+      "location": "WEST DES MOINES, IA",
+      "verified_date": "2026-01-16T12:25:57.679303",
+      "source": "iowa_sos",
+      "corp_type": "REVISED DOMESTIC NON-PROFIT",
+      "corp_number": "183487"
+    },
+    {
+      "id": 284,
+      "name": "NORTH WEST RURAL ELECTRIC COOPERATIVE",
+      "category": "electric",
+      "website": "https://www.nwrec.coop/",
+      "location": "ORANGE CITY, IA",
+      "verified_date": "2026-01-16T12:25:57.679314",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "211291"
+    },
+    {
+      "id": 288,
+      "name": "EAST-CENTRAL IOWA RURAL ELECTRIC COOPERATIVE",
+      "category": "electric",
+      "website": "https://ecirec.coop/",
+      "location": "URBANA, IA",
+      "verified_date": "2026-01-16T12:25:57.679321",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "186571"
+    },
+    {
+      "id": 289,
+      "name": "COOPERATIVE RESPONSE CENTER, INC.",
+      "category": "purchasing",
+      "website": "https://www.crc.coop/",
+      "location": "AUSTIN, IA",
+      "verified_date": "2026-01-16T12:25:57.679324",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "162133"
+    },
+    {
+      "id": 291,
+      "name": "WESTERN IOWA POWER COOPERATIVE",
+      "category": "electric",
+      "website": "https://www.wipco.com/",
+      "location": "DENISON, IA",
+      "verified_date": "2026-01-16T12:25:57.679328",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "204945"
+    },
+    {
+      "id": 293,
+      "name": "THE COOPERATIVE FINANCE ASSOCIATION, INC.",
+      "category": "purchasing",
+      "website": "https://cfafs.com/",
+      "location": "KANSAS CITY, IA",
+      "verified_date": "2026-01-16T12:25:57.679335",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "278901"
+    },
+    {
+      "id": 298,
+      "name": "SIOUXLAND ENERGY COOPERATIVE",
+      "category": "energy",
+      "website": "https://www.siouxlandenergy.com/",
+      "location": "SIOUX CENTER, IA",
+      "verified_date": "2026-01-16T12:25:57.679347",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK VALUE ADDED",
+      "corp_number": "243282"
+    },
+    {
+      "id": 299,
+      "name": "QUAD COUNTY CORN PROCESSORS COOPERATIVE",
+      "category": "agricultural",
+      "website": "https://www.quad-county.com/",
+      "location": "GALVA, IA",
+      "verified_date": "2026-01-16T12:25:57.679350",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK VALUE ADDED",
+      "corp_number": "244440"
+    },
+    {
+      "id": 315,
+      "name": "AMERICAN PHARMACY COOPERATIVE, INC.",
+      "category": "other",
+      "website": "https://www.apcinet.com/",
+      "location": "BESSEMER, IA",
+      "verified_date": "2026-01-16T12:25:57.679527",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "307090"
+    },
+    {
+      "id": 324,
+      "name": "RACCOON VALLEY ELECTRIC COOPERATIVE",
+      "category": "electric",
+      "website": "https://www.rvec.coop/",
+      "location": "GLIDDEN, IA",
+      "verified_date": "2026-01-16T12:25:57.679547",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "387630"
+    },
+    {
+      "id": 329,
+      "name": "EMPLOYER HEALTH CARE ALLIANCE COOPERATIVE",
+      "category": "other",
+      "website": "https://the-alliance.org/",
+      "location": "FITCHBURG, IA",
+      "verified_date": "2026-01-16T12:25:57.679559",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "443646"
+    },
+    {
+      "id": 333,
+      "name": "ROOTED CARROT COOPERATIVE MARKET",
+      "category": "food",
+      "website": "https://rootedcarrot.coop/",
+      "location": "CEDAR FALLS, IA",
+      "verified_date": "2026-01-16T12:25:57.679569",
+      "source": "iowa_sos",
+      "corp_type": "DOMESTIC COOPERATIVE",
+      "corp_number": "482449"
+    },
+    {
+      "id": 339,
+      "name": "NATIONAL INFORMATION SOLUTIONS COOPERATIVE, INC",
+      "category": "purchasing",
+      "website": "https://www.nisc.coop/",
+      "location": "MANDAN, IA",
+      "verified_date": "2026-01-16T12:25:57.679583",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "527417"
+    },
+    {
+      "id": 341,
+      "name": "CREDIT UNION NATIONAL ASSOCIATION, INC.",
+      "category": "credit",
+      "website": "https://www.cuna.org/",
+      "location": "MADISON, IA",
+      "verified_date": "2026-01-16T12:25:57.679588",
+      "source": "iowa_sos",
+      "corp_type": "REVISED FOREIGN NON-PROFIT",
+      "corp_number": "524705"
+    },
+    {
+      "id": 347,
+      "name": "NATIONAL BLOOD TESTING COOPERATIVE",
+      "category": "other",
+      "website": "https://nbtc.coop/",
+      "location": "STONE MOUNTAIN, IA",
+      "verified_date": "2026-01-16T12:25:57.679602",
+      "source": "iowa_sos",
+      "corp_type": "DOMESTIC COOPERATIVE",
+      "corp_number": "581965"
+    },
+    {
+      "id": 354,
+      "name": "QCS PURCHASING COOPERATIVE",
+      "category": "purchasing",
+      "website": "https://qcspurchasing.com/",
+      "location": "LISLE, IA",
+      "verified_date": "2026-01-16T12:25:57.679620",
+      "source": "iowa_sos",
+      "corp_type": "DOMESTIC COOPERATIVE",
+      "corp_number": "642398"
+    },
+    {
+      "id": 358,
+      "name": "THE CREDIT UNION LOAN SOURCE LLC",
+      "category": "credit",
+      "website": "https://www.buyculsloans.com/",
+      "location": "ALPHARETTA, IA",
+      "verified_date": "2026-01-16T12:25:57.679629",
+      "source": "iowa_sos",
+      "corp_type": "FOREIGN LIMITED LIABILITY COMPANY",
+      "corp_number": "662427"
+    },
+    {
+      "id": 367,
+      "name": "HEALTH ACCESS COOPERATIVE",
+      "category": "other",
+      "website": "https://healthaccesscooperative.com/",
+      "location": "JOHNSTON, IA",
+      "verified_date": "2026-01-16T12:25:57.679649",
+      "source": "iowa_sos",
+      "corp_type": "DOMESTIC COOPERATIVE",
+      "corp_number": "797347"
+    },
+    {
+      "id": 371,
+      "name": "NATIONAL COOPERATIVE GROCERS ASSOCIATION",
+      "category": "food",
+      "website": "https://www.ncg.coop/",
+      "location": "ST. PAUL, IA",
+      "verified_date": "2026-01-16T12:25:57.679658",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "821291"
+    },
+    {
+      "id": 373,
+      "name": "ENT CREDIT UNION",
+      "category": "credit",
+      "website": "https://www.ent.com/",
+      "location": "COLORADO SPRINGS, IA",
+      "verified_date": "2026-01-16T12:25:57.679661",
+      "source": "iowa_sos",
+      "corp_type": "REVISED FOREIGN NON-PROFIT",
+      "corp_number": "844666"
+    },
+    {
+      "id": 377,
+      "name": "SECURITY MUTUAL INSURANCE ASSOCIATION",
+      "category": "mutual",
+      "website": "https://www.securitymutualins.com/",
+      "location": "ALLISON, IA",
+      "verified_date": "2026-01-16T12:29:09.892963",
+      "source": "iowa_sos",
+      "corp_number": "069542"
+    },
+    {
+      "id": 378,
+      "name": "CENTURY MUTUAL INSURANCE ASSOCIATION",
+      "category": "mutual",
+      "website": "http://www.centurymutualins.com/",
+      "location": "HARTLEY, IA",
+      "verified_date": "2026-01-16T12:29:09.892965",
+      "source": "iowa_sos",
+      "corp_number": "087788"
+    },
+    {
+      "id": 379,
+      "name": "WELLABE MUTUAL HOLDING COMPANY",
+      "category": "mutual",
+      "website": "https://www.wellabe.com/",
+      "location": "DES MOINES, IA",
+      "verified_date": "2026-01-16T12:29:09.892967",
+      "source": "iowa_sos",
+      "corp_number": "235515"
+    },
+    {
+      "id": 380,
+      "name": "ALLIANCE MUTUAL INSURANCE ASSOCIATION",
+      "category": "mutual",
+      "website": "https://alliancemutualins.com/",
+      "location": "GARNAVILLO, IA",
+      "verified_date": "2026-01-16T12:29:09.892969",
+      "source": "iowa_sos",
+      "corp_number": "087805"
+    },
+    {
+      "id": 383,
+      "name": "WALCOTT MUTUAL INSURANCE ASSOCIATION",
+      "category": "mutual",
+      "website": "http://www.walcottmutual.com/",
+      "location": "WALCOTT, IA",
+      "verified_date": "2026-01-16T12:29:09.892972",
+      "source": "iowa_sos",
+      "corp_number": "069651"
+    },
+    {
+      "id": 393,
+      "name": "HEARTLAND MUTUAL INSURANCE ASSOCIATION",
+      "category": "mutual",
+      "website": "https://www.heartlandmutual.com/",
+      "location": "ALGONA, IA",
+      "verified_date": "2026-01-16T12:29:09.892983",
+      "source": "iowa_sos",
+      "corp_number": "087790"
+    },
+    {
+      "id": 403,
+      "name": "TAMA COUNTY MUTUAL INSURANCE ASSOCIATION",
+      "category": "mutual",
+      "website": "https://www.tamacountymutual.com/",
+      "location": "TRAER, IA",
+      "verified_date": "2026-01-16T12:29:09.892997",
+      "source": "iowa_sos",
+      "corp_number": "069645"
+    },
+    {
+      "id": 426,
+      "name": "GRUNDY MUTUAL INSURANCE ASSOCIATION",
+      "category": "mutual",
+      "website": "https://www.grundymutual.com/",
+      "location": "GRUNDY CENTER, IA",
+      "verified_date": "2026-01-16T12:29:09.893025",
+      "source": "iowa_sos",
+      "corp_number": "087783"
+    },
+    {
+      "id": 429,
+      "name": "HOWARD COUNTY MUTUAL INSURANCE ASSOCIATION",
+      "category": "mutual",
+      "website": "https://www.hcmcresco.com/",
+      "location": "CRESCO, IA",
+      "verified_date": "2026-01-16T12:29:09.893029",
+      "source": "iowa_sos",
+      "corp_number": "069590"
+    },
+    {
+      "id": 433,
+      "name": "FLOYD COUNTY MUTUAL INSURANCE ASSOCIATION",
+      "category": "mutual",
+      "website": "https://www.floydcountymutual.com/",
+      "location": "CHARLES CITY, IA",
+      "verified_date": "2026-01-16T12:29:09.893033",
+      "source": "iowa_sos",
+      "corp_number": "069574"
+    },
+    {
+      "id": 456,
+      "name": "AGSTATE COOPERATIVE",
+      "category": "agricultural",
+      "website": "https://agstate.org/",
+      "location": "CHEROKEE, IA",
+      "verified_date": "2026-01-16T12:41:34.436248",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "663679"
+    },
+    {
+      "id": 459,
+      "name": "FIRST COOPERATIVE ASSOCIATION",
+      "category": "agricultural",
+      "website": "https://agstate.org/",
+      "location": "CHEROKEE, IA",
+      "verified_date": "2026-01-16T12:41:34.436274",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053731"
+    },
+    {
+      "id": 460,
+      "name": "TAMA-BENTON COOPERATIVE COMPANY",
+      "category": "agricultural",
+      "website": "https://www.tamabentoncoop.com/",
+      "location": "DYSART, IA",
+      "verified_date": "2026-01-16T12:41:34.436277",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053893"
+    },
+    {
+      "id": 462,
+      "name": "FCS COOPERATIVE",
+      "category": "agricultural",
+      "website": "https://www.farmerscoopsociety.com/",
+      "location": "SIOUX CENTER, IA",
+      "verified_date": "2026-01-16T12:41:34.436287",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "258902"
+    },
+    {
+      "id": 467,
+      "name": "ASPINWALL COOPERATIVE CO.",
+      "category": "agricultural",
+      "website": "http://www.aspinwallcoop.com/",
+      "location": "ASPINWALL, IA",
+      "verified_date": "2026-01-16T12:41:34.436312",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053628"
+    },
+    {
+      "id": 468,
+      "name": "BUCKINGHAM CO-OPERATIVE CO.",
+      "category": "agricultural",
+      "website": "http://buckingham.coop/",
+      "location": "BUCKINGHAM, IA",
+      "verified_date": "2026-01-16T12:41:34.436316",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "124323"
+    },
+    {
+      "id": 469,
+      "name": "EAGLE GROVE COOPERATIVE",
+      "category": "agricultural",
+      "website": "https://www.goldeaglecoop.com/",
+      "location": "AMES, IA",
+      "verified_date": "2026-01-16T12:41:34.436325",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "747017"
+    },
+    {
+      "id": 470,
+      "name": "GOLDFIELD COOPERATIVE",
+      "category": "agricultural",
+      "website": "https://www.goldeaglecoop.com/",
+      "location": "EAGLE GROVE, IA",
+      "verified_date": "2026-01-16T12:41:34.436334",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "789232"
+    },
+    {
+      "id": 471,
+      "name": "HULL COOPERATIVE ASSOCIATION",
+      "category": "agricultural",
+      "website": "https://www.hullcoop.com/",
+      "location": "HULL, IA",
+      "verified_date": "2026-01-16T12:41:34.436338",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP STOCK",
+      "corp_number": "053985"
+    },
+    {
+      "id": 472,
+      "name": "FRONTIER COOPERATIVE",
+      "category": "food",
+      "website": "https://www.frontiercoop.com/",
+      "location": "NORWAY, IA",
+      "verified_date": "2026-01-16T12:41:34.436341",
+      "source": "iowa_sos",
+      "corp_type": "DOMESTIC COOPERATIVE",
+      "corp_number": "054019"
+    },
+    {
+      "id": 474,
+      "name": "THE CONSUMERS COOPERATIVE SOCIETY",
+      "category": "energy",
+      "website": "https://consumerscoop.net/",
+      "location": "CORALVILLE, IA",
+      "verified_date": "2026-01-16T12:41:34.436349",
+      "source": "iowa_sos",
+      "corp_type": "CO-OP NON STOCK",
+      "corp_number": "053953"
+    }
+  ]
+}
