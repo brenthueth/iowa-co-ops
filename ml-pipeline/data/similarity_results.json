@@ -1,0 +1,357 @@
+[
+  {
+    "name": "Ag Partners Cooperative",
+    "website": "https://www.agpartnerscoop.com/",
+    "location": "Iowa",
+    "source": "web_search",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.41757550835609436,
+      "max_similarity": 0.7357279062271118,
+      "top_k_mean": 0.6644138097763062,
+      "most_similar": [
+        {
+          "name": "Farmers Union Cooperative",
+          "category": "agricultural",
+          "similarity": 0.7357279062271118
+        },
+        {
+          "name": "Five Star Cooperative",
+          "category": "agricultural",
+          "similarity": 0.7234914302825928
+        },
+        {
+          "name": "Mid-Iowa Cooperative",
+          "category": "agricultural",
+          "similarity": 0.6448666453361511
+        },
+        {
+          "name": "AgState",
+          "category": "agricultural",
+          "similarity": 0.6246368885040283
+        },
+        {
+          "name": "Farmers Co-op (Readlyn)",
+          "category": "agricultural",
+          "similarity": 0.5933462977409363
+        }
+      ]
+    },
+    "cooperative_score": 0.6644138097763062,
+    "content_preview": "Ag Partners Cooperative Inc.\nPropane Supply Update From Eric Osterhaus, VP of Energy\nEarlier this week, our governor shared some information stating that propane was in short supply. I wanted to share a little more info on that.\n| CROP | 2024 SP | Vol | 2023 | 2023 HP |\n| Corn | 4.66 | 0.19 | 5.91 | 4.88 |\n| Grain Sorghum | 4.67 | 0.19 | 5.84 | 4.83 |\n| Soybeans | 11.55 | 0.15 | 13.76 | 12.84 |\n| Wheat | 7.34 | 0.21 | 8.79 | 8.20 |\nSP= Spring Price or Projected Price Guaranteed\nHP=Harvest Price ..."
+  },
+  {
+    "name": "Prairie Energy Cooperative",
+    "website": "https://www.prairieenergy.coop/",
+    "location": "Clarion, IA",
+    "source": "web_search",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.3695273697376251,
+      "max_similarity": 0.6288520097732544,
+      "top_k_mean": 0.6127160787582397,
+      "most_similar": [
+        {
+          "name": "Access Energy Cooperative",
+          "category": "electric",
+          "similarity": 0.6288520097732544
+        },
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.6243209838867188
+        },
+        {
+          "name": "Consumers Energy Coop",
+          "category": "electric",
+          "similarity": 0.6126255989074707
+        },
+        {
+          "name": "Midland Power Coop",
+          "category": "electric",
+          "similarity": 0.6004810333251953
+        },
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.5973008871078491
+        }
+      ]
+    },
+    "cooperative_score": 0.6127160787582397,
+    "content_preview": "STRONG PRINCIPLES RUN THROUGH EVERY CO-OP LINE\n4322\nMembers\n11\nCounties Served\n2090\nMiles of Line\nRecent News\nFacebook Feed\nCatch up on the latest Smart Choices articles\nINTERESTED IN SOLAR POWER FOR YOUR HOME?\nYour Source of Power. And Information. We can answer your questions."
+  },
+  {
+    "name": "T.I.P. Rural Electric Cooperative",
+    "website": "https://www.tiprec.com/",
+    "location": "Brooklyn, IA",
+    "source": "web_search",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.3347368836402893,
+      "max_similarity": 0.5760389566421509,
+      "top_k_mean": 0.5546269416809082,
+      "most_similar": [
+        {
+          "name": "Access Energy Cooperative",
+          "category": "electric",
+          "similarity": 0.5760389566421509
+        },
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.5698915719985962
+        },
+        {
+          "name": "Farmers Electric Co-op",
+          "category": "electric",
+          "similarity": 0.5560934543609619
+        },
+        {
+          "name": "Midland Power Coop",
+          "category": "electric",
+          "similarity": 0.546779990196228
+        },
+        {
+          "name": "Raccoon Valley Electric",
+          "category": "electric",
+          "similarity": 0.524330735206604
+        }
+      ]
+    },
+    "cooperative_score": 0.5546269416809082,
+    "content_preview": "OUR MISSION\nYou can be assured that we will always do our best in managing your cooperative and to provide you with electric service at the lowest possible cost.\nINTERESTED IN SOLAR POWER FOR YOUR HOME?\nYour Source of Power. And Information. We can answer your questions.\nOperation Round Up\nOperation Round Up is a volunteer program where members can choose to round up their electric bill to the next whole dollar each month, in order to help those in need.\nSTRONG NUMBERS RUN THROUGH EVERY CO-OP LI..."
+  },
+  {
+    "name": "Maquoketa Valley Electric Cooperative",
+    "website": "https://www.mvec.coop/",
+    "location": "Anamosa, IA",
+    "source": "web_search",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.3200094997882843,
+      "max_similarity": 0.5779980421066284,
+      "top_k_mean": 0.5267581939697266,
+      "most_similar": [
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.5779980421066284
+        },
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.5190939903259277
+        },
+        {
+          "name": "South Slope Cooperative",
+          "category": "telecom",
+          "similarity": 0.5185404419898987
+        },
+        {
+          "name": "Farmers Electric Co-op",
+          "category": "electric",
+          "similarity": 0.5118774771690369
+        },
+        {
+          "name": "Access Energy Cooperative",
+          "category": "electric",
+          "similarity": 0.5062810182571411
+        }
+      ]
+    },
+    "cooperative_score": 0.5267581939697266,
+    "content_preview": "MVlink Fiber Internet Rebates\nWelcome to Maquoketa Valley Electric Cooperative, where you\u2019re more than a customer, you're a member with an ownership interest in the company.\nNews/Events/Resources\nLearn more about what programs and rebates are available to improve your energy efficiency.\nView our Watts Current Newsletters here.\nCheck and report power outages with our interactive map.\nReport Outages\nRecent Posts\nMonday | December 15, 2025\nWishing You a Bright Holiday Season and New Year\nAs we flip..."
+  },
+  {
+    "name": "Veridian Credit Union",
+    "website": "https://www.veridiancu.org/",
+    "location": "Waterloo, IA",
+    "source": "web_search",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.2545190751552582,
+      "max_similarity": 0.6038227677345276,
+      "top_k_mean": 0.4820309579372406,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.6038227677345276
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.5741647481918335
+        },
+        {
+          "name": "Community 1st CU",
+          "category": "credit",
+          "similarity": 0.4438115656375885
+        },
+        {
+          "name": "Greater Iowa CU",
+          "category": "credit",
+          "similarity": 0.4026491940021515
+        },
+        {
+          "name": "South Slope Cooperative",
+          "category": "telecom",
+          "similarity": 0.3857065439224243
+        }
+      ]
+    },
+    "cooperative_score": 0.4820309579372406,
+    "content_preview": "Earn [ Show Rate ] APY** for 12 Months\nOpen a Youth CD with $100.\nStart the new year with a gift that grows. When you open a Youth CD from Veridian, you'll lock in a guaranteed rate in an NCUA federally insured account that builds over time. No surprises\u2014just steady progress toward their future.\nStart Your Financial Refresh\nGet clarity on where your money's going with tools that help you stay on track.\n- Credit monitoring\n- Spending alerts\n- Budgeting tools\nNews, Articles & Advice\nWhat's New at ..."
+  },
+  {
+    "name": "Collins Community Credit Union",
+    "website": "https://www.collinscu.org/",
+    "location": "Cedar Rapids, IA",
+    "source": "web_search",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.26675763726234436,
+      "max_similarity": 0.5708532333374023,
+      "top_k_mean": 0.4757583737373352,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.5708532333374023
+        },
+        {
+          "name": "Community Choice CU",
+          "category": "credit",
+          "similarity": 0.5631832480430603
+        },
+        {
+          "name": "Cedar County Cooperative",
+          "category": "agricultural",
+          "similarity": 0.4316898584365845
+        },
+        {
+          "name": "Central Iowa Power Coop",
+          "category": "electric",
+          "similarity": 0.40951988101005554
+        },
+        {
+          "name": "Cedar Falls Credit Union",
+          "category": "credit",
+          "similarity": 0.40354543924331665
+        }
+      ]
+    },
+    "cooperative_score": 0.4757583737373352,
+    "content_preview": "\"20 Year Member\" I've been with Collins for over 20 years. They have been such a great bank for all of our financial needs. I love all the handy locations and everyone is always so happy to help us.\nLoretta W.\n\"Gave Us The Real Feeling Of The Word Community\" We lived and banked in a local town where everyone knows everyone but CCCU gave us the real feeling of the word community. Our switch to CCCU was easy, helpful and reliable. CCCU really wants to help and will go out of their way to make sure..."
+  },
+  {
+    "name": "Fareway Stores",
+    "website": "https://www.fareway.com/",
+    "location": "Boone, IA",
+    "source": "web_search_control",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.21196186542510986,
+      "max_similarity": 0.4873864948749542,
+      "top_k_mean": 0.40248268842697144,
+      "most_similar": [
+        {
+          "name": "New Pioneer Food Co-op",
+          "category": "food",
+          "similarity": 0.4873864948749542
+        },
+        {
+          "name": "Iowa Food Cooperative",
+          "category": "food",
+          "similarity": 0.4256855845451355
+        },
+        {
+          "name": "Heartland Co-op",
+          "category": "agricultural",
+          "similarity": 0.4001353979110718
+        },
+        {
+          "name": "Nishnabotna Valley REC",
+          "category": "electric",
+          "similarity": 0.36680835485458374
+        },
+        {
+          "name": "Frontier Co-op",
+          "category": "food",
+          "similarity": 0.33239758014678955
+        }
+      ]
+    },
+    "cooperative_score": 0.40248268842697144,
+    "content_preview": "Order Fareway's famous fresh meats to anywhere in the country! Give the gift of meat to family members, ordered right to your vacation destination, or for your dinner table.\nThere's more in store for you here at Fareway. View our featured jobs near you, we look forward to welcoming you to the Fareway Family!\nGet inspired with Kitchen (formerly Cart-to-Kitchen). Explore videos to help bring your kitchen to life! Explore tips, recipes, crafts and more in weekly episodes right here and on our socia..."
+  },
+  {
+    "name": "Decorah Bank and Trust Co",
+    "website": "https://www.decorahbank.com/",
+    "location": "Decorah, IA",
+    "source": "web_search_control",
+    "content_extracted": true,
+    "similarity_scores": {
+      "mean_similarity": 0.22859033942222595,
+      "max_similarity": 0.39298051595687866,
+      "top_k_mean": 0.37527960538864136,
+      "most_similar": [
+        {
+          "name": "Financial Plus CU",
+          "category": "credit",
+          "similarity": 0.39298051595687866
+        },
+        {
+          "name": "Corridor Energy Coop",
+          "category": "electric",
+          "similarity": 0.39275553822517395
+        },
+        {
+          "name": "Heart of Iowa Comm.",
+          "category": "telecom",
+          "similarity": 0.3719903826713562
+        },
+        {
+          "name": "Consumers Energy Coop",
+          "category": "electric",
+          "similarity": 0.35988035798072815
+        },
+        {
+          "name": "Oneota Food Cooperative",
+          "category": "food",
+          "similarity": 0.3587911128997803
+        }
+      ]
+    },
+    "cooperative_score": 0.37527960538864136,
+    "content_preview": "WE'RE HERE FOR YOU\nTrust & Wealth Management\nOur Trust & Wealth Management team establishes long-term, enduring relationships, built on trust and community values, with individuals, families, and businesses. Our focus is helping clients create plans aiming to accumulate, preserve, and transfer wealth. Whether you're seeking a fresh financial perspective for yourself or your family, our team is here to help you achieve your dreams!\nLearn more"
+  },
+  {
+    "name": "Hawkeye Cooperative",
+    "website": "https://www.hawkeyecooperative.com/",
+    "location": "Iowa",
+    "source": "web_search",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "Farmers Cooperative Association Stratford",
+    "website": "https://www.stratfordcoop.com/",
+    "location": "Stratford, IA",
+    "source": "web_search",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  },
+  {
+    "name": "Pella Cooperative Electric Association",
+    "website": "https://www.pfrec.coop/",
+    "location": "Pella, IA",
+    "source": "web_search",
+    "content_extracted": false,
+    "similarity_scores": null,
+    "cooperative_score": 0.0
+  }
+]

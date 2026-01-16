@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Hawkeye Cooperative",
+    "website": "https://www.hawkeyecooperative.com/",
+    "location": "Iowa",
+    "source": "web_search"
+  },
+  {
+    "name": "Farmers Cooperative Association Stratford",
+    "website": "https://www.stratfordcoop.com/",
+    "location": "Stratford, IA",
+    "source": "web_search"
+  },
+  {
+    "name": "Ag Partners Cooperative",
+    "website": "https://www.agpartnerscoop.com/",
+    "location": "Iowa",
+    "source": "web_search"
+  },
+  {
+    "name": "Prairie Energy Cooperative",
+    "website": "https://www.prairieenergy.coop/",
+    "location": "Clarion, IA",
+    "source": "web_search"
+  },
+  {
+    "name": "Maquoketa Valley Electric Cooperative",
+    "website": "https://www.mvec.coop/",
+    "location": "Anamosa, IA",
+    "source": "web_search"
+  },
+  {
+    "name": "T.I.P. Rural Electric Cooperative",
+    "website": "https://www.tiprec.com/",
+    "location": "Brooklyn, IA",
+    "source": "web_search"
+  },
+  {
+    "name": "Pella Cooperative Electric Association",
+    "website": "https://www.pfrec.coop/",
+    "location": "Pella, IA",
+    "source": "web_search"
+  },
+  {
+    "name": "Veridian Credit Union",
+    "website": "https://www.veridiancu.org/",
+    "location": "Waterloo, IA",
+    "source": "web_search"
+  },
+  {
+    "name": "Collins Community Credit Union",
+    "website": "https://www.collinscu.org/",
+    "location": "Cedar Rapids, IA",
+    "source": "web_search"
+  },
+  {
+    "name": "Decorah Bank and Trust Co",
+    "website": "https://www.decorahbank.com/",
+    "location": "Decorah, IA",
+    "source": "web_search_control"
+  },
+  {
+    "name": "Fareway Stores",
+    "website": "https://www.fareway.com/",
+    "location": "Boone, IA",
+    "source": "web_search_control"
+  }
+]

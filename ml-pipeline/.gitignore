@@ -1,0 +1,10 @@
+# Model files (can be regenerated)
+models/*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+
+# Jupyter
+.ipynb_checkpoints/
