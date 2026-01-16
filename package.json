@@ -7,6 +7,6 @@
     "capture": "node capture-screenshots.js"
   },
   "dependencies": {
-    "puppeteer": "^21.0.0"
+    "puppeteer": "^24.35.0"
   }
 }
